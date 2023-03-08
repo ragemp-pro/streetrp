@@ -127,9 +127,9 @@
 		"yup": "^0.28.5"
 	},
 	"scripts": {
-		"start": "cross-env DISABLE_ESLINT_PLUGIN=true node scripts/start.js",
-		"build": "cross-env DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false node scripts/build.js",
-		"test": "node scripts/test.js"
+		"start": "cross-env DISABLE_ESLINT_PLUGIN=true node --openssl-legacy-provider scripts/start.js",
+		"build": "cross-env DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false node --openssl-legacy-provider scripts/build.js",
+		"test": "node --openssl-legacy-provider scripts/test.js"
 	},
 	"eslintConfig": {
 		"settings": {

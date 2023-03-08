@@ -21,7 +21,7 @@
 		"ioredis": "^4.27.5",
 		"lodash": "^4.17.21",
 		"moment": "^2.29.1",
-		"mongodb-client-encryption": "^1.2.5",
+		"mongodb-client-encryption": "^2.3.0",
 		"mongoose": "^5.12.13",
 		"nodemailer": "^6.6.1",
 		"rage-rpc": "github:Yoegibby/rage-rpc#rage1.1_fixes",
