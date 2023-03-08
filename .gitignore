@@ -1,0 +1,27 @@
+## System and generated files
+.idea
+.DS_Store
+
+## Directories
+log/
+node_modules/
+
+## Files
+node_modules
+package-lock.json
+yarn.lock
+
+# rage mp
+client_packages/game_resources/dlcpacks
+logs/
+
+# build files
+client_packages/cef
+client_packages/index.js
+
+# build files
+packages/server/index.js
+packages/server/index.js.map
+
+*.zip
+streetrp.sql
