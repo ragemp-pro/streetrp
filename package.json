@@ -6,6 +6,10 @@
 	"license": "MIT",
 	"private": true,
 	"scripts": {
+		"postinstall": "npm run install:client && npm run install:server && npm run install:ui",
+		"install:client": "cd src_client && npm install",
+		"install:server": "cd src_server && npm install --legacy-peer-deps",
+		"install:ui": "cd src_ui && npm install",
 		"build": "npm run build:ui && npm run build:client && npm run build:server",
 		"build:ui": "cd src_ui && npm run build",
 		"build:client": "cd src_client && npm run build",
