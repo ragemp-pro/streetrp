@@ -1,0 +1,30 @@
+.hud_tasks {
+	position: absolute;
+	top: 1%;
+	right: 15.5%;
+	width: 40%;
+	text-align: right;
+	opacity: 0.9;
+
+	&-item {
+		position: relative;
+		padding-right: 1%;
+		font-size: 0.9vw;
+		font-weight: 300;
+		letter-spacing: 0.02vw;
+		line-height: 1.3;
+		text-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.2);
+
+		&::after {
+			@extend %pseudo;
+
+			top: 50%;
+			right: -2%;
+			transform: translateY(-50%);
+			width: 0.8vw;
+			height: 0.8vw;
+			clip-path: polygon(76% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 23% 20%);
+			background: $purple;
+		}
+	}
+}

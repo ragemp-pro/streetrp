@@ -1,0 +1,47 @@
+.gas_input {
+	display: flex;
+	justify-content: space-between;
+	border: 0.1vh solid #638ad1;
+	border-radius: 0.5vw;
+	overflow: hidden;
+	color: #fff;
+	background: rgba($color: #000000, $alpha: 0.42);
+
+	input {
+		padding: 1.5% 2%;
+		width: 100%;
+		background: none;
+		border: none;
+		text-align: center;
+		color: currentColor;
+		font-size: 1.5vw;
+		font-weight: 300;
+		font-family: inherit;
+		outline: none;
+
+		&:hover {
+			background: rgba($color: #034fd6, $alpha: 0.3);
+		}
+	}
+
+	&-button {
+		padding: 0.5vw 0.8vw;
+		font-size: 1vw;
+		background: rgba($color: #034fd6, $alpha: 0.5);
+		color: currentColor;
+
+		&:hover {
+			opacity: 0.8;
+		}
+
+		&--inc {
+			margin-right: 1px;
+			margin-left: auto;
+		}
+
+		svg {
+			width: 1vw;
+			height: 1vw;
+		}
+	}
+}

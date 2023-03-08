@@ -1,0 +1,38 @@
+.passport_form {
+	padding: 8% 15%;
+	display: flex;
+	justify-content: space-between;
+
+	&-field {
+		position: relative;
+		width: 49%;
+	}
+
+	&-error {
+		position: absolute;
+		bottom: -50%;
+		left: 0;
+		margin: 0;
+		text-align: right;
+		white-space: nowrap;
+		font-weight: 200;
+		color: #ff0000;
+	}
+
+	input {
+		padding: 2.5% 4%;
+		width: 100%;
+		text-align: center;
+		background: transparent;
+		border-radius: 0.3vw;
+		outline: none;
+		border: 0.15vw solid $white;
+		font-family: inherit;
+		font-size: 1.6vw;
+		color: $white;
+
+		&::placeholder {
+			color: inherit;
+		}
+	}
+}

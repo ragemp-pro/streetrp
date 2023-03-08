@@ -1,0 +1,41 @@
+@import './dock';
+@import './pagination';
+
+.phone_main {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&-apps {
+		padding: 0 3%;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			margin-bottom: 5%;
+			width: 25%;
+
+			&:hover img {
+				filter: brightness(0.8);
+			}
+		}
+
+		span {
+			display: block;
+			white-space: nowrap;
+			text-align: center;
+			font-size: 0.6vw;
+			font-weight: 300;
+			line-height: 2;
+		}
+
+		img {
+			margin: 0 auto;
+			display: block;
+			width: 3vw;
+			height: 3vw;
+		}
+	}
+}

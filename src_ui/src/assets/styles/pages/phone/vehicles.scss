@@ -1,0 +1,21 @@
+#vehicles {
+	.vehicles {
+		background: $black;
+
+		&_main-title {
+			padding-left: 4%;
+		}
+
+		&_vehicle {
+			padding-top: 5%;
+
+			&-info {
+				margin-bottom: 10%;
+			}
+		}
+
+		&_list {
+			margin-top: 3%;
+		}
+	}
+}

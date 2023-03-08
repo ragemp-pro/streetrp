@@ -1,0 +1,53 @@
+@import './categories';
+@import './items';
+@import './color';
+@import './hints';
+
+.lsc {
+	padding: 0 3% 1%;
+	padding-right: 0;
+	display: flex;
+	align-items: flex-end;
+
+	&_buttons {
+		width: 15%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		transform: skewX(10deg);
+
+		&-item {
+			width: 100%;
+			font-weight: 500;
+			font-size: 1.4vw;
+			background-color: $pink;
+			color: #dbdbdb;
+			border-radius: 0;
+			border: 0.25vw solid $pink;
+
+			&:hover {
+				opacity: 1;
+				filter: brightness(0.9);
+			}
+
+			&:disabled {
+				opacity: 1;
+				filter: brightness(1);
+			}
+
+			&--prev {
+				background-color: transparent;
+				border-color: #e7ece8;
+			}
+
+			&:first-child {
+				margin-bottom: 22%;
+			}
+
+			span {
+				display: block;
+				transform: skewX(-10deg);
+			}
+		}
+	}
+}

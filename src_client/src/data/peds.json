@@ -1,0 +1,2186 @@
+[
+  {
+    "model": "s_m_m_autoshop_02",
+    "position": {
+      "x": -42.287,
+      "y": -1673.771,
+      "z": 29.492
+    },
+    "rotation": 140.512,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_VINEWOOD_01_BLACK_FULL_01",
+    "conversation": 9,
+    "camera": {
+      "position": {
+        "x": -43.641,
+        "y": -1675.566,
+        "z": 30.044
+      },
+      "point": {
+        "x": -41.667,
+        "y": -1673.474,
+        "z": 29.995
+      }
+    }
+  },
+  {
+    "model": "s_m_m_autoshop_01",
+    "position": {
+      "x": -176.316,
+      "y": -1158.395,
+      "z": 23.814
+    },
+    "rotation": -1.592,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_VINEWOOD_01_BLACK_FULL_01",
+    "conversation": 10,
+    "camera": {
+      "position": {
+        "x": -176.149,
+        "y": -1156.211,
+        "z": 23.777
+      },
+      "point": {
+        "x": -176.266,
+        "y": -1158.971,
+        "z": 24.023
+      }
+    }
+  },
+  {
+    "model": "s_f_y_shop_mid",
+    "position": {
+      "x": -31.551,
+      "y": -1113.841,
+      "z": 26.422
+    },
+    "rotation": 19.121,
+    "speech": "GENERIC_HI",
+    "voice": "A_F_Y_VINEWOOD_01_WHITE_MINI_01",
+    "conversation": 11,
+    "camera": {
+      "position": {
+        "x": -32.02,
+        "y": -1112.445,
+        "z": 27.069
+      },
+      "point": {
+        "x": -31.589,
+        "y": -1113.607,
+        "z": 27.072
+      }
+    }
+  },
+  {
+    "model": "a_f_y_scdressy_01",
+    "position": {
+      "x": -803.957,
+      "y": -222.618,
+      "z": 37.239
+    },
+    "rotation": 122.041,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 22,
+    "camera": {
+      "position": {
+        "x": -805.745,
+        "y": -223.795,
+        "z": 37.884
+      },
+      "point": {
+        "x": -803.275,
+        "y": -222.474,
+        "z": 37.771
+      }
+    }
+  },
+  {
+    "model": "g_m_y_lost_02",
+    "position": {
+      "x": 976.141,
+      "y": -129.313,
+      "z": 74.106
+    },
+    "rotation": 36.125,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_GOLFER_01_WHITE_MINI_01",
+    "conversation": 12,
+    "camera": {
+      "position": {
+        "x": 973.857,
+        "y": -127.473,
+        "z": 74.887
+      },
+      "point": {
+        "x": 983.175,
+        "y": -134.268,
+        "z": 74.139
+      }
+    }
+  },
+  {
+    "model": "ig_paper",
+    "position": {
+      "x": 242.117,
+      "y": 226.861,
+      "z": 106.287
+    },
+    "rotation": 154.016,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 7,
+    "camera": {
+      "position": {
+        "x": 240.954,
+        "y": 224.469,
+        "z": 106.933
+      },
+      "point": {
+        "x": 241.927,
+        "y": 226.699,
+        "z": 106.819
+      }
+    }
+  },
+  {
+    "model": "a_f_y_business_01",
+    "position": {
+      "x": 247.566,
+      "y": 224.803,
+      "z": 106.287
+    },
+    "rotation": 158.121,
+    "speech": "GENERIC_HI",
+    "voice": "A_F_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 8,
+    "camera": {
+      "position": {
+        "x": 246.623,
+        "y": 222.346,
+        "z": 106.934
+      },
+      "point": {
+        "x": 247.409,
+        "y": 224.608,
+        "z": 106.827
+      }
+    }
+  },
+  {
+    "model": "ig_oneil",
+    "position": {
+      "x": -1034.944,
+      "y": -2725.692,
+      "z": 13.756
+    },
+    "rotation": -172.271,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_STWHI_02_WHITE_FULL_01",
+    "conversation": 13,
+    "camera": {
+      "position": {
+        "x": -1034.639,
+        "y": -2728.115,
+        "z": 14.403
+      },
+      "point": {
+        "x": -1034.954,
+        "y": -2725.893,
+        "z": 14.474
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": 1873.199,
+      "y": 2573.013,
+      "z": 45.672
+    },
+    "rotation": 87.325,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": 1868.916,
+        "y": 2573.013,
+        "z": 46.319
+      },
+      "point": {
+        "x": 1920.608,
+        "y": 2571.273,
+        "z": 49.151
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": 289.762,
+      "y": -618.697,
+      "z": 43.501
+    },
+    "rotation": 16.404,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": 288.433,
+        "y": -615.896,
+        "z": 44.054
+      },
+      "point": {
+        "x": 289.932,
+        "y": -619.118,
+        "z": 43.972
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": -1009.886,
+      "y": -2692.523,
+      "z": 13.987
+    },
+    "rotation": 109.04,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": -1014.052,
+        "y": -2692.759,
+        "z": 14.623
+      },
+      "point": {
+        "x": -971.945,
+        "y": -2691.404,
+        "z": 12.831
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": -476.442,
+      "y": -222.111,
+      "z": 36.482
+    },
+    "rotation": -63.913,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": -474.153,
+        "y": -220.689,
+        "z": 36.975
+      },
+      "point": {
+        "x": -510.858,
+        "y": -242.215,
+        "z": 37.836
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": -558.76,
+      "y": -923.509,
+      "z": 23.877
+    },
+    "rotation": -93.071,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": -556.901,
+        "y": -923.492,
+        "z": 24.517
+      },
+      "point": {
+        "x": -559.974,
+        "y": -923.475,
+        "z": 24.299
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": 819.106,
+      "y": -3017.118,
+      "z": 6.02
+    },
+    "rotation": 175.28538513183594,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": 818.991,
+        "y": -3020.268,
+        "z": 6.552
+      },
+      "point": {
+        "x": 819.744,
+        "y": -3011.346,
+        "z": 6.908
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": 2008.305,
+      "y": 3791.016,
+      "z": 32.181
+    },
+    "rotation": -52.889,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": 2010.385,
+        "y": 3792.137,
+        "z": 32.827
+      },
+      "point": {
+        "x": 2005.088,
+        "y": 3789.429,
+        "z": 32.714
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": 2744.751,
+      "y": 4411.146,
+      "z": 48.306
+    },
+    "rotation": 168.295,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": 2744.685,
+        "y": 4407.792,
+        "z": 49.136
+      },
+      "point": {
+        "x": 2738.113,
+        "y": 4638.615,
+        "z": 44.149
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": 1681.805,
+      "y": 6432.014,
+      "z": 32.119
+    },
+    "rotation": -130.216,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": 1684.725,
+        "y": 6430.054,
+        "z": 32.884
+      },
+      "point": {
+        "x": 1679.881,
+        "y": 6431.999,
+        "z": 32.718
+      }
+    }
+  },
+  {
+    "model": "a_m_y_stwhi_02",
+    "position": {
+      "x": -133.046,
+      "y": 6346.702,
+      "z": 31.491
+    },
+    "rotation": 43.425,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 14,
+    "camera": {
+      "position": {
+        "x": -134.622,
+        "y": 6349.121,
+        "z": 32.135
+      },
+      "point": {
+        "x": -127.181,
+        "y": 6341.128,
+        "z": 32.082
+      }
+    }
+  },
+  {
+    "model": "ig_floyd",
+    "position": {
+      "x": -471.136,
+      "y": -865.106,
+      "z": 23.964
+    },
+    "rotation": 172.323,
+    "speech": "PHONE_CONV4_INTRO",
+    "voice": "G_M_M_MEXBOSS_02_LATINO_MINI_02",
+    "conversation": 15,
+    "camera": {
+      "position": {
+        "x": -471.351,
+        "y": -867.156,
+        "z": 24.612
+      },
+      "point": {
+        "x": -471.207,
+        "y": -864.371,
+        "z": 24.418
+      }
+    }
+  },
+  {
+    "model": "csb_g",
+    "position": {
+      "x": 2029.789,
+      "y": 3183.732,
+      "z": 45.094
+    },
+    "rotation": 144.632,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 16,
+    "camera": {
+      "position": {
+        "x": 2028.607,
+        "y": 3182.141,
+        "z": 45.924
+      },
+      "point": {
+        "x": 2029.574,
+        "y": 3183.605,
+        "z": 45.67
+      }
+    }
+  },
+  {
+    "model": "s_m_m_postal_01",
+    "position": {
+      "x": -259.446,
+      "y": -840.018,
+      "z": 31.425
+    },
+    "rotation": 109.252,
+    "speech": "PHONE_CONV2_INTRO",
+    "voice": "A_M_M_MALIBU_01_WHITE_FULL_01",
+    "conversation": 17,
+    "camera": {
+      "position": {
+        "x": -261.955,
+        "y": -840.586,
+        "z": 32.087
+      },
+      "point": {
+        "x": -258.992,
+        "y": -839.879,
+        "z": 32.057
+      }
+    }
+  },
+  {
+    "model": "s_m_y_dockwork_01",
+    "position": {
+      "x": 917.537,
+      "y": -3239.577,
+      "z": 5.895
+    },
+    "rotation": 3.736,
+    "speech": "PHONE_CONV1_INTRO",
+    "voice": "S_M_Y_AIRWORKER_LATINO_FULL_02",
+    "conversation": 18,
+    "camera": {
+      "position": {
+        "x": 917.42,
+        "y": -3237.042,
+        "z": 6.54
+      },
+      "point": {
+        "x": 917.472,
+        "y": -3240.261,
+        "z": 6.458
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 9.067,
+      "y": 6518.122,
+      "z": 31.879
+    },
+    "rotation": 165.408,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 8.385,
+        "y": 6515.918,
+        "z": 32.525
+      },
+      "point": {
+        "x": 9.488,
+        "y": 6519.138,
+        "z": 32.416
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -1105.79,
+      "y": 2704.935,
+      "z": 19.108
+    },
+    "rotation": -31.438,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -1104.669,
+        "y": 2706.729,
+        "z": 19.758
+      },
+      "point": {
+        "x": -1106.477,
+        "y": 2703.72,
+        "z": 19.377
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 619.164,
+      "y": 2765.896,
+      "z": 42.088
+    },
+    "rotation": 132.147,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 617.887,
+        "y": 2764.788,
+        "z": 42.738
+      },
+      "point": {
+        "x": 621.121,
+        "y": 2766.814,
+        "z": 42.414
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -706.517,
+      "y": -160.098,
+      "z": 37.415
+    },
+    "rotation": 60.803,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -708.588,
+        "y": -159.065,
+        "z": 38.062
+      },
+      "point": {
+        "x": -705.477,
+        "y": -161.008,
+        "z": 37.973
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 120.193,
+      "y": -224.246,
+      "z": 54.558
+    },
+    "rotation": -71.51,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 122.453,
+        "y": -223.588,
+        "z": 55.206
+      },
+      "point": {
+        "x": 117.784,
+        "y": -224.831,
+        "z": 54.926
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -827.408,
+      "y": -1078.186,
+      "z": 11.34
+    },
+    "rotation": -33.649,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -826.375,
+        "y": -1076.122,
+        "z": 11.977
+      },
+      "point": {
+        "x": -828.141,
+        "y": -1079.213,
+        "z": 11.607
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 1691.375,
+      "y": 4829.583,
+      "z": 42.068
+    },
+    "rotation": -133.848,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 1692.911,
+        "y": 4828,
+        "z": 42.712
+      },
+      "point": {
+        "x": 1690.998,
+        "y": 4830.297,
+        "z": 42.482
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 1190.079,
+      "y": 2708.617,
+      "z": 38.234
+    },
+    "rotation": -59.805,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 1191.749,
+        "y": 2709.833,
+        "z": 38.87
+      },
+      "point": {
+        "x": 1188.87,
+        "y": 2708.352,
+        "z": 38.784
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -160.193,
+      "y": -295.657,
+      "z": 39.733
+    },
+    "rotation": -163.717,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -159.917,
+        "y": -297.309,
+        "z": 40.381
+      },
+      "point": {
+        "x": -160.61,
+        "y": -294.196,
+        "z": 40.03
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -1456.097,
+      "y": -243.229,
+      "z": 49.81
+    },
+    "rotation": -3.013,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -1455.942,
+        "y": -241.338,
+        "z": 50.458
+      },
+      "point": {
+        "x": -1456.154,
+        "y": -244.604,
+        "z": 50.167
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -1188.033,
+      "y": -771.073,
+      "z": 17.329
+    },
+    "rotation": 75.654,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -1189.851,
+        "y": -770.25,
+        "z": 17.974
+      },
+      "point": {
+        "x": -1186.176,
+        "y": -771.722,
+        "z": 17.66
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": -3176.336,
+      "y": 1043.558,
+      "z": 20.863
+    },
+    "rotation": -75.928,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": -3174.827,
+        "y": 1043.945,
+        "z": 21.511
+      },
+      "point": {
+        "x": -3178.744,
+        "y": 1042.918,
+        "z": 21.249
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 77.673,
+      "y": -1399.453,
+      "z": 29.388
+    },
+    "rotation": 44.33,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 76.359,
+        "y": -1398.46,
+        "z": 30.025
+      },
+      "point": {
+        "x": 79.072,
+        "y": -1400.707,
+        "z": 29.762
+      }
+    }
+  },
+  {
+    "model": "csb_anita",
+    "position": {
+      "x": 424.365,
+      "y": -799.76,
+      "z": 29.503
+    },
+    "rotation": 219.245,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_F_M_BEVHILLS_01_WHITE_FULL_01",
+    "conversation": 0,
+    "camera": {
+      "position": {
+        "x": 425.153,
+        "y": -800.857,
+        "z": 30.138
+      },
+      "point": {
+        "x": 424.541,
+        "y": -799.933,
+        "z": 30.112
+      }
+    }
+  },
+  {
+    "model": "u_m_y_tattoo_01",
+    "position": {
+      "x": 325.013,
+      "y": 180.723,
+      "z": 103.586
+    },
+    "rotation": 111.601,
+    "speech": "SHOP_BANTER",
+    "voice": "U_M_Y_TATTOO_01_WHITE_MINI_01",
+    "conversation": 1,
+    "camera": {
+      "position": {
+        "x": 323.351,
+        "y": 179.999,
+        "z": 104.234
+      },
+      "point": {
+        "x": 324.841,
+        "y": 180.541,
+        "z": 104.081
+      }
+    }
+  },
+  {
+    "model": "u_m_y_tattoo_01",
+    "position": {
+      "x": -292.923,
+      "y": 6201.156,
+      "z": 31.487
+    },
+    "rotation": 171.005,
+    "speech": "SHOP_BANTER",
+    "voice": "U_M_Y_TATTOO_01_WHITE_MINI_01",
+    "conversation": 1,
+    "camera": {
+      "position": {
+        "x": -293.726,
+        "y": 6199.589,
+        "z": 32.135
+      },
+      "point": {
+        "x": -292.829,
+        "y": 6202.619,
+        "z": 31.965
+      }
+    }
+  },
+  {
+    "model": "u_m_y_tattoo_01",
+    "position": {
+      "x": -3169.348,
+      "y": 1077.287,
+      "z": 20.829
+    },
+    "rotation": 176.191,
+    "speech": "SHOP_BANTER",
+    "voice": "U_M_Y_TATTOO_01_WHITE_MINI_01",
+    "conversation": 1,
+    "camera": {
+      "position": {
+        "x": -3169.638,
+        "y": 1075.202,
+        "z": 21.474
+      },
+      "point": {
+        "x": -3169.779,
+        "y": 1080.163,
+        "z": 21.461
+      }
+    }
+  },
+  {
+    "model": "u_m_y_tattoo_01",
+    "position": {
+      "x": 1321.949,
+      "y": -1652.945,
+      "z": 52.275
+    },
+    "rotation": -34.589,
+    "speech": "SHOP_BANTER",
+    "voice": "U_M_Y_TATTOO_01_WHITE_MINI_01",
+    "conversation": 1,
+    "camera": {
+      "position": {
+        "x": 1322.863,
+        "y": -1651.606,
+        "z": 52.921
+      },
+      "point": {
+        "x": 1320.0477,
+        "y": -1655.941,
+        "z": 52.837
+      }
+    }
+  },
+  {
+    "model": "u_m_y_tattoo_01",
+    "position": {
+      "x": -1155.125,
+      "y": -1426.694,
+      "z": 4.954
+    },
+    "rotation": -38.113,
+    "speech": "SHOP_BANTER",
+    "voice": "U_M_Y_TATTOO_01_WHITE_MINI_01",
+    "conversation": 1,
+    "camera": {
+      "position": {
+        "x": -1154.216,
+        "y": -1425.403,
+        "z": 5.604
+      },
+      "point": {
+        "x": -1156.882,
+        "y": -1429.489,
+        "z": 5.137
+      }
+    }
+  },
+  {
+    "model": "s_f_m_fembarber",
+    "position": {
+      "x": 138.155,
+      "y": -1707.401,
+      "z": 29.291
+    },
+    "rotation": 126.439,
+    "speech": "SHOP_HAIR_WHAT_WANT",
+    "voice": "S_F_M_FEMBARBER_BLACK_MINI_01",
+    "conversation": 2,
+    "camera": {
+      "position": {
+        "x": 136.114,
+        "y": -1708.678,
+        "z": 29.938
+      },
+      "point": {
+        "x": 139.297,
+        "y": -1706.662,
+        "z": 29.832
+      }
+    }
+  },
+  {
+    "model": "s_f_m_fembarber",
+    "position": {
+      "x": 1931.679,
+      "y": 3731.838,
+      "z": 32.844
+    },
+    "rotation": -154.417,
+    "speech": "SHOP_HAIR_WHAT_WANT",
+    "voice": "S_F_M_FEMBARBER_BLACK_MINI_01",
+    "conversation": 2,
+    "camera": {
+      "position": {
+        "x": 1931.934,
+        "y": 3729.803,
+        "z": 33.493
+      },
+      "point": {
+        "x": 1931.485,
+        "y": 3735.999,
+        "z": 32.983
+      }
+    }
+  },
+  {
+    "model": "s_f_m_fembarber",
+    "position": {
+      "x": -34.132,
+      "y": -153.904,
+      "z": 57.076
+    },
+    "rotation": -36.641,
+    "speech": "SHOP_HAIR_WHAT_WANT",
+    "voice": "S_F_M_FEMBARBER_BLACK_MINI_01",
+    "conversation": 2,
+    "camera": {
+      "position": {
+        "x": -32.789,
+        "y": -152.009,
+        "z": 57.724
+      },
+      "point": {
+        "x": -37.239,
+        "y": -156.254,
+        "z": 57.503
+      }
+    }
+  },
+  {
+    "model": "s_f_m_fembarber",
+    "position": {
+      "x": -277.668,
+      "y": 6226.557,
+      "z": 31.696
+    },
+    "rotation": 29.187,
+    "speech": "SHOP_HAIR_WHAT_WANT",
+    "voice": "S_F_M_FEMBARBER_BLACK_MINI_01",
+    "conversation": 2,
+    "camera": {
+      "position": {
+        "x": -278.475,
+        "y": 6228.361,
+        "z": 32.345
+      },
+      "point": {
+        "x": -276.575,
+        "y": 6222.755,
+        "z": 31.748
+      }
+    }
+  },
+  {
+    "model": "s_m_y_autopsy_01",
+    "position": {
+      "x": 325.617,
+      "y": -571.331,
+      "z": 43.284
+    },
+    "rotation": 165.516,
+    "speech": "PHONE_CONV4_INTRO",
+    "voice": "G_M_M_MEXBOSS_02_LATINO_MINI_02",
+    "conversation": 3,
+    "camera": {
+      "position": {
+        "x": 324.93,
+        "y": -573.54,
+        "z": 43.929
+      },
+      "point": {
+        "x": 327.365,
+        "y": -566.964,
+        "z": 43.819
+      }
+    }
+  },
+  {
+    "model": "ig_bankman",
+    "position": {
+      "x": 149.417,
+      "y": -1042.156,
+      "z": 29.368
+    },
+    "rotation": 334.128,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_BUSINESS_01_CHINESE_FULL_01",
+    "conversation": 4,
+    "camera": {
+      "position": {
+        "x": 150.039,
+        "y": -1040.292,
+        "z": 30.494
+      },
+      "point": {
+        "x": 149.654,
+        "y": -1041.32,
+        "z": 30.239
+      }
+    }
+  },
+  {
+    "model": "ig_bankman",
+    "position": {
+      "x": -1211.891,
+      "y": -332.012,
+      "z": 37.781
+    },
+    "rotation": 13.918,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_BUSINESS_01_CHINESE_FULL_01",
+    "conversation": 4,
+    "camera": {
+      "position": {
+        "x": -1212.855,
+        "y": -329.963,
+        "z": 38.426
+      },
+      "point": {
+        "x": -1212.31,
+        "y": -331.26,
+        "z": 38.445
+      }
+    }
+  },
+  {
+    "model": "ig_bankman",
+    "position": {
+      "x": -2961.075,
+      "y": 482.812,
+      "z": 15.697
+    },
+    "rotation": 92.115,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_BUSINESS_01_CHINESE_FULL_01",
+    "conversation": 4,
+    "camera": {
+      "position": {
+        "x": -2963.108,
+        "y": 483.014,
+        "z": 16.356
+      },
+      "point": {
+        "x": -2959.661,
+        "y": 482.948,
+        "z": 16.536
+      }
+    }
+  },
+  {
+    "model": "ig_bankman",
+    "position": {
+      "x": -112.189,
+      "y": 6471.124,
+      "z": 31.627
+    },
+    "rotation": 128.028,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_BUSINESS_01_CHINESE_FULL_01",
+    "conversation": 4,
+    "camera": {
+      "position": {
+        "x": -113.708,
+        "y": 6469.627,
+        "z": 32.276
+      },
+      "point": {
+        "x": -111.402,
+        "y": 6471.853,
+        "z": 32.578
+      }
+    }
+  },
+  {
+    "model": "ig_bankman",
+    "position": {
+      "x": 1174.951,
+      "y": 2708.299,
+      "z": 38.088
+    },
+    "rotation": -179.599,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_BUSINESS_01_CHINESE_FULL_01",
+    "conversation": 4,
+    "camera": {
+      "position": {
+        "x": 1175.027,
+        "y": 2706.093,
+        "z": 38.737
+      },
+      "point": {
+        "x": 1175.003,
+        "y": 2707.444,
+        "z": 38.829
+      }
+    }
+  },
+  {
+    "model": "ig_bankman",
+    "position": {
+      "x": 313.695,
+      "y": -280.496,
+      "z": 54.165
+    },
+    "rotation": -26.309,
+    "speech": "PHONE_CONV3_INTRO",
+    "voice": "A_M_Y_BUSINESS_01_CHINESE_FULL_01",
+    "conversation": 4,
+    "camera": {
+      "position": {
+        "x": 314.534,
+        "y": -278.431,
+        "z": 54.812
+      },
+      "point": {
+        "x": 314.079,
+        "y": -279.721,
+        "z": 54.878
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -706.139,
+      "y": -914.512,
+      "z": 19.216
+    },
+    "rotation": 84.129,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -706.981,
+        "y": -914.502,
+        "z": 19.862
+      },
+      "point": {
+        "x": -706.374,
+        "y": -914.501,
+        "z": 19.87
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 1959.209,
+      "y": 3741.392,
+      "z": 32.343
+    },
+    "rotation": -49.99,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 1960.646,
+        "y": 3742.418,
+        "z": 32.992
+      },
+      "point": {
+        "x": 1958.587,
+        "y": 3741.188,
+        "z": 32.802
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 1728.645,
+      "y": 6416.73,
+      "z": 35.037
+    },
+    "rotation": -120.784,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 1729.92,
+        "y": 6416.199,
+        "z": 35.685
+      },
+      "point": {
+        "x": 1727.995,
+        "y": 6417.105,
+        "z": 35.512
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -3243.97,
+      "y": 1000.162,
+      "z": 12.83
+    },
+    "rotation": -7.448,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -3243.745,
+        "y": 1001.71,
+        "z": 13.477
+      },
+      "point": {
+        "x": -3244.044,
+        "y": 999.42,
+        "z": 13.366
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -1221.398,
+      "y": -907.974,
+      "z": 12.326
+    },
+    "rotation": 36.325,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -1222.369,
+        "y": -906.402,
+        "z": 12.971
+      },
+      "point": {
+        "x": -1220.063,
+        "y": -909.853,
+        "z": 12.909
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 549.373,
+      "y": 2669.619,
+      "z": 42.156
+    },
+    "rotation": 91.719,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 547.573,
+        "y": 2669.313,
+        "z": 42.801
+      },
+      "point": {
+        "x": 550.003,
+        "y": 2669.675,
+        "z": 42.797
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 2676.482,
+      "y": 3280.2,
+      "z": 55.241
+    },
+    "rotation": -25.358,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 2677.261,
+        "y": 3281.464,
+        "z": 55.891
+      },
+      "point": {
+        "x": 2676.238,
+        "y": 3279.595,
+        "z": 55.689
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -47.308,
+      "y": -1758.605,
+      "z": 29.421
+    },
+    "rotation": 45.602,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -48.666,
+        "y": -1757.709,
+        "z": 30.067
+      },
+      "point": {
+        "x": -46.351,
+        "y": -1759.43,
+        "z": 29.907
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 1697.356,
+      "y": 4923.339,
+      "z": 42.064
+    },
+    "rotation": -27.209,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 1698.376,
+        "y": 4924.937,
+        "z": 42.711
+      },
+      "point": {
+        "x": 1696.617,
+        "y": 4922.379,
+        "z": 42.432
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 2555.507,
+      "y": 380.914,
+      "z": 108.623
+    },
+    "rotation": -0.985,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 2555.525,
+        "y": 383.021,
+        "z": 109.267
+      },
+      "point": {
+        "x": 2555.275,
+        "y": 380.181,
+        "z": 109.292
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 1165.305,
+      "y": 2710.862,
+      "z": 38.158
+    },
+    "rotation": 173.812,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 1165.362,
+        "y": 2708.841,
+        "z": 38.805
+      },
+      "point": {
+        "x": 1165.142,
+        "y": 2713.15,
+        "z": 38.606
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -1819.536,
+      "y": 793.64,
+      "z": 138.082
+    },
+    "rotation": 134.553,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -1820.975,
+        "y": 792.16,
+        "z": 138.77
+      },
+      "point": {
+        "x": -1818.623,
+        "y": 794.454,
+        "z": 138.638
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 1134.246,
+      "y": -983.167,
+      "z": 46.416
+    },
+    "rotation": -76.964,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 1136.225,
+        "y": -982.751,
+        "z": 47.062
+      },
+      "point": {
+        "x": 1132.011,
+        "y": -983.639,
+        "z": 46.984
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": 24.446,
+      "y": -1345.578,
+      "z": 29.497
+    },
+    "rotation": -92.887,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": 26.305,
+        "y": -1345.663,
+        "z": 30.145
+      },
+      "point": {
+        "x": 23.758,
+        "y": -1345.661,
+        "z": 30.204
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -3040.532,
+      "y": 583.962,
+      "z": 7.909
+    },
+    "rotation": 15.837,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -3041.179,
+        "y": 585.647,
+        "z": 8.559
+      },
+      "point": {
+        "x": -3040.384,
+        "y": 583.331,
+        "z": 8.285
+      }
+    }
+  },
+  {
+    "model": "mp_m_shopkeep_01",
+    "position": {
+      "x": -1485.715,
+      "y": -378.137,
+      "z": 40.163
+    },
+    "rotation": 126.532,
+    "speech": "SHOP_GREET",
+    "voice": "MP_M_SHOPKEEP_01_PAKISTANI_MINI_01",
+    "conversation": 5,
+    "camera": {
+      "position": {
+        "x": -1487.485,
+        "y": -380.043,
+        "z": 40.811
+      },
+      "point": {
+        "x": -1483.977,
+        "y": -376.992,
+        "z": 40.511
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": -331.923,
+      "y": 6084.748,
+      "z": 31.455
+    },
+    "rotation": -129.482,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": -330.583,
+        "y": 6083.574,
+        "z": 32.101
+      },
+      "point": {
+        "x": -332.439,
+        "y": 6085.931,
+        "z": 32.092
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": -662.477,
+      "y": -933.554,
+      "z": 21.829
+    },
+    "rotation": -176.167,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": -662.723,
+        "y": -935.679,
+        "z": 22.477
+      },
+      "point": {
+        "x": -662.494,
+        "y": -932.26,
+        "z": 22.278
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": -1119.037,
+      "y": 2699.667,
+      "z": 18.554
+    },
+    "rotation": -130.445,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": -1117.604,
+        "y": 2697.719,
+        "z": 19.201
+      },
+      "point": {
+        "x": -1119.814,
+        "y": 2700.767,
+        "z": 19.42
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": 22.539,
+      "y": -1105.513,
+      "z": 29.797
+    },
+    "rotation": 163.305,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": 21.675,
+        "y": -1107.574,
+        "z": 30.443
+      },
+      "point": {
+        "x": 23.049,
+        "y": -1104.25,
+        "z": 30.513
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": -1304.126,
+      "y": -394.842,
+      "z": 36.696
+    },
+    "rotation": 64.515,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": -1306.149,
+        "y": -393.748,
+        "z": 37.341
+      },
+      "point": {
+        "x": -1302.926,
+        "y": -395.012,
+        "z": 37.35
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": 253.946,
+      "y": -50.344,
+      "z": 69.941
+    },
+    "rotation": 69.557,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": 251.923,
+        "y": -49.345,
+        "z": 70.589
+      },
+      "point": {
+        "x": 255.08,
+        "y": -50.912,
+        "z": 70.44
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": -3173.691,
+      "y": 1088.16,
+      "z": 20.839
+    },
+    "rotation": -106.558,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": -3171.787,
+        "y": 1087.185,
+        "z": 21.485
+      },
+      "point": {
+        "x": -3174.631,
+        "y": 1088.86,
+        "z": 21.329
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": 2567.903,
+      "y": 292.547,
+      "z": 108.735
+    },
+    "rotation": -8.972,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": 2568.327,
+        "y": 294.986,
+        "z": 109.383
+      },
+      "point": {
+        "x": 2567.963,
+        "y": 291.29,
+        "z": 109.588
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": 1692.136,
+      "y": 3760.908,
+      "z": 34.705
+    },
+    "rotation": -140.638,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": 1693.914,
+        "y": 3759.087,
+        "z": 35.353
+      },
+      "point": {
+        "x": 1691.402,
+        "y": 3761.964,
+        "z": 35.543
+      }
+    }
+  },
+  {
+    "model": "s_m_y_ammucity_01",
+    "position": {
+      "x": 842.554,
+      "y": -1035.344,
+      "z": 28.195
+    },
+    "rotation": -2.521,
+    "speech": "GUNSH_GREET0",
+    "voice": "S_M_Y_AMMUCITY_01_WHITE_01",
+    "conversation": 6,
+    "camera": {
+      "position": {
+        "x": 842.654,
+        "y": -1033.017,
+        "z": 28.841
+      },
+      "point": {
+        "x": 842.312,
+        "y": -1036.551,
+        "z": 28.838
+      }
+    }
+  },
+  {
+    "model": "csb_janitor",
+    "position": {
+      "x": 343.469,
+      "y": -567.856,
+      "z": 28.797
+    },
+    "rotation": 107.756,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_VINEWOOD_01_BLACK_FULL_01",
+    "conversation": 19,
+    "camera": {
+      "position": {
+        "x": 339.999,
+        "y": -569.191,
+        "z": 29.444
+      },
+      "point": {
+        "x": 344.135,
+        "y": -567.868,
+        "z": 29.282
+      }
+    }
+  },
+  {
+    "model": "s_m_y_cop_01",
+    "position": {
+      "x": 459.569,
+      "y": -999.935,
+      "z": 25.699
+    },
+    "rotation": 47.968,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_VINEWOOD_01_BLACK_FULL_01",
+    "conversation": 19,
+    "camera": {
+      "position": {
+        "x": 457.599,
+        "y": -998.279,
+        "z": 26.347
+      },
+      "point": {
+        "x": 459.336,
+        "y": -999.845,
+        "z": 26.266
+      }
+    }
+  },
+  {
+    "model": "s_m_y_armymech_01",
+    "position": {
+      "x": -2352.089,
+      "y": 3333.319,
+      "z": 32.974
+    },
+    "rotation": 123.645,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_VINEWOOD_01_BLACK_FULL_01",
+    "conversation": 19,
+    "camera": {
+      "position": {
+        "x": -2353.619,
+        "y": 3332.045,
+        "z": 33.622
+      },
+      "point": {
+        "x": -2352.258,
+        "y": 3333.135,
+        "z": 33.531
+      }
+    }
+  },
+  {
+    "model": "a_m_m_malibu_01",
+    "position": {
+      "x": 1403.333,
+      "y": 1123.393,
+      "z": 114.838
+    },
+    "rotation": -155.609,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 20,
+    "camera": {
+      "position": {
+        "x": 1405.013,
+        "y": 1120.844,
+        "z": 115.486
+      },
+      "point": {
+        "x": 1398.757,
+        "y": 1132.041,
+        "z": 114.312
+      }
+    }
+  },
+  {
+    "model": "ig_ballasog",
+    "position": {
+      "x": 86.909,
+      "y": -1963.901,
+      "z": 20.747
+    },
+    "rotation": -130.559,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 21,
+    "camera": {
+      "position": {
+        "x": 89.882,
+        "y": -1966.381,
+        "z": 21.395
+      },
+      "point": {
+        "x": 86.584,
+        "y": -1963.452,
+        "z": 21.289
+      }
+    }
+  },
+  {
+    "model": "g_m_y_mexgoon_01",
+    "position": {
+      "x": 367.784,
+      "y": -1988.511,
+      "z": 24.223
+    },
+    "rotation": -13.086,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 21,
+    "camera": {
+      "position": {
+        "x": 368.89,
+        "y": -1986.009,
+        "z": 24.898
+      },
+      "point": {
+        "x": 367.648,
+        "y": -1989.631,
+        "z": 24.837
+      }
+    }
+  },
+  {
+    "model": "ig_claypain",
+    "position": {
+      "x": 498.347,
+      "y": -1339.807,
+      "z": 29.315
+    },
+    "rotation": -6.422,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 21,
+    "camera": {
+      "position": {
+        "x": 498.816,
+        "y": -1336.971,
+        "z": 29.969
+      },
+      "point": {
+        "x": 498.204,
+        "y": -1341.028,
+        "z": 29.898
+      }
+    }
+  },
+  {
+    "model": "csb_ramp_gang",
+    "position": {
+      "x": -162.198,
+      "y": -1632.994,
+      "z": 33.659
+    },
+    "rotation": 56.093,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 21,
+    "camera": {
+      "position": {
+        "x": -164.082,
+        "y": -1631.651,
+        "z": 34.308
+      },
+      "point": {
+        "x": -161.501,
+        "y": -1633.181,
+        "z": 34.089
+      }
+    }
+  },
+  {
+    "model": "g_m_y_salvagoon_01",
+    "position": {
+      "x": 1438.773,
+      "y": -1495.496,
+      "z": 63.225
+    },
+    "rotation": 71.718,
+    "speech": "GENERIC_HI",
+    "voice": "G_M_Y_BALLAORIG_01_BLACK_FULL_01",
+    "conversation": 21,
+    "camera": {
+      "position": {
+        "x": 1437.041,
+        "y": -1495.089,
+        "z": 63.873
+      },
+      "point": {
+        "x": 1439.461,
+        "y": -1495.267,
+        "z": 63.747
+      }
+    }
+  },
+  {
+    "model": "s_m_m_pilot_01",
+    "position": {
+      "x": -1084.116,
+      "y": -2859.828,
+      "z": 13.951
+    },
+    "rotation": 144.334,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 23,
+    "camera": {
+      "position": {
+        "x": -1085.224,
+        "y": -2862.122,
+        "z": 14.596
+      },
+      "point": {
+        "x": -1083.631,
+        "y": -2859.363,
+        "z": 14.511
+      }
+    }
+  },
+  {
+    "model": "mp_f_boatstaff_01",
+    "position": {
+      "x": -750.410,
+      "y": -1510.708,
+      "z": 5.003
+    },
+    "rotation": 16.519,
+    "speech": "GENERIC_HI",
+    "voice": "A_F_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 24,
+    "camera": {
+      "position": {
+        "x": -751.241,
+        "y": -1508.629,
+        "z": 5.655
+      },
+      "point": {
+        "x": -750.551,
+        "y": -1510.501,
+        "z": 5.428
+      }
+    }
+  },
+  {
+    "model": "cs_josef",
+    "position": {
+      "x": 1296.496,
+      "y": 4216.003,
+      "z": 33.909
+    },
+    "rotation": 315.702,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_BUSINESS_02_WHITE_FULL_01",
+    "conversation": 25,
+    "camera": {
+      "position": {
+        "x": 1297.628,
+        "y": 4217.382,
+        "z": 34.564
+      },
+      "point": {
+        "x": 1296.568,
+        "y": 4216.242,
+        "z": 34.414
+      }
+    }
+  },
+  {
+    "model": "s_m_m_linecook",
+    "position": {
+      "x": -2193.621,
+      "y": 4290.101,
+      "z": 49.174
+    },
+    "rotation": 42.978,
+    "speech": "GENERIC_HI",
+    "voice": "A_M_Y_VINEWOOD_01_BLACK_FULL_01",
+    "conversation": 26,
+    "camera": {
+      "position": {
+        "x": -2195.208,
+        "y": 4291.291,
+        "z": 49.826
+      },
+      "point": {
+        "x": -2193.094,
+        "y": 4289.789,
+        "z": 49.559
+      }
+    }
+  }
+]

@@ -1,0 +1,60 @@
+.lockpick_circle {
+	position: relative;
+	margin: 0 auto;
+	width: 15vw;
+	height: 15vw;
+	display: flex;
+	z-index: 2;
+
+	&-progress {
+		width: 15vw;
+		height: 15vw;
+	}
+
+	&-point {
+		position: absolute;
+		width: 15vw;
+		height: 15vw;
+		border-radius: 50%;
+
+		&::after {
+			@extend %pseudo;
+
+			top: -5%;
+			left: 50%;
+			opacity: 0.98;
+			transform: translateX(-50%);
+			width: 2vw;
+			height: 2vw;
+			border-radius: 50%;
+			background-color: $pink;
+			border: 0.3em solid $white;
+		}
+	}
+
+	&-pointer {
+		position: absolute;
+		width: 15vw;
+		height: 15vw;
+		border-radius: 50%;
+		animation: rotating 2s linear infinite;
+
+		&:hover {
+			cursor: pointer;
+			cursor: hand;
+		}
+
+		&::after {
+			@extend %pseudo;
+
+			top: -7%;
+			left: 50%;
+			transform: translateX(-50%);
+			height: 2.5vw;
+			width: 2.5vw;
+			border-radius: 50%;
+			border: 0.3em solid $yellow;
+			z-index: 999;
+		}
+	}
+}

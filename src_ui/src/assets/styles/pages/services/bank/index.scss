@@ -1,0 +1,78 @@
+@import './logo';
+@import './info';
+@import './tabs';
+
+.bank {
+	padding: 2% 0;
+	display: flex;
+	background: url(~assets/images/bank_bg.jpg) center no-repeat;
+	background-size: cover;
+
+	&_container {
+		padding-top: 5%;
+		width: 60%;
+	}
+
+	&_tab {
+		padding: 0 6%;
+
+		form {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		&-buttons {
+			width: 50%;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	&_title {
+		text-transform: uppercase;
+		font-size: 2.4vw;
+		font-weight: 400;
+	}
+
+	&_fields {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&_field {
+		margin-bottom: 1%;
+		width: 49%;
+
+		input {
+			padding: 2% 4%;
+			width: 100%;
+			border: 0.2vw solid $white;
+			border-radius: 0.4vw;
+			text-transform: uppercase;
+			font-size: 1.3vw;
+
+			&::placeholder {
+				font-weight: 200;
+			}
+		}
+
+		&-label {
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 0.9vw;
+			font-weight: 300;
+		}
+	}
+
+	&_close-btn {
+		position: absolute;
+		bottom: 5%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 12%;
+		font-size: 1.3vw;
+	}
+}

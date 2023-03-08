@@ -1,0 +1,65 @@
+{
+  "low": {
+    "price": 45000,
+    "tax": 80,
+    "vehicles": 1,
+    "inventory": {
+      "cells": 8,
+      "slots": 20
+    },
+    "coords": {
+      "location": {
+        "x": 151.307,
+        "y": -1007.592,
+        "z": -98.999
+      },
+      "inventory": {
+        "x": 151.679,
+        "y": -1003.158,
+        "z": -98.999
+      }
+    }
+  },
+  "average": {
+    "price": 320000,
+    "tax": 350,
+    "vehicles": 2,
+    "inventory": {
+      "cells": 18,
+      "slots": 40
+    },
+    "coords": {
+      "location": {
+        "x": 266.041,
+        "y": -1007.285,
+        "z": -101.011
+      },
+      "inventory": {
+        "x": 265.582,
+        "y": -999.401,
+        "z": -99.008
+      }
+    }
+  },
+  "premium": {
+    "price": 1000000,
+    "tax": 2000,
+    "vehicles": 10,
+    "inventory": {
+      "cells": 30,
+      "slots": 100
+    },
+    "coords": {
+      "location": {
+        "x": 117.257,
+        "y": 559.563,
+        "z": 184.305
+      },
+      "inventory": {
+        "x": 118.366,
+        "y": 566.385,
+        "z": 176.697
+      }
+    }
+  }
+}

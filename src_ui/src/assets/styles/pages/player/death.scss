@@ -1,0 +1,118 @@
+.death {
+	position: relative;
+	display: flex;
+
+	&::after {
+		@extend %pseudo;
+
+		left: 50%;
+		width: 1px;
+		height: 100%;
+		background: $white;
+	}
+
+	&_title {
+		width: auto;
+	}
+
+	&_section {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		backdrop-filter: blur(2px);
+
+		&--danger {
+			align-items: flex-end;
+			padding-right: 2%;
+			background: linear-gradient(
+				-90deg,
+				rgba(199, 31, 51, 0.6) 0%,
+				rgba(0, 0, 0, 0.8) 100%
+			);
+		}
+
+		&--safe {
+			padding-left: 2%;
+			background: linear-gradient(
+				90deg,
+				rgba(97, 37, 200, 0.6) 0%,
+				rgba(0, 0, 0, 0.8) 100%
+			);
+
+			.death_btn {
+				transform: skew(10deg);
+				text-align: right;
+
+				span {
+					transform: skew(-10deg);
+				}
+			}
+
+			.death_descr {
+				text-align: right;
+			}
+		}
+
+		&-container {
+			padding-bottom: 10%;
+			margin: auto 0;
+			width: 65%;
+		}
+	}
+
+	&_btn {
+		padding: 0 10%;
+		width: 100%;
+		border: solid 0.2vw $white;
+		transform: skew(-10deg);
+		transition: background 0.2s ease;
+		color: $white;
+		text-align: left;
+
+		&:hover {
+			background: $white;
+			color: #2e2e2e;
+		}
+
+		span {
+			display: block;
+			transform: skew(10deg);
+			font-size: 2vw;
+			font-weight: 300;
+			line-height: 2;
+			text-transform: uppercase;
+		}
+	}
+
+	&_descr {
+		font-weight: 200;
+	}
+
+	&_timer {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) skew(-5deg);
+		width: 20%;
+		background: linear-gradient(-40deg, rgb(0, 0, 0) 0%, rgb(67, 67, 67) 100%);
+		z-index: 2;
+		text-align: center;
+
+		&-container {
+			padding-bottom: 10%;
+			transform: skew(5deg);
+		}
+
+		&-title {
+			margin: 0;
+			font-weight: 200;
+			font-size: 1.2vw;
+		}
+
+		&-value {
+			font-size: 4.6vw;
+			font-weight: 700;
+			line-height: 1;
+		}
+	}
+}

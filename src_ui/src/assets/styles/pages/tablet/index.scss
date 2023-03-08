@@ -1,0 +1,86 @@
+@import './status-bar';
+@import './sidebar';
+
+.tablet {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	min-height: auto !important;
+	height: 65vh;
+	border-radius: 1.6vw;
+	box-shadow: 0px 0px 0px 1.3vw #111111, 0px 0px 0px 1.4vw #191919,
+		0px 0px 0px 1.6vw #929292;
+	font-family: 'SF UI Text';
+	color: var(--f7-text-color);
+
+	&_container {
+		position: relative;
+		min-height: 100%;
+		height: 100%;
+		overflow: hidden;
+		border: 0.1vh solid #2d2d2d;
+		border-radius: 1.5vw;
+		background: var(--f7-page-bg-color);
+	}
+
+	&_content {
+		min-height: 100%;
+		height: 100%;
+		display: flex;
+	}
+
+	&_tab {
+		position: relative;
+		margin-top: -0.1vh;
+		min-height: 100%;
+		width: 100%;
+	}
+
+	.camera {
+		position: absolute;
+		top: 50%;
+		left: -1vw;
+		width: 0.38vw;
+		height: 0.38vw;
+		border-radius: 50%;
+		background: #0f1729;
+	}
+
+	.volume,
+	.volume:before,
+	.volume:after,
+	.sleep {
+		position: absolute;
+		width: 2vw;
+		border-radius: 0.1vw;
+		background: #929292;
+	}
+
+	.volume {
+		top: -1.7vw;
+		left: 6%;
+		height: 0.15vw;
+
+		&:after {
+			content: '';
+			left: 120%;
+			height: 0.15vw;
+		}
+	}
+
+	.sleep {
+		top: 5%;
+		left: -1.7vw;
+		width: 0.15vw;
+		height: 5vh;
+	}
+}
+
+@media (max-width: 1024px) {
+	.tablet {
+		width: 60%;
+		height: 60vh;
+	}
+}

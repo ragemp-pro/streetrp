@@ -1,0 +1,150 @@
+@import './slider';
+@import './options';
+
+.character {
+	position: relative;
+	padding: 1% 4%;
+	display: flex;
+	justify-content: space-between;
+
+	&_btn {
+		margin-top: 6%;
+		padding: 5% 2%;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 1.7vw;
+		border-radius: 0.5vw;
+		background: rgba($color: #000000, $alpha: 0.3);
+		transition: background-color 0.3s ease;
+
+		&:disabled:hover {
+			background: rgba($color: #000000, $alpha: 0.3);
+		}
+
+		svg {
+			margin-right: 2%;
+		}
+
+		&:hover {
+			background: rgba($color: #000000, $alpha: 0.4);
+		}
+	}
+
+	&_param-title {
+		margin: 0;
+		margin-bottom: 2%;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 0.1vw;
+		font-size: 1vw;
+		font-weight: 300;
+		color: #dfe9ff;
+	}
+
+	&_selector {
+		padding: 2% 5%;
+		margin-bottom: 6%;
+		border-radius: 0.5vw;
+		background: rgba($color: #000000, $alpha: 0.3);
+
+		.title {
+			margin-bottom: 2%;
+			text-transform: uppercase;
+			letter-spacing: 0.1vw;
+			font-size: 1vw;
+			font-weight: 300;
+			color: #dfe9ff;
+		}
+
+		.value {
+			text-transform: uppercase;
+			font-size: 1vw;
+			font-weight: 300;
+		}
+	}
+
+	&_page {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 50%;
+		text-align: center;
+
+		&-title {
+			margin: 0;
+		}
+	}
+
+	&_breadcrumbs {
+		padding-top: 3%;
+		margin: 0 auto;
+		width: 30%;
+		display: flex;
+		justify-content: center;
+
+		&-item {
+			margin: 0 10%;
+			width: 0.7vw;
+			height: 0.7vw;
+			border-radius: 50%;
+			background: $yellow;
+			transition: background-color 0.2s ease-out;
+
+			&:hover {
+				background: $pink;
+			}
+
+			&.active {
+				background: $pink;
+			}
+		}
+	}
+
+	&_container {
+		padding-top: 15%;
+		width: 15%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&_item {
+		margin: 6% 0;
+		padding-right: 5%;
+		margin-right: -8%;
+		height: 32vh;
+		overflow: hidden;
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 0.4vw;
+		}
+		&::-webkit-scrollbar-track {
+			border-radius: 0.4vw;
+			background: rgba($color: #000000, $alpha: 0.4);
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0.4vw;
+			background: $yellow;
+		}
+	}
+
+	&_hint {
+		position: absolute;
+		bottom: 2%;
+		right: 4%;
+		font-size: 1.2vw;
+
+		img {
+			width: 3vw;
+			height: 3vw;
+		}
+
+		span {
+			margin-left: 2%;
+			text-transform: uppercase;
+			font-weight: 300;
+			white-space: nowrap;
+		}
+	}
+}

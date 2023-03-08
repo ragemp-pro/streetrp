@@ -1,0 +1,49 @@
+.promo {
+	padding: 4vw 2%;
+	display: flex;
+	justify-content: center;
+	background: url(~assets/images/city.jpg) center no-repeat;
+	background-size: cover;
+
+	&_container {
+		width: 90%;
+		background: url(~assets/images/promo_bg.png) center no-repeat;
+		background-size: contain;
+		text-align: center;
+	}
+
+	&_title {
+		margin-bottom: 0;
+	}
+
+	&_remark {
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 1vw;
+		font-weight: 300;
+	}
+
+	&_video {
+		padding-top: 2%;
+		margin: 0 auto 4%;
+		width: 70%;
+		height: 25vw;
+
+		iframe {
+			width: inherit;
+			height: inherit;
+			border: none;
+		}
+	}
+
+	button {
+		margin: 0 auto;
+		width: 15%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.promo {
+		padding: 12vw 0;
+	}
+}

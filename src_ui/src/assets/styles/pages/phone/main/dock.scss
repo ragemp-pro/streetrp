@@ -1,0 +1,29 @@
+.phone_dock {
+	margin-bottom: 4%;
+	width: 95%;
+	height: 4.2vw;
+
+	&-list {
+		padding: 4%;
+		display: flex;
+		justify-content: space-between;
+		border-radius: 1.5vw;
+		background: rgba($color: #000000, $alpha: 0.3);
+		backdrop-filter: blur(1px);
+	}
+
+	&-item {
+		width: 3vw;
+		height: 3vw;
+
+		&:hover img {
+			filter: brightness(0.8);
+		}
+
+		img {
+			display: block;
+			width: inherit;
+			height: inherit;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.weapons_spec {
+	padding: 4% 0;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(~assets/images/weapons_spec-bg.jpg) top no-repeat;
+	background-size: cover;
+	clip-path: polygon(3% 0, 100% 4%, 96% 98%, 0 100%);
+
+	&-item {
+		margin-bottom: 3%;
+		width: 40%;
+
+		img {
+			width: 1.5vw;
+			height: 1.5vw;
+			filter: invert(1);
+		}
+	}
+
+	&-header {
+		display: flex;
+		align-items: center;
+	}
+
+	&-title {
+		margin: 0;
+		margin-left: 3%;
+		text-transform: uppercase;
+		font-size: 1vw;
+		line-height: 1.7;
+		font-weight: 300;
+	}
+
+	&-bar {
+		position: relative;
+		padding-left: 4%;
+		transform: skewX(-15deg);
+
+		progress {
+			margin-right: 7%;
+			width: 10%;
+			height: 4vh;
+			color: $yellow;
+			background-color: rgba($white, $alpha: 0.65);
+
+			&::-webkit-progress-bar {
+				background-color: rgba($white, $alpha: 0.65);
+			}
+			&::-webkit-progress-value {
+				background-color: $yellow;
+			}
+		}
+	}
+}

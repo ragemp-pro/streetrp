@@ -1,0 +1,12 @@
+{
+	"maxplayers" : 100,
+	"name" : "Street Role Play | by RAGEMP.PRO [roleplay][voice]",
+	"url" : "https://ragemp.pro",
+	"voice-chat" : true, 
+	"gamemode" : "roleplay", 
+	"stream-distance" : 500.0,
+	"announce" : false,
+	"csharp" : "disabled",
+	"port": 22005,
+	"allow-cef-debugging": true
+}

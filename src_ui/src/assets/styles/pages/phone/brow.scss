@@ -1,0 +1,53 @@
+.phone_brow {
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 55%;
+	height: 2.7vh;
+	display: flex;
+	align-items: center;
+	background-color: #1f1f1f;
+	border-radius: 0px 0px 1vw 1vw;
+	z-index: 10;
+
+	&-speaker {
+		margin: 0 auto;
+		width: 30%;
+		height: 0.6vh;
+		background-color: #101010;
+		border-radius: 2vw;
+		box-shadow: inset 0px -2px 2px 0px rgba(256, 256, 256, 0.2);
+		z-index: 10;
+	}
+
+	&-camera {
+		position: absolute;
+		right: 22%;
+		width: 0.7vw;
+		height: 0.7vw;
+		background-color: #101010;
+		border-radius: 3vw;
+		box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+		z-index: 10;
+
+		&:after {
+			@extend %pseudo;
+
+			background-color: #2d4d76;
+			width: 50%;
+			height: 50%;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 50%;
+			box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.phone_brow {
+		height: 2.5vh;
+	}
+}

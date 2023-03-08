@@ -1,0 +1,2363 @@
+{
+	"head": [
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_009_M", "female": "MP_MP_Biker_Tat_009_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_038_M", "female": "MP_MP_Biker_Tat_038_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_051_M", "female": "MP_MP_Biker_Tat_051_F" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_007", "female": "MP_Xmas2_F_Tat_007" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_024", "female": "MP_Xmas2_F_Tat_024" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_025", "female": "MP_Xmas2_F_Tat_025" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_029", "female": "MP_Xmas2_F_Tat_029" }
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_003_M",
+				"female": "MP_Gunrunning_Tattoo_003_F"
+			}
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_000_M", "female": "mpHeist3_Tat_000_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_001_M", "female": "mpHeist3_Tat_001_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_002_M", "female": "mpHeist3_Tat_002_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_003_M", "female": "mpHeist3_Tat_003_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_004_M", "female": "mpHeist3_Tat_004_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_005_M", "female": "mpHeist3_Tat_005_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_006_M", "female": "mpHeist3_Tat_006_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_007_M", "female": "mpHeist3_Tat_007_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_008_M", "female": "mpHeist3_Tat_008_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_009_M", "female": "mpHeist3_Tat_009_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_010_M", "female": "mpHeist3_Tat_010_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_011_M", "female": "mpHeist3_Tat_011_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_012_M", "female": "mpHeist3_Tat_012_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_013_M", "female": "mpHeist3_Tat_013_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_014_M", "female": "mpHeist3_Tat_014_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_015_M", "female": "mpHeist3_Tat_015_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_016_M", "female": "mpHeist3_Tat_016_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_017_M", "female": "mpHeist3_Tat_017_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_018_M", "female": "mpHeist3_Tat_018_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_019_M", "female": "mpHeist3_Tat_019_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_020_M", "female": "mpHeist3_Tat_020_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_021_M", "female": "mpHeist3_Tat_021_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_022_M", "female": "mpHeist3_Tat_022_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_042_M", "female": "mpHeist3_Tat_042_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_043_M", "female": "mpHeist3_Tat_043_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_044_M", "female": "mpHeist3_Tat_044_F" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_005", "female": "FM_Hip_F_Tat_005" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_021", "female": "FM_Hip_F_Tat_021" }
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_011_M",
+				"female": "MP_Smuggler_Tattoo_011_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_012_M",
+				"female": "MP_Smuggler_Tattoo_012_F"
+			}
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_Tat_000_M", "female": "MP_MP_Stunt_Tat_000_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_004_M", "female": "MP_MP_Stunt_tat_004_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_006_M", "female": "MP_MP_Stunt_tat_006_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_017_M", "female": "MP_MP_Stunt_tat_017_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_042_M", "female": "MP_MP_Stunt_tat_042_F" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_000", "female": "FM_Tat_Award_F_000" }
+		}
+	],
+	"torso": [
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_000_M",
+				"female": "MP_Airraces_Tattoo_000_F"
+			}
+		},
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_001_M",
+				"female": "MP_Airraces_Tattoo_001_F"
+			}
+		},
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_002_M",
+				"female": "MP_Airraces_Tattoo_002_F"
+			}
+		},
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_004_M",
+				"female": "MP_Airraces_Tattoo_004_F"
+			}
+		},
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_005_M",
+				"female": "MP_Airraces_Tattoo_005_F"
+			}
+		},
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_006_M",
+				"female": "MP_Airraces_Tattoo_006_F"
+			}
+		},
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_007_M",
+				"female": "MP_Airraces_Tattoo_007_F"
+			}
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_000_M", "female": "MP_MP_Biker_Tat_000_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_001_M", "female": "MP_MP_Biker_Tat_001_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_003_M", "female": "MP_MP_Biker_Tat_003_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_005_M", "female": "MP_MP_Biker_Tat_005_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_006_M", "female": "MP_MP_Biker_Tat_006_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_008_M", "female": "MP_MP_Biker_Tat_008_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_010_M", "female": "MP_MP_Biker_Tat_010_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_011_M", "female": "MP_MP_Biker_Tat_011_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_013_M", "female": "MP_MP_Biker_Tat_013_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_017_M", "female": "MP_MP_Biker_Tat_017_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_018_M", "female": "MP_MP_Biker_Tat_018_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_019_M", "female": "MP_MP_Biker_Tat_019_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_021_M", "female": "MP_MP_Biker_Tat_021_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_023_M", "female": "MP_MP_Biker_Tat_023_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_026_M", "female": "MP_MP_Biker_Tat_026_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_029_M", "female": "MP_MP_Biker_Tat_029_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_030_M", "female": "MP_MP_Biker_Tat_030_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_031_M", "female": "MP_MP_Biker_Tat_031_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_032_M", "female": "MP_MP_Biker_Tat_032_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_034_M", "female": "MP_MP_Biker_Tat_034_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_039_M", "female": "MP_MP_Biker_Tat_039_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_041_M", "female": "MP_MP_Biker_Tat_041_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_043_M", "female": "MP_MP_Biker_Tat_043_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_050_M", "female": "MP_MP_Biker_Tat_050_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_052_M", "female": "MP_MP_Biker_Tat_052_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_058_M", "female": "MP_MP_Biker_Tat_058_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_059_M", "female": "MP_MP_Biker_Tat_059_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_060_M", "female": "MP_MP_Biker_Tat_060_F" }
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_000_M",
+				"female": "MP_Christmas2017_Tattoo_000_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_002_M",
+				"female": "MP_Christmas2017_Tattoo_002_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_003_M",
+				"female": "MP_Christmas2017_Tattoo_003_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_005_M",
+				"female": "MP_Christmas2017_Tattoo_005_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_008_M",
+				"female": "MP_Christmas2017_Tattoo_008_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_009_M",
+				"female": "MP_Christmas2017_Tattoo_009_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_010_M",
+				"female": "MP_Christmas2017_Tattoo_010_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_011_M",
+				"female": "MP_Christmas2017_Tattoo_011_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_015_M",
+				"female": "MP_Christmas2017_Tattoo_015_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_016_M",
+				"female": "MP_Christmas2017_Tattoo_016_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_019_M",
+				"female": "MP_Christmas2017_Tattoo_019_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_020_M",
+				"female": "MP_Christmas2017_Tattoo_020_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_021_M",
+				"female": "MP_Christmas2017_Tattoo_021_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_022_M",
+				"female": "MP_Christmas2017_Tattoo_022_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_024_M",
+				"female": "MP_Christmas2017_Tattoo_024_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_026_M",
+				"female": "MP_Christmas2017_Tattoo_026_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_027_M",
+				"female": "MP_Christmas2017_Tattoo_027_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_005", "female": "MP_Xmas2_F_Tat_005" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_006", "female": "MP_Xmas2_F_Tat_006" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_009", "female": "MP_Xmas2_F_Tat_009" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_011", "female": "MP_Xmas2_F_Tat_011" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_013", "female": "MP_Xmas2_F_Tat_013" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_015", "female": "MP_Xmas2_F_Tat_015" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_016", "female": "MP_Xmas2_F_Tat_016" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_017", "female": "MP_Xmas2_F_Tat_017" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_018", "female": "MP_Xmas2_F_Tat_018" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_019", "female": "MP_Xmas2_F_Tat_019" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_028", "female": "MP_Xmas2_F_Tat_028" }
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_000_M",
+				"female": "MP_Gunrunning_Tattoo_000_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_001_M",
+				"female": "MP_Gunrunning_Tattoo_001_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_009_M",
+				"female": "MP_Gunrunning_Tattoo_009_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_010_M",
+				"female": "MP_Gunrunning_Tattoo_010_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_012_M",
+				"female": "MP_Gunrunning_Tattoo_012_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_013_M",
+				"female": "MP_Gunrunning_Tattoo_013_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_014_M",
+				"female": "MP_Gunrunning_Tattoo_014_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_017_M",
+				"female": "MP_Gunrunning_Tattoo_017_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_018_M",
+				"female": "MP_Gunrunning_Tattoo_018_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_019_M",
+				"female": "MP_Gunrunning_Tattoo_019_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_020_M",
+				"female": "MP_Gunrunning_Tattoo_020_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_022_M",
+				"female": "MP_Gunrunning_Tattoo_022_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_028_M",
+				"female": "MP_Gunrunning_Tattoo_028_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_029_M",
+				"female": "MP_Gunrunning_Tattoo_029_F"
+			}
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_023_M", "female": "mpHeist3_Tat_023_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_024_M", "female": "mpHeist3_Tat_024_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_025_M", "female": "mpHeist3_Tat_025_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_026_M", "female": "mpHeist3_Tat_026_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_027_M", "female": "mpHeist3_Tat_027_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_028_M", "female": "mpHeist3_Tat_028_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_029_M", "female": "mpHeist3_Tat_029_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_030_M", "female": "mpHeist3_Tat_030_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_033_M", "female": "mpHeist3_Tat_033_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_035_M", "female": "mpHeist3_Tat_035_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_036_M", "female": "mpHeist3_Tat_036_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_037_M", "female": "mpHeist3_Tat_037_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_038_M", "female": "mpHeist3_Tat_038_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_039_M", "female": "mpHeist3_Tat_039_F" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_000", "female": "FM_Hip_F_Tat_000" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_002", "female": "FM_Hip_F_Tat_002" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_006", "female": "FM_Hip_F_Tat_006" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_011", "female": "FM_Hip_F_Tat_011" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_012", "female": "FM_Hip_F_Tat_012" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_013", "female": "FM_Hip_F_Tat_013" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_024", "female": "FM_Hip_F_Tat_024" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_025", "female": "FM_Hip_F_Tat_025" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_029", "female": "FM_Hip_F_Tat_029" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_030", "female": "FM_Hip_F_Tat_030" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_031", "female": "FM_Hip_F_Tat_031" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_032", "female": "FM_Hip_F_Tat_032" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_033", "female": "FM_Hip_F_Tat_033" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_035", "female": "FM_Hip_F_Tat_035" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_041", "female": "FM_Hip_F_Tat_041" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_046", "female": "FM_Hip_F_Tat_046" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_047", "female": "FM_Hip_F_Tat_047" }
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_000_M",
+				"female": "MP_MP_ImportExport_Tat_000_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_001_M",
+				"female": "MP_MP_ImportExport_Tat_001_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_002_M",
+				"female": "MP_MP_ImportExport_Tat_002_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_009_M",
+				"female": "MP_MP_ImportExport_Tat_009_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_010_M",
+				"female": "MP_MP_ImportExport_Tat_010_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_011_M",
+				"female": "MP_MP_ImportExport_Tat_011_F"
+			}
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_000_M", "female": "MP_LR_Tat_000_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_008_M", "female": "MP_LR_Tat_008_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_011_M", "female": "MP_LR_Tat_011_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_012_M", "female": "MP_LR_Tat_012_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_016_M", "female": "MP_LR_Tat_016_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_019_M", "female": "MP_LR_Tat_019_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_031_M", "female": "MP_LR_Tat_031_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_032_M", "female": "MP_LR_Tat_032_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_001_M", "female": "MP_LR_Tat_001_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_002_M", "female": "MP_LR_Tat_002_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_004_M", "female": "MP_LR_Tat_004_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_009_M", "female": "MP_LR_Tat_009_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_010_M", "female": "MP_LR_Tat_010_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_013_M", "female": "MP_LR_Tat_013_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_014_M", "female": "MP_LR_Tat_014_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_021_M", "female": "MP_LR_Tat_021_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_026_M", "female": "MP_LR_Tat_026_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_002_M", "female": "MP_LUXE_TAT_002_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_012_M", "female": "MP_LUXE_TAT_012_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_022_M", "female": "MP_LUXE_TAT_022_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_025_M", "female": "MP_LUXE_TAT_025_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_027_M", "female": "MP_LUXE_TAT_027_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_029_M", "female": "MP_LUXE_TAT_029_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_003_M", "female": "MP_LUXE_TAT_003_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_006_M", "female": "MP_LUXE_TAT_006_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_007_M", "female": "MP_LUXE_TAT_007_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_008_M", "female": "MP_LUXE_TAT_008_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_014_M", "female": "MP_LUXE_TAT_014_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_015_M", "female": "MP_LUXE_TAT_015_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_024_M", "female": "MP_LUXE_TAT_024_F" }
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_000_M",
+				"female": "MP_Smuggler_Tattoo_000_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_002_M",
+				"female": "MP_Smuggler_Tattoo_002_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_003_M",
+				"female": "MP_Smuggler_Tattoo_003_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_006_M",
+				"female": "MP_Smuggler_Tattoo_006_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_007_M",
+				"female": "MP_Smuggler_Tattoo_007_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_009_M",
+				"female": "MP_Smuggler_Tattoo_009_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_010_M",
+				"female": "MP_Smuggler_Tattoo_010_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_013_M",
+				"female": "MP_Smuggler_Tattoo_013_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_015_M",
+				"female": "MP_Smuggler_Tattoo_015_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_016_M",
+				"female": "MP_Smuggler_Tattoo_016_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_017_M",
+				"female": "MP_Smuggler_Tattoo_017_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_018_M",
+				"female": "MP_Smuggler_Tattoo_018_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_019_M",
+				"female": "MP_Smuggler_Tattoo_019_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_021_M",
+				"female": "MP_Smuggler_Tattoo_021_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_022_M",
+				"female": "MP_Smuggler_Tattoo_022_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_024_M",
+				"female": "MP_Smuggler_Tattoo_024_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_025_M",
+				"female": "MP_Smuggler_Tattoo_025_F"
+			}
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_011_M", "female": "MP_MP_Stunt_tat_011_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_012_M", "female": "MP_MP_Stunt_tat_012_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_014_M", "female": "MP_MP_Stunt_tat_014_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_018_M", "female": "MP_MP_Stunt_tat_018_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_019_M", "female": "MP_MP_Stunt_tat_019_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_024_M", "female": "MP_MP_Stunt_tat_024_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_026_M", "female": "MP_MP_Stunt_tat_026_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_027_M", "female": "MP_MP_Stunt_tat_027_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_029_M", "female": "MP_MP_Stunt_tat_029_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_030_M", "female": "MP_MP_Stunt_tat_030_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_033_M", "female": "MP_MP_Stunt_tat_033_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_034_M", "female": "MP_MP_Stunt_tat_034_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_037_M", "female": "MP_MP_Stunt_tat_037_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_040_M", "female": "MP_MP_Stunt_tat_040_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_041_M", "female": "MP_MP_Stunt_tat_041_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_044_M", "female": "MP_MP_Stunt_tat_044_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_046_M", "female": "MP_MP_Stunt_tat_046_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_048_M", "female": "MP_MP_Stunt_tat_048_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_000_M", "female": "MP_Vinewood_Tat_000_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_001_M", "female": "MP_Vinewood_Tat_001_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_003_M", "female": "MP_Vinewood_Tat_003_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_006_M", "female": "MP_Vinewood_Tat_006_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_007_M", "female": "MP_Vinewood_Tat_007_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_008_M", "female": "MP_Vinewood_Tat_008_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_009_M", "female": "MP_Vinewood_Tat_009_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_010_M", "female": "MP_Vinewood_Tat_010_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_011_M", "female": "MP_Vinewood_Tat_011_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_012_M", "female": "MP_Vinewood_Tat_012_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_015_M", "female": "MP_Vinewood_Tat_015_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_016_M", "female": "MP_Vinewood_Tat_016_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_017_M", "female": "MP_Vinewood_Tat_017_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_021_M", "female": "MP_Vinewood_Tat_021_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_022_M", "female": "MP_Vinewood_Tat_022_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_023_M", "female": "MP_Vinewood_Tat_023_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_024_M", "female": "MP_Vinewood_Tat_024_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_029_M", "female": "MP_Vinewood_Tat_029_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_030_M", "female": "MP_Vinewood_Tat_030_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_031_M", "female": "MP_Vinewood_Tat_031_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_032_M", "female": "MP_Vinewood_Tat_032_F" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_003", "female": "FM_Tat_Award_F_003" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_004", "female": "FM_Tat_Award_F_004" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_005", "female": "FM_Tat_Award_F_005" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_008", "female": "FM_Tat_Award_F_008" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_011", "female": "FM_Tat_Award_F_011" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_012", "female": "FM_Tat_Award_F_012" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_013", "female": "FM_Tat_Award_F_013" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_014", "female": "FM_Tat_Award_F_014" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_016", "female": "FM_Tat_Award_F_016" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_017", "female": "FM_Tat_Award_F_017" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_018", "female": "FM_Tat_Award_F_018" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_019", "female": "FM_Tat_Award_F_019" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_004", "female": "FM_Tat_F_004" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_009", "female": "FM_Tat_F_009" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_010", "female": "FM_Tat_F_010" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_011", "female": "FM_Tat_F_011" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_012", "female": "FM_Tat_F_012" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_013", "female": "FM_Tat_F_013" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_016", "female": "FM_Tat_F_016" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_019", "female": "FM_Tat_F_019" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_020", "female": "FM_Tat_F_020" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_024", "female": "FM_Tat_F_024" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_025", "female": "FM_Tat_F_025" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_029", "female": "FM_Tat_F_029" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_030", "female": "FM_Tat_F_030" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_034", "female": "FM_Tat_F_034" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_036", "female": "FM_Tat_F_036" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_044", "female": "FM_Tat_F_044" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_045", "female": "FM_Tat_F_045" }
+		}
+	],
+	"leftarm": [
+		{
+			"dict": "mpairraces_overlays",
+			"texture": {
+				"male": "MP_Airraces_Tattoo_003_M",
+				"female": "MP_Airraces_Tattoo_003_F"
+			}
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_012_M", "female": "MP_MP_Biker_Tat_012_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_016_M", "female": "MP_MP_Biker_Tat_016_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_020_M", "female": "MP_MP_Biker_Tat_020_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_024_M", "female": "MP_MP_Biker_Tat_024_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_025_M", "female": "MP_MP_Biker_Tat_025_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_035_M", "female": "MP_MP_Biker_Tat_035_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_045_M", "female": "MP_MP_Biker_Tat_045_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_053_M", "female": "MP_MP_Biker_Tat_053_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_055_M", "female": "MP_MP_Biker_Tat_055_F" }
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_001_M",
+				"female": "MP_Christmas2017_Tattoo_001_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_004_M",
+				"female": "MP_Christmas2017_Tattoo_004_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_007_M",
+				"female": "MP_Christmas2017_Tattoo_007_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_013_M",
+				"female": "MP_Christmas2017_Tattoo_013_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_025_M",
+				"female": "MP_Christmas2017_Tattoo_025_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_029_M",
+				"female": "MP_Christmas2017_Tattoo_029_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_000", "female": "MP_Xmas2_F_Tat_000" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_010", "female": "MP_Xmas2_F_Tat_010" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_012", "female": "MP_Xmas2_F_Tat_012" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_020", "female": "MP_Xmas2_F_Tat_020" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_021", "female": "MP_Xmas2_F_Tat_021" }
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_004_M",
+				"female": "MP_Gunrunning_Tattoo_004_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_008_M",
+				"female": "MP_Gunrunning_Tattoo_008_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_015_M",
+				"female": "MP_Gunrunning_Tattoo_015_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_016_M",
+				"female": "MP_Gunrunning_Tattoo_016_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_025_M",
+				"female": "MP_Gunrunning_Tattoo_025_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_027_M",
+				"female": "MP_Gunrunning_Tattoo_027_F"
+			}
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_040_M", "female": "mpHeist3_Tat_040_F" }
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_041_M", "female": "mpHeist3_Tat_041_F" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_003", "female": "FM_Hip_F_Tat_003" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_007", "female": "FM_Hip_F_Tat_007" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_015", "female": "FM_Hip_F_Tat_015" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_016", "female": "FM_Hip_F_Tat_016" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_026", "female": "FM_Hip_F_Tat_026" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_027", "female": "FM_Hip_F_Tat_027" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_028", "female": "FM_Hip_F_Tat_028" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_034", "female": "FM_Hip_F_Tat_034" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_037", "female": "FM_Hip_F_Tat_037" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_039", "female": "FM_Hip_F_Tat_039" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_043", "female": "FM_Hip_F_Tat_043" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_048", "female": "FM_Hip_F_Tat_048" }
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_004_M",
+				"female": "MP_MP_ImportExport_Tat_004_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_008_M",
+				"female": "MP_MP_ImportExport_Tat_008_F"
+			}
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_006_M", "female": "MP_LR_Tat_006_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_018_M", "female": "MP_LR_Tat_018_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_022_M", "female": "MP_LR_Tat_022_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_005_M", "female": "MP_LR_Tat_005_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_027_M", "female": "MP_LR_Tat_027_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_033_M", "female": "MP_LR_Tat_033_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_005_M", "female": "MP_LUXE_TAT_005_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_016_M", "female": "MP_LUXE_TAT_016_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_018_M", "female": "MP_LUXE_TAT_018_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_028_M", "female": "MP_LUXE_TAT_028_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_031_M", "female": "MP_LUXE_TAT_031_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_009_M", "female": "MP_LUXE_TAT_009_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_020_M", "female": "MP_LUXE_TAT_020_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_021_M", "female": "MP_LUXE_TAT_021_F" }
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_004_M",
+				"female": "MP_Smuggler_Tattoo_004_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_008_M",
+				"female": "MP_Smuggler_Tattoo_008_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_014_M",
+				"female": "MP_Smuggler_Tattoo_014_F"
+			}
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_001_M", "female": "MP_MP_Stunt_tat_001_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_002_M", "female": "MP_MP_Stunt_tat_002_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_008_M", "female": "MP_MP_Stunt_tat_008_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_022_M", "female": "MP_MP_Stunt_tat_022_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_023_M", "female": "MP_MP_Stunt_tat_023_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_035_M", "female": "MP_MP_Stunt_tat_035_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_039_M", "female": "MP_MP_Stunt_tat_039_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_043_M", "female": "MP_MP_Stunt_tat_043_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_002_M", "female": "MP_Vinewood_Tat_002_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_005_M", "female": "MP_Vinewood_Tat_005_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_014_M", "female": "MP_Vinewood_Tat_014_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_019_M", "female": "MP_Vinewood_Tat_019_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_026_M", "female": "MP_Vinewood_Tat_026_F" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_001", "female": "FM_Tat_Award_F_001" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_007", "female": "FM_Tat_Award_F_007" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_015", "female": "FM_Tat_Award_F_015" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_005", "female": "FM_Tat_F_005" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_006", "female": "FM_Tat_F_006" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_015", "female": "FM_Tat_F_015" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_031", "female": "FM_Tat_F_031" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_041", "female": "FM_Tat_F_041" }
+		}
+	],
+	"rightarm": [
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_007_M", "female": "MP_MP_Biker_Tat_007_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_014_M", "female": "MP_MP_Biker_Tat_014_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_033_M", "female": "MP_MP_Biker_Tat_033_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_042_M", "female": "MP_MP_Biker_Tat_042_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_046_M", "female": "MP_MP_Biker_Tat_046_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_047_M", "female": "MP_MP_Biker_Tat_047_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_049_M", "female": "MP_MP_Biker_Tat_049_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_054_M", "female": "MP_MP_Biker_Tat_054_F" }
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_006_M",
+				"female": "MP_Christmas2017_Tattoo_006_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_012_M",
+				"female": "MP_Christmas2017_Tattoo_012_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_014_M",
+				"female": "MP_Christmas2017_Tattoo_014_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_017_M",
+				"female": "MP_Christmas2017_Tattoo_017_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_018_M",
+				"female": "MP_Christmas2017_Tattoo_018_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_023_M",
+				"female": "MP_Christmas2017_Tattoo_023_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2017_overlays",
+			"texture": {
+				"male": "MP_Christmas2017_Tattoo_028_M",
+				"female": "MP_Christmas2017_Tattoo_028_F"
+			}
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_003", "female": "MP_Xmas2_F_Tat_003" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_004", "female": "MP_Xmas2_F_Tat_004" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_008", "female": "MP_Xmas2_F_Tat_008" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_022", "female": "MP_Xmas2_F_Tat_022" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_023", "female": "MP_Xmas2_F_Tat_023" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_026", "female": "MP_Xmas2_F_Tat_026" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_027", "female": "MP_Xmas2_F_Tat_027" }
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_002_M",
+				"female": "MP_Gunrunning_Tattoo_002_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_021_M",
+				"female": "MP_Gunrunning_Tattoo_021_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_024_M",
+				"female": "MP_Gunrunning_Tattoo_024_F"
+			}
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_034_M", "female": "mpHeist3_Tat_034_F" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_001", "female": "FM_Hip_F_Tat_001" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_004", "female": "FM_Hip_F_Tat_004" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_008", "female": "FM_Hip_F_Tat_008" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_010", "female": "FM_Hip_F_Tat_010" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_014", "female": "FM_Hip_F_Tat_014" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_017", "female": "FM_Hip_F_Tat_017" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_018", "female": "FM_Hip_F_Tat_018" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_020", "female": "FM_Hip_F_Tat_020" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_022", "female": "FM_Hip_F_Tat_022" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_023", "female": "FM_Hip_F_Tat_023" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_036", "female": "FM_Hip_F_Tat_036" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_044", "female": "FM_Hip_F_Tat_044" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_045", "female": "FM_Hip_F_Tat_045" }
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_003_M",
+				"female": "MP_MP_ImportExport_Tat_003_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_005_M",
+				"female": "MP_MP_ImportExport_Tat_005_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_006_M",
+				"female": "MP_MP_ImportExport_Tat_006_F"
+			}
+		},
+		{
+			"dict": "mpimportexport_overlays",
+			"texture": {
+				"male": "MP_MP_ImportExport_Tat_007_M",
+				"female": "MP_MP_ImportExport_Tat_007_F"
+			}
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_003_M", "female": "MP_LR_Tat_003_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_028_M", "female": "MP_LR_Tat_028_F" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_035_M", "female": "MP_LR_Tat_035_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_015_M", "female": "MP_LR_Tat_015_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_010_M", "female": "MP_LUXE_TAT_010_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_017_M", "female": "MP_LUXE_TAT_017_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_026_M", "female": "MP_LUXE_TAT_026_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_030_M", "female": "MP_LUXE_TAT_030_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_004_M", "female": "MP_LUXE_TAT_004_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_013_M", "female": "MP_LUXE_TAT_013_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_019_M", "female": "MP_LUXE_TAT_019_F" }
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_001_M",
+				"female": "MP_Smuggler_Tattoo_001_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_005_M",
+				"female": "MP_Smuggler_Tattoo_005_F"
+			}
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_023_M",
+				"female": "MP_Smuggler_Tattoo_023_F"
+			}
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_003_M", "female": "MP_MP_Stunt_tat_003_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_009_M", "female": "MP_MP_Stunt_tat_009_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_010_M", "female": "MP_MP_Stunt_tat_010_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_016_M", "female": "MP_MP_Stunt_tat_016_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_036_M", "female": "MP_MP_Stunt_tat_036_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_038_M", "female": "MP_MP_Stunt_tat_038_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_049_M", "female": "MP_MP_Stunt_tat_049_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_004_M", "female": "MP_Vinewood_Tat_004_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_018_M", "female": "MP_Vinewood_Tat_018_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_025_M", "female": "MP_Vinewood_Tat_025_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_028_M", "female": "MP_Vinewood_Tat_028_F" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_002", "female": "FM_Tat_Award_F_002" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_010", "female": "FM_Tat_Award_F_010" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_000", "female": "FM_Tat_F_000" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_001", "female": "FM_Tat_F_001" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_003", "female": "FM_Tat_F_003" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_014", "female": "FM_Tat_F_014" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_018", "female": "FM_Tat_F_018" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_027", "female": "FM_Tat_F_027" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_028", "female": "FM_Tat_F_028" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_038", "female": "FM_Tat_F_038" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_047", "female": "FM_Tat_F_047" }
+		}
+	],
+	"leftleg": [
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_002_M", "female": "MP_MP_Biker_Tat_002_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_015_M", "female": "MP_MP_Biker_Tat_015_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_027_M", "female": "MP_MP_Biker_Tat_027_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_036_M", "female": "MP_MP_Biker_Tat_036_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_037_M", "female": "MP_MP_Biker_Tat_037_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_044_M", "female": "MP_MP_Biker_Tat_044_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_056_M", "female": "MP_MP_Biker_Tat_056_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_057_M", "female": "MP_MP_Biker_Tat_057_F" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_001", "female": "MP_Xmas2_F_Tat_001" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_002", "female": "MP_Xmas2_F_Tat_002" }
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_005_M",
+				"female": "MP_Gunrunning_Tattoo_005_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_007_M",
+				"female": "MP_Gunrunning_Tattoo_007_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_011_M",
+				"female": "MP_Gunrunning_Tattoo_011_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_023_M",
+				"female": "MP_Gunrunning_Tattoo_023_F"
+			}
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_032_M", "female": "mpHeist3_Tat_032_F" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_009", "female": "FM_Hip_F_Tat_009" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_019", "female": "FM_Hip_F_Tat_019" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_040", "female": "FM_Hip_F_Tat_040" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_029_M", "female": "MP_LR_Tat_029_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_007_M", "female": "MP_LR_Tat_007_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_020_M", "female": "MP_LR_Tat_020_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_011_M", "female": "MP_LUXE_TAT_011_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_000_M", "female": "MP_LUXE_TAT_000_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_007_M", "female": "MP_MP_Stunt_tat_007_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_013_M", "female": "MP_MP_Stunt_tat_013_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_021_M", "female": "MP_MP_Stunt_tat_021_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_028_M", "female": "MP_MP_Stunt_tat_028_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_031_M", "female": "MP_MP_Stunt_tat_031_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_013_M", "female": "MP_Vinewood_Tat_013_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_027_M", "female": "MP_Vinewood_Tat_027_F" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_009", "female": "FM_Tat_Award_F_009" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_002", "female": "FM_Tat_F_002" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_008", "female": "FM_Tat_F_008" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_021", "female": "FM_Tat_F_021" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_023", "female": "FM_Tat_F_023" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_026", "female": "FM_Tat_F_026" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_032", "female": "FM_Tat_F_032" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_033", "female": "FM_Tat_F_033" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_035", "female": "FM_Tat_F_035" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_037", "female": "FM_Tat_F_037" }
+		}
+	],
+	"rightleg": [
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_004_M", "female": "MP_MP_Biker_Tat_004_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_022_M", "female": "MP_MP_Biker_Tat_022_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_028_M", "female": "MP_MP_Biker_Tat_028_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_040_M", "female": "MP_MP_Biker_Tat_040_F" }
+		},
+		{
+			"dict": "mpbiker_overlays",
+			"texture": { "male": "MP_MP_Biker_Tat_048_M", "female": "MP_MP_Biker_Tat_048_F" }
+		},
+		{
+			"dict": "mpchristmas2_overlays",
+			"texture": { "male": "MP_Xmas2_M_Tat_014", "female": "MP_Xmas2_F_Tat_014" }
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_006_M",
+				"female": "MP_Gunrunning_Tattoo_006_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_026_M",
+				"female": "MP_Gunrunning_Tattoo_026_F"
+			}
+		},
+		{
+			"dict": "mpgunrunning_overlays",
+			"texture": {
+				"male": "MP_Gunrunning_Tattoo_030_M",
+				"female": "MP_Gunrunning_Tattoo_030_F"
+			}
+		},
+		{
+			"dict": "mpheist3_overlays",
+			"texture": { "male": "mpHeist3_Tat_031_M", "female": "mpHeist3_Tat_031_F" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_038", "female": "FM_Hip_F_Tat_038" }
+		},
+		{
+			"dict": "mphipster_overlays",
+			"texture": { "male": "FM_Hip_M_Tat_042", "female": "FM_Hip_F_Tat_042" }
+		},
+		{
+			"dict": "mplowrider2_overlays",
+			"texture": { "male": "MP_LR_Tat_030_M", "female": "MP_LR_Tat_030_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_017_M", "female": "MP_LR_Tat_017_F" }
+		},
+		{
+			"dict": "mplowrider_overlays",
+			"texture": { "male": "MP_LR_Tat_023_M", "female": "MP_LR_Tat_023_F" }
+		},
+		{
+			"dict": "mpluxe2_overlays",
+			"texture": { "male": "MP_LUXE_TAT_023_M", "female": "MP_LUXE_TAT_023_F" }
+		},
+		{
+			"dict": "mpluxe_overlays",
+			"texture": { "male": "MP_LUXE_TAT_001_M", "female": "MP_LUXE_TAT_001_F" }
+		},
+		{
+			"dict": "mpsmuggler_overlays",
+			"texture": {
+				"male": "MP_Smuggler_Tattoo_020_M",
+				"female": "MP_Smuggler_Tattoo_020_F"
+			}
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_005_M", "female": "MP_MP_Stunt_tat_005_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_015_M", "female": "MP_MP_Stunt_tat_015_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_020_M", "female": "MP_MP_Stunt_tat_020_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_025_M", "female": "MP_MP_Stunt_tat_025_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_032_M", "female": "MP_MP_Stunt_tat_032_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_045_M", "female": "MP_MP_Stunt_tat_045_F" }
+		},
+		{
+			"dict": "mpstunt_overlays",
+			"texture": { "male": "MP_MP_Stunt_tat_047_M", "female": "MP_MP_Stunt_tat_047_F" }
+		},
+		{
+			"dict": "mpvinewood_overlays",
+			"texture": { "male": "MP_Vinewood_Tat_020_M", "female": "MP_Vinewood_Tat_020_F" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_Award_M_006", "female": "FM_Tat_Award_F_006" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_007", "female": "FM_Tat_F_007" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_017", "female": "FM_Tat_F_017" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_022", "female": "FM_Tat_F_022" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_039", "female": "FM_Tat_F_039" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_040", "female": "FM_Tat_F_040" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_042", "female": "FM_Tat_F_042" }
+		},
+		{
+			"dict": "multiplayer_overlays",
+			"texture": { "male": "FM_Tat_M_043", "female": "FM_Tat_F_043" }
+		}
+	]
+}

@@ -1,0 +1,25 @@
+.inventory_drop {
+	padding-right: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	&-info {
+		padding-right: 4%;
+		width: 60%;
+		text-transform: uppercase;
+		text-align: right;
+		font-weight: 200;
+	}
+
+	&-title {
+		margin: 0;
+		font-size: 1.2vw;
+		font-weight: 200;
+	}
+
+	&-desc {
+		margin: 0;
+		font-size: 1vw;
+	}
+}

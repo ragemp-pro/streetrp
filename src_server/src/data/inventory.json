@@ -1,0 +1,625 @@
+{
+	"hat": {
+		"type": "clothes",
+		"name": "Головной убор",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "prop_ld_hat_01",
+		"equipment": "hat"
+	},
+	"jacket": {
+		"type": "clothes",
+		"name": "Верхняя одежда",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "prop_cs_tshirt_ball_01",
+		"equipment": "jacket"
+	},
+	"shirt": {
+		"type": "clothes",
+		"name": "Нижняя одежда",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "prop_cs_tshirt_ball_01",
+		"equipment": "shirt"
+	},
+	"pants": {
+		"type": "clothes",
+		"name": "Брюки",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "prop_ld_jeans_01",
+		"equipment": "pants"
+	},
+	"shoes": {
+		"type": "clothes",
+		"name": "Обувь",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "prop_ld_shoe_01",
+		"equipment": "shoes"
+	},
+	"glasses": {
+		"type": "clothes",
+		"name": "Очки",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "p_sunglass_m_s",
+		"equipment": "glasses"
+	},
+	"mask": {
+		"type": "clothes",
+		"name": "Маска",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "p_trevor_prologe_bally_s",
+		"equipment": "mask"
+	},
+	"accessories": {
+		"type": "clothes",
+		"name": "Аксессуар",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "p_jewel_necklace01_s",
+		"equipment": "accessories"
+	},
+	"watch": {
+		"type": "clothes",
+		"name": "Часы",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "p_watch_05",
+		"equipment": "watch"
+	},
+	"burger": {
+		"type": "food",
+		"name": "Бургер",
+		"weight": 0.1,
+		"stack": 1,
+		"satiety": 100,
+		"model": "prop_cs_burger_01"
+	},
+	"donut": {
+		"type": "food",
+		"name": "Пончик",
+		"weight": 0.1,
+		"stack": 1,
+		"satiety": 40,
+		"model": "prop_donut_02"
+	},
+	"chocolate": {
+		"type": "food",
+		"name": "Шоколадка",
+		"weight": 0.1,
+		"stack": 5,
+		"satiety": 20,
+		"model": "prop_choc_meto"
+	},
+	"soda": {
+		"type": "food",
+		"name": "Газировка",
+		"weight": 0.15,
+		"stack": 1,
+		"satiety": 5,
+		"model": "prop_ecola_can"
+	},
+	"cigarettes": {
+		"type": "drugs",
+		"name": "Сигареты",
+		"weight": 0.01,
+		"stack": 10,
+		"category": "smoke",
+		"model": "ng_proc_cigarette01a"
+	},
+	"beer": {
+		"type": "alcohol",
+		"name": "Пиво",
+		"weight": 0.2,
+		"stack": 1,
+		"duration": 15,
+		"model": "prop_sh_beer_pissh_01"
+	},
+	"wine": {
+		"type": "alcohol",
+		"name": "Вино",
+		"weight": 0.3,
+		"stack": 1,
+		"duration": 30,
+		"model": "prop_wine_red"
+	},
+	"whiskey": {
+		"type": "alcohol",
+		"name": "Виски",
+		"weight": 0.3,
+		"stack": 1,
+		"duration": 40,
+		"model": "prop_whiskey_bottle"
+	},
+	"vodka": {
+		"type": "alcohol",
+		"name": "Водка",
+		"weight": 0.3,
+		"stack": 1,
+		"duration": 50,
+		"model": "prop_vodka_bottle"
+	},
+	"bandage": {
+		"type": "medicine",
+		"name": "Бинт",
+		"weight": 0.1,
+		"stack": 5,
+		"health": 20,
+		"model": "prop_gaffer_arm_bind"
+	},
+	"medkit": {
+		"type": "medicine",
+		"name": "Аптечка",
+		"weight": 1,
+		"stack": 1,
+		"health": 100,
+		"model": "prop_ld_health_pack"
+	},
+	"flashlight": {
+		"type": "weapon",
+		"name": "Фонарик",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "prop_cs_police_torch"
+	},
+	"nightstick": {
+		"type": "weapon",
+		"name": "Дубинка",
+		"weight": 0.5,
+		"stack": 1,
+		"model": "w_me_nightstick"
+	},
+	"stungun": {
+		"type": "weapon",
+		"name": "Электрошоковый пистолет",
+		"weight": 0.3,
+		"stack": 1,
+		"model": "w_pi_stungun"
+	},
+	"dagger": {
+		"type": "weapon",
+		"name": "Кинжал",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "w_me_dagger"
+	},
+	"bat": {
+		"type": "weapon",
+		"name": "Бита",
+		"weight": 1,
+		"stack": 1,
+		"model": "w_me_bat"
+	},
+	"bottle": {
+		"type": "weapon",
+		"name": "Розочка",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "w_me_bottle"
+	},
+	"golfclub": {
+		"type": "weapon",
+		"name": "Клюшка",
+		"weight": 1,
+		"stack": 1,
+		"model": "w_me_gclub"
+	},
+	"knuckle": {
+		"type": "weapon",
+		"name": "Кастет",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "w_me_knuckle"
+	},
+	"knife": {
+		"type": "weapon",
+		"name": "Нож",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "w_me_knife_01"
+	},
+	"pistol": {
+		"type": "weapon",
+		"name": "Пистолет",
+		"weight": 0.5,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_pi_pistol"
+	},
+	"pistol50": {
+		"type": "weapon",
+		"name": "Пистолет .50",
+		"weight": 0.6,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_pi_pistol50"
+	},
+	"snspistol": {
+		"type": "weapon",
+		"name": "Карманный пистолет",
+		"weight": 0.3,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_pi_sns_pistol"
+	},
+	"vintagepistol": {
+		"type": "weapon",
+		"name": "Винтажный пистолет",
+		"weight": 0.6,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_pi_vintage_pistol"
+	},
+	"revolver": {
+		"type": "weapon",
+		"name": "Тяжёлый револьвер",
+		"weight": 0.7,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_pi_revolver"
+	},
+	"doubleaction": {
+		"type": "weapon",
+		"name": "Самовзводный револьвер",
+		"weight": 0.5,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_pi_wep1_gun_hi"
+	},
+	"machinepistol": {
+		"type": "weapon",
+		"name": "Малый ПП",
+		"weight": 0.9,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_sb_compactsmg"
+	},
+	"microsmg": {
+		"type": "weapon",
+		"name": "Микро ПП",
+		"weight": 1,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_sb_microsmg"
+	},
+	"smg": {
+		"type": "weapon",
+		"name": "Пистолет-пулемёт",
+		"weight": 1.2,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_sb_smg"
+	},
+	"minismg": {
+		"type": "weapon",
+		"name": "Мини-ПП",
+		"weight": 1.1,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_sb_minismg"
+	},
+	"combatpdw": {
+		"type": "weapon",
+		"name": "Боевой PDW",
+		"weight": 1.2,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_sb_pdw"
+	},
+	"assaultsmg": {
+		"type": "weapon",
+		"name": "Штурмовой ПП",
+		"weight": 1.4,
+		"stack": 1,
+		"ammo": "9mm",
+		"model": "w_sb_assaultsmg"
+	},
+	"assaultrifle": {
+		"type": "weapon",
+		"name": "Штурмовая винтовка",
+		"weight": 1.5,
+		"stack": 1,
+		"ammo": "7.62mm",
+		"model": "w_ar_assaultrifle"
+	},
+	"carbinerifle": {
+		"type": "weapon",
+		"name": "Автоматическая винтовка",
+		"weight": 1.4,
+		"stack": 1,
+		"ammo": "7.62mm",
+		"model": "w_ar_carbinerifle"
+	},
+	"advancedrifle": {
+		"type": "weapon",
+		"name": "Улучшенная винтовка",
+		"weight": 1.6,
+		"stack": 1,
+		"ammo": "7.62mm",
+		"model": "w_ar_advancedrifle"
+	},
+	"specialcarbine": {
+		"type": "weapon",
+		"name": "Особый карабин",
+		"weight": 1.5,
+		"stack": 1,
+		"ammo": "7.62mm",
+		"model": "w_ar_specialcarbine"
+	},
+	"compactrifle": {
+		"type": "weapon",
+		"name": "Укороченная винтовка",
+		"weight": 1.3,
+		"stack": 1,
+		"ammo": "7.62mm",
+		"model": "w_ar_assaultrifle_smg"
+	},
+	"sawnoffshotgun": {
+		"type": "weapon",
+		"name": "Дробовик-обрез",
+		"weight": 1.3,
+		"stack": 1,
+		"ammo": "12gauge",
+		"model": "w_sg_sawnoff"
+	},
+	"pumpshotgun": {
+		"type": "weapon",
+		"name": "Помповый дробовик",
+		"weight": 1.5,
+		"stack": 1,
+		"ammo": "12gauge",
+		"model": "w_sg_pumpshotgun"
+	},
+	"assaultshotgun": {
+		"type": "weapon",
+		"name": "Штурмовой дробовик",
+		"weight": 1.6,
+		"stack": 1,
+		"ammo": "12gauge",
+		"model": "w_sg_pumpshotgun"
+	},
+	"heavyshotgun": {
+		"type": "weapon",
+		"name": "Тяжёлый дробовик",
+		"weight": 1.7,
+		"stack": 1,
+		"ammo": "12gauge",
+		"model": "w_sg_heavyshotgun"
+	},
+	"musket": {
+		"type": "weapon",
+		"name": "Мушкет",
+		"weight": 1.8,
+		"stack": 1,
+		"ammo": "12gauge",
+		"model": "w_ar_musket"
+	},
+	"dbshotgun": {
+		"type": "weapon",
+		"name": "Двуствольный обрез",
+		"weight": 1.3,
+		"stack": 1,
+		"ammo": "12gauge",
+		"model": "w_sg_doublebarrel"
+	},
+	"9mm": {
+		"type": "ammo",
+		"name": "Патроны 9mm",
+		"weight": 0.01,
+		"stack": 100,
+		"model": "prop_box_ammo07a"
+	},
+	"7.62mm": {
+		"type": "ammo",
+		"name": "Патроны 7.62mm",
+		"weight": 0.02,
+		"stack": 80,
+		"model": "prop_box_ammo01a"
+	},
+	"12gauge": {
+		"type": "ammo",
+		"name": "Патроны 12gauge",
+		"weight": 0.03,
+		"stack": 60,
+		"model": "prop_box_ammo02a"
+	},
+	"jerrycan": {
+		"type": "tool",
+		"name": "Канистра",
+		"weight": 1.4,
+		"stack": 1,
+		"model": "prop_jerrycan_01a"
+	},
+	"repair_kit": {
+		"type": "tool",
+		"name": "Рем. комплект",
+		"weight": 2,
+		"stack": 1,
+		"model": "prop_cs_wrench"
+	},
+	"armor_light": {
+		"type": "armor",
+		"name": "Бронежилет (легк)",
+		"weight": 0.2,
+		"stack": 1,
+		"model": "prop_bodyarmour_06",
+		"capacity": 50,
+		"texture": 0
+	},
+	"armor_medium": {
+		"type": "armor",
+		"name": "Бронежилет (сред)",
+		"weight": 0.3,
+		"stack": 1,
+		"model": "prop_bodyarmour_03",
+		"capacity": 70,
+		"texture": 1
+	},
+	"armor_heavy": {
+		"type": "armor",
+		"name": "Бронежилет (тяж)",
+		"weight": 0.5,
+		"stack": 1,
+		"model": "prop_bodyarmour_05",
+		"capacity": 100,
+		"texture": 3
+	},
+	"backpack_small": {
+		"type": "backpack",
+		"name": "Рюкзак (мал)",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "prop_michael_backpack",
+		"cells": 6,
+		"slots": 3
+	},
+	"backpack_medium": {
+		"type": "backpack",
+		"name": "Рюкзак (сред)",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "prop_michael_backpack",
+		"cells": 12,
+		"slots": 6
+	},
+	"backpack_large": {
+		"type": "backpack",
+		"name": "Рюкзак (больш)",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "prop_michael_backpack",
+		"cells": 24,
+		"slots": 10
+	},
+	"lockpick": {
+		"type": "tool",
+		"name": "Отмычка",
+		"weight": 0.03,
+		"stack": 5,
+		"model": "p_car_keys_01"
+	},
+	"handcuffs": {
+		"type": "tool",
+		"name": "Наручники",
+		"weight": 0.1,
+		"stack": 1,
+		"model": "p_cs_cuffs_02_s"
+	},
+	"cable_tie": {
+		"type": "tool",
+		"name": "Кабельные стяжки",
+		"weight": 0.05,
+		"stack": 1,
+		"model": "hei_prop_zip_tie_positioned"
+	},
+	"sack": {
+		"type": "tool",
+		"name": "Мешок",
+		"weight": 0.1,
+		"stack": 5,
+		"model": "prop_cs_sack_01"
+	},
+	"cocaine": {
+		"type": "drugs",
+		"name": "Кирпич порошка",
+		"weight": 0.4,
+		"stack": 4,
+		"model": "hei_prop_hei_drug_pack_01a"
+	},
+  "rod": {
+    "type": "tool",
+    "name": "Удочка",
+    "weight": 0.2,
+    "stack": 1,
+    "model": "prop_fishing_rod_01",
+    "capacity": 20
+  },
+  "fish_bait": {
+    "type": "tool",
+    "name": "Приманка для рыбы",
+    "weight": 0.05,
+    "stack": 30,
+    "model": "prop_coolbox_01"
+  },
+  "perch": {
+    "type": "fish",
+    "name": "Окунь",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "eel": {
+    "type": "fish",
+    "name": "Угорь",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "pike": {
+    "type": "fish",
+    "name": "Щука",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "trout": {
+    "type": "fish",
+    "name": "Форель",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "salmon": {
+    "type": "fish",
+    "name": "Лосось",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "sturgeon": {
+    "type": "fish",
+    "name": "Осётр",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "zander": {
+    "type": "fish",
+    "name": "Судак",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "catfish": {
+    "type": "fish",
+    "name": "Сом",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "stingray": {
+    "type": "fish",
+    "name": "Морской скат",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "tuna": {
+    "type": "fish",
+    "name": "Тунец",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  },
+  "fugu": {
+    "type": "fish",
+    "name": "Фугу",
+    "weight": 0.1,
+    "stack": 20,
+    "model": "prop_tool_box_05"
+  }
+}

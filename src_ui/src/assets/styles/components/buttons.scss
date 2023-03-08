@@ -1,0 +1,71 @@
+.gradient-btn {
+	padding: 1vw 2vw;
+	min-width: 12vw;
+	display: block;
+	background-image: url(~assets/images/gradient-btn_bg.png),
+		linear-gradient(30deg, rgb(255, 248, 59) 0%, rgb(255, 108, 0) 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	font-weight: 200;
+	color: $white;
+	border-radius: 0.5vw;
+	box-shadow: 0px 0.05vw 0.2vw 0.15vw rgba($color: #ff9600, $alpha: 0.3);
+	transition: all ease 0.3s;
+
+	&:disabled {
+		pointer-events: none;
+		filter: grayscale(1);
+	}
+
+	&:hover {
+		box-shadow: 0px 0.05vw 0.2vw 0.25vw rgba($color: #ff9600, $alpha: 0.3);
+	}
+
+	&:active {
+		filter: brightness(0.9);
+	}
+
+	&--green {
+		background-image: url(~assets/images/gradient-btn_bg.png),
+			linear-gradient(30deg, rgb(17, 153, 142) 0%, rgb(56, 239, 125) 100%);
+		box-shadow: 0px 0.05vw 0.2vw 0.15vw rgba($color: #11e72d, $alpha: 0.3);
+
+		&:hover {
+			box-shadow: 0px 0.05vw 0.2vw 0.25vw rgba($color: #11e72d, $alpha: 0.3);
+		}
+	}
+
+	&--purple {
+		background-image: url(~assets/images/gradient-btn_bg.png),
+			linear-gradient(30deg, rgb(255, 0, 130) 0%, rgb(220, 0, 112) 100%);
+		box-shadow: 0px 0.05vw 0.2vw 0.15vw rgba($purple, $alpha: 0.3);
+
+		&:hover {
+			box-shadow: 0px 0.05vw 0.2vw 0.25vw rgba($purple, $alpha: 0.3);
+		}
+	}
+}
+
+.outline-btn {
+	padding: 0.5vw 3vw;
+	display: block;
+	background: transparent;
+	text-align: center;
+	font-size: 1vw;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	font-weight: 200;
+	color: $white;
+	border: 0.1vh solid $white;
+	border-radius: 0.5vw;
+	transition: opacity ease 0.3s;
+
+	&:hover {
+		opacity: 0.5;
+	}
+}

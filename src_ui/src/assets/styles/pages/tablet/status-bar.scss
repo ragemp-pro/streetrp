@@ -1,0 +1,43 @@
+.tablet_status-bar {
+	position: absolute;
+	top: 0;
+	padding: 0% 2%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.7vw;
+	font-weight: 300;
+	z-index: 10000;
+	text-transform: capitalize;
+
+	.icons {
+		padding-top: 0.3%;
+		width: 30%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+
+		svg {
+			width: 1vw;
+			height: 1vw;
+			fill: currentColor;
+		}
+
+		&_item {
+			margin-left: 1.5%;
+			display: flex;
+			align-items: center;
+
+			&--battery svg {
+				width: 1.2vw;
+				height: 1.2vw;
+			}
+
+			&--navigate svg {
+				width: 0.7vw;
+				height: 0.7vw;
+			}
+		}
+	}
+}

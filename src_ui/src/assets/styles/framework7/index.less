@@ -1,0 +1,41 @@
+@import url(~framework7/framework7.less);
+@import url(~framework7/components/checkbox/checkbox.less);
+@import url(~framework7/components/input/input.less);
+@import url(~framework7/components/toggle/toggle.less);
+@import url(~framework7/components/badge/badge.less);
+@import url(~framework7/components/infinite-scroll/infinite-scroll.less);
+@import url(~framework7/components/preloader/preloader.less);
+@import url(~framework7/components/accordion/accordion.less);
+@import url(~framework7/components/radio/radio.less);
+@import url(~framework7/components/smart-select/smart-select.less);
+
+@import url(./icon.less);
+@import url(./list.less);
+@import url(./navbar.less);
+@import url(./block.less);
+@import url(./checkbox.less);
+@import url(./input.less);
+@import url(./toggle.less);
+@import url(./badge.less);
+@import url(./infinite-scroll.less);
+@import url(./radio.less);
+
+@includeIosTheme: true;
+@includeMdTheme: false;
+@includeAuroraTheme: false;
+
+@includeDarkTheme: true;
+@includeLightTheme: true;
+
+.framework7-root {
+	.disabled {
+		opacity: 0.55 !important;
+		pointer-events: none !important;
+	}
+}
+
+.page-content {
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}

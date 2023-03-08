@@ -1,0 +1,38 @@
+.phone_input {
+	position: relative;
+	border-top: 1px solid #26272a;
+	border-bottom: 1px solid #26272a;
+
+	input {
+		padding: 0 10%;
+		padding-left: 4%;
+		width: 100%;
+		display: block;
+		border: none;
+		outline: none;
+		background-color: #1c1c1e;
+		font-family: inherit;
+		font-size: 0.9vw;
+		font-weight: 200;
+		line-height: 2.4;
+		color: #fff;
+
+		&::placeholder {
+			color: #87878e;
+		}
+	}
+
+	&-reset {
+		position: absolute;
+		top: 50%;
+		right: 2%;
+		transform: translateY(-50%);
+		width: 1.2vw;
+		height: 1.2vw;
+		fill: #87878e;
+
+		&:hover {
+			filter: brightness(0.5);
+		}
+	}
+}

@@ -1,0 +1,76 @@
+@import './tabs';
+@import './select';
+@import './reports';
+
+.admin {
+	@extend %smoke;
+
+	&_close-btn {
+		left: 5%;
+		bottom: 5%;
+		position: absolute;
+	}
+
+	.admin_field {
+		position: relative;
+		margin-bottom: 1%;
+		padding: 1% 4%;
+		width: 100%;
+		background: transparent;
+		border: 0.1vh solid $gray;
+		outline: none;
+		text-align: center;
+		font: inherit;
+		color: $white;
+		font-size: 1.2vw;
+		font-weight: 200;
+
+		&::placeholder {
+			text-transform: uppercase;
+			color: inherit;
+		}
+	}
+
+	form,
+	&_tab-container {
+		padding: 2% 4%;
+		display: flex;
+		flex-direction: column;
+
+		button[type='submit'] {
+			margin: 0 auto;
+		}
+	}
+
+	&_teleport {
+		form {
+			padding: 0;
+		}
+
+		.admin_tabs-content-holder {
+			padding: 2% 4%;
+		}
+	}
+
+	&_datepicker {
+		border-radius: 0;
+		border: none;
+		filter: hue-rotate(24deg) opacity(80%) invert(1);
+	}
+
+	&_checkbox {
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		font-weight: 200;
+	}
+
+	&-check {
+		margin-right: 1%;
+
+		span {
+			border-radius: 0;
+			border-color: $gray;
+		}
+	}
+}

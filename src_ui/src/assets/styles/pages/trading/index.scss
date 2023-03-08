@@ -1,0 +1,111 @@
+.trading {
+	padding: 15% 30%;
+
+	@extend %smoke;
+
+	&_top {
+		position: relative;
+		padding: 0 4% 2%;
+		clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+		background: url(~assets/images/trading_top-bg.jpg);
+		background-size: cover;
+	}
+
+	&_title {
+		margin: 0;
+	}
+
+	&_info {
+		padding-top: 4%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&-item {
+			margin: 0;
+			font-size: 1.1vw;
+			font-weight: 200;
+		}
+	}
+
+	&_spec {
+		z-index: 2;
+
+		&-list {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		&-item {
+			margin-left: 2.5%;
+			display: flex;
+			align-items: flex-end;
+		}
+
+		img {
+			width: 2.2vw;
+			height: 2.2vw;
+			filter: invert(1);
+		}
+
+		span {
+			font-size: 0.9vw;
+			font-weight: 200;
+		}
+	}
+
+	&_bottom {
+		padding: 2% 4% 5%;
+		clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+		background: url(~assets/images/trading_bottom-bg.jpg);
+		background-size: cover;
+
+		&-section {
+			margin-top: 2%;
+
+			h4 {
+				margin: 0;
+				font-weight: 200;
+			}
+
+			p {
+				margin: 0;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	&_selector {
+		padding: 2% 0;
+
+		.value {
+			font-size: 1.5vw;
+			text-transform: uppercase;
+		}
+
+		button {
+			padding: 0.35vw;
+			color: $white;
+			border: 0.1vh solid $white;
+			border-radius: 0.5vw;
+
+			svg {
+				width: 2vw;
+			}
+		}
+	}
+
+	&_input {
+		padding: 0.5% 2%;
+		font-weight: 700;
+	}
+
+	&_footer {
+		position: relative;
+		margin-top: -2%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

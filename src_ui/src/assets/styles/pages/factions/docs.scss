@@ -1,0 +1,88 @@
+.faction-docs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(0.15vw);
+
+	&_container {
+		position: relative;
+		padding-top: 2%;
+		height: 45vw;
+		width: 32vw;
+		background-image: url(~assets/images/factions/ems_docs.png);
+		background-size: 100% 100%;
+		overflow: hidden;
+	}
+
+	&_fields {
+		padding: 15% 4%;
+		padding-left: 15%;
+		padding-right: 30%;
+	}
+
+	&_field {
+		border-bottom: 0.1vh solid #000;
+		color: #000;
+
+		&-title {
+			margin: 0;
+			font-weight: 200;
+			font-size: 0.9vw;
+		}
+
+		&-value {
+			padding-left: 6%;
+			font-size: 1.1vw;
+			font-weight: 700;
+			color: #184487;
+		}
+	}
+
+	&_close {
+		position: absolute;
+		top: 0;
+		right: 0.5%;
+		opacity: 0.8;
+		width: 3vw;
+		height: 3vw;
+		text-align: right;
+		cursor: pointer;
+
+		svg {
+			fill: #c2c2c2;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.faction-docs--lspd .faction-docs {
+	&_container {
+		background-image: url(~assets/images/factions/lspd_docs.png);
+	}
+}
+
+.faction-docs--sang .faction-docs {
+	&_container {
+		background-image: url(~assets/images/factions/sang_docs.png);
+	}
+}
+
+.faction-docs--ems .faction-docs {
+	&_container {
+		padding-top: 0;
+		background-image: url(~assets/images/factions/ems_docs.png);
+	}
+
+	&_field {
+		border-color: #d20c0d;
+		color: #fff;
+
+		&-value {
+			color: currentColor;
+		}
+	}
+}

@@ -1,0 +1,112 @@
+.faction-wardrobe {
+	padding: 2% 26%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	&_container {
+		margin-right: 2%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&_main {
+		padding: 0.8vw 1vw;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: linear-gradient(
+			30deg,
+			rgba(9, 38, 140, 0.85) 0%,
+			rgba(0, 102, 255, 0.85) 100%
+		);
+		border-radius: 0.5vw;
+	}
+
+	&_buttons {
+		display: flex;
+		flex-direction: column;
+
+		button {
+			padding: 0.3vw 1vw;
+			font-size: 1vw;
+
+			&:not(:last-child) {
+				margin-bottom: 2%;
+			}
+		}
+	}
+
+	&_selector {
+		width: 28%;
+
+		.value {
+			font-size: 1.3vw;
+		}
+
+		button {
+			padding: 0.35vw;
+			color: $white;
+			border: 0.1vh solid $white;
+			border-radius: 0.5vw;
+
+			svg {
+				width: 2vw;
+			}
+		}
+	}
+
+	&_categories {
+		margin-bottom: 1%;
+		display: flex;
+		justify-content: space-between;
+
+		&-item {
+			width: 3vw;
+			height: 3vw;
+			overflow: hidden;
+			border-radius: 0.5vw;
+			background: linear-gradient(
+				30deg,
+				rgba(9, 38, 140, 0.85) 0%,
+				rgba(0, 102, 255, 0.85) 100%
+			);
+			transition: filter 0.2s ease;
+
+			&:hover {
+				background: linear-gradient(30deg, rgb(9, 38, 140) 0%, rgb(0, 102, 255) 100%);
+				filter: invert(1);
+			}
+
+			&.active {
+				background: linear-gradient(30deg, rgb(9, 38, 140) 0%, rgb(0, 102, 255) 100%);
+				filter: invert(1);
+			}
+
+			img {
+				margin: 0 auto;
+				display: block;
+				width: 2vw;
+				height: 100%;
+				filter: invert(1);
+			}
+		}
+	}
+
+	&_hint {
+		position: absolute;
+		top: 0%;
+		left: 1%;
+		width: 20%;
+		display: flex;
+		align-items: center;
+
+		span {
+			margin-left: 2%;
+			text-transform: uppercase;
+			font-size: 0.9vw;
+		}
+	}
+}

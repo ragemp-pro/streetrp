@@ -1,0 +1,61 @@
+@import './color';
+@import './info';
+@import './spec';
+
+.vehicle-shop {
+	&_main {
+		position: absolute;
+		bottom: 3%;
+		left: 50%;
+		width: 30%;
+		transform: translateX(-50%);
+	}
+
+	&_price {
+		display: block;
+		text-align: center;
+		font-style: italic;
+		font-size: 2vw;
+		font-weight: 700;
+		color: $yellow;
+	}
+
+	&_hint {
+		position: absolute;
+		top: 0;
+		right: 0%;
+		width: 20%;
+		text-transform: uppercase;
+	}
+
+	&_selector {
+		.value {
+			text-transform: inherit;
+			font-size: 1.3vw;
+			font-weight: 500;
+		}
+
+		button {
+			padding: 0.5vw;
+			color: $white;
+			border: 0.15vh solid $white;
+			border-radius: 0.2vw;
+			transform: skewX(-10deg);
+
+			&:first-child {
+				transform: skewX(10deg);
+			}
+
+			svg {
+				width: 2vw;
+			}
+		}
+	}
+
+	&_buttons {
+		padding: 0 4%;
+		padding-top: 4%;
+		display: flex;
+		justify-content: space-between;
+	}
+}

@@ -1,0 +1,48 @@
+@import './input';
+@import './current';
+@import './main';
+
+.gas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@extend %smoke;
+
+	&_fields {
+		padding-right: 40%;
+
+		.header {
+			margin-bottom: 2%;
+			padding-right: 15%;
+			display: flex;
+			justify-content: space-between;
+			font-size: 1.2vw;
+		}
+
+		&-item {
+			margin-bottom: 3%;
+		}
+	}
+
+	&_price {
+		margin-left: auto;
+		padding-top: 2%;
+		padding-left: 4%;
+		width: 35%;
+	}
+
+	&_buttons {
+		position: absolute;
+		bottom: 0;
+		right: 8%;
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		button:last-child {
+			width: 30%;
+		}
+	}
+}

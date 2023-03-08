@@ -1,0 +1,38 @@
+.hud_money {
+	position: absolute;
+	top: 20%;
+	right: 2%;
+	width: 15%;
+
+	&-item {
+		position: relative;
+		margin: 0;
+		margin-bottom: 3%;
+		display: flex;
+		align-items: center;
+		text-align: right;
+		justify-content: flex-end;
+		font-size: 1.3vw;
+		text-shadow: 0.05vw 0.05vw 0.05vw rgba(0, 0, 0, 0.5);
+
+		svg {
+			margin-right: 2%;
+		}
+	}
+
+	&-change {
+		position: absolute;
+		bottom: -30%;
+		font-size: 0.7vw;
+		font-weight: 300;
+		text-align: left;
+
+		&.positive {
+			color: #a9e621;
+		}
+
+		&.negative {
+			color: #ca3842;
+		}
+	}
+}

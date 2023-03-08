@@ -1,0 +1,88 @@
+.faction-garage {
+	padding: 4% 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	@extend %smoke;
+
+	&_title {
+		margin: 0;
+		margin-left: 10%;
+		z-index: 2;
+	}
+
+	&_container {
+		width: 100%;
+		position: relative;
+		margin-top: -5%;
+		padding: 10% 6% 15%;
+		clip-path: polygon(0 1%, 100% 3%, 96% 99%, 5% 98%);
+		background: url(~assets/images/factions/garage_bg.jpg) center no-repeat;
+		background-size: cover;
+	}
+
+	&_list {
+		padding: 0 6%;
+	}
+
+	&_items {
+		padding: 0 5%;
+		padding-right: 8%;
+		height: 32vh;
+		overflow-y: scroll;
+		direction: rtl;
+
+		&::-webkit-scrollbar {
+			width: 0.3vw;
+		}
+		&::-webkit-scrollbar-track {
+			border-radius: 0.5vw;
+			border: 0.1vh solid $pink;
+			background: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0.5vw;
+			background: $white;
+		}
+	}
+
+	&_item {
+		position: relative;
+		padding: 0.5% 2%;
+		margin: 2% 0;
+		border-bottom: 0.1vh solid $white;
+		text-align: left;
+		font-weight: 500;
+
+		&::before {
+			@extend %pseudo;
+
+			top: 0;
+			bottom: 0;
+			left: -1%;
+			width: 0.5vh;
+			background-color: $white;
+		}
+
+		&.active {
+			border-color: $pink;
+
+			&::before {
+				background-color: $pink;
+			}
+		}
+	}
+
+	&_footer {
+		margin-top: -5%;
+		padding: 0 5%;
+		padding-left: 6%;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 1;
+	}
+}

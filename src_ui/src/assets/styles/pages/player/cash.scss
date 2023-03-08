@@ -1,0 +1,51 @@
+.player-cash {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+
+	&_title {
+		position: absolute;
+		top: -10%;
+		margin: 0;
+		font-size: 2.2vw;
+		z-index: 1;
+	}
+
+	&_container {
+		padding: 2% 4% 5%;
+		clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+		background: url(~assets/images/trading_bottom-bg.jpg);
+		background-size: cover;
+	}
+
+	&_section {
+		margin-top: 5%;
+
+		h4 {
+			margin: 0;
+			font-weight: 200;
+		}
+
+		span {
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+
+	&_form {
+		input {
+			padding: 0.5% 2%;
+			font-weight: 700;
+		}
+	}
+
+	&_footer {
+		position: relative;
+		margin-top: -2%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

@@ -1,0 +1,526 @@
+{
+  "brioso2": {
+    "type": "coupe_small",
+    "price": 26000
+  },
+  "asbo": {
+    "type": "coupe",
+    "price": 21000
+  },
+  "club": {
+    "type": "coupe",
+    "price": 32000
+  },
+  "asea": {
+    "type": "sedan",
+    "price": 19000
+  },
+  "emperor2": {
+    "type": "sedan",
+    "price": 11500
+  },
+  "premier": {
+    "type": "sedan",
+    "price": 17600
+  },
+  "cheburek": {
+    "type": "sedan",
+    "price": 38000
+  },
+  "tornado3": {
+    "type": "coupe",
+    "price": 10500
+  },
+  "journey": {
+    "type": "microbus",
+    "price": 8000
+  },
+  "surfer2": {
+    "type": "microbus",
+    "price": 10000
+  },
+  "asterope": {
+    "type": "sedan",
+    "price": 22400
+  },
+  "blista": {
+    "type": "coupe",
+    "price": 36000
+  },
+  "fugitive": {
+    "type": "sedan",
+    "price": 23000
+  },
+  "regina": {
+    "type": "universal",
+    "price": 20000
+  },
+  "ingot": {
+    "type": "universal",
+    "price": 21000
+  },
+  "hellion": {
+    "type": "SUV",
+    "price": 65000
+  },
+  "glendale": {
+    "type": "sedan",
+    "price": 58000
+  },
+  "brioso": {
+    "type": "coupe",
+    "price": 76000
+  },
+  "kanjo": {
+    "type": "coupe",
+    "price": 150000
+  },
+  "issi2": {
+    "type": "coupe_small",
+    "price": 63000
+  },
+  "oracle": {
+    "type": "sedan",
+    "price": 71000
+  },
+  "felon": {
+    "type": "sedan",
+    "price": 80000
+  },
+  "oracle2": {
+    "type": "sedan",
+    "price": 90000
+  },
+  "jackal": {
+    "type": "sedan",
+    "price": 82000
+  },
+  "sentinel": {
+    "type": "coupe",
+    "price": 85000
+  },
+  "zion": {
+    "type": "coupe",
+    "price": 78000
+  },
+  "blade": {
+    "type": "muscle",
+    "price": 120000
+  },
+  "buccaneer": {
+    "type": "muscle",
+    "price": 100000
+  },
+  "dukes": {
+    "type": "muscle",
+    "price": 140000
+  },
+  "warrener": {
+    "type": "sedan",
+    "price": 100000
+  },
+  "dubsta": {
+    "type": "SUV",
+    "price": 150000
+  },
+  "baller3": {
+    "type": "SUV",
+    "price": 145000
+  },
+  "rebla": {
+    "type": "SUV",
+    "price": 110000
+  },
+  "vstr": {
+    "type": "sedan",
+    "price": 145000
+  },
+  "r34": {
+    "type": "coupe",
+    "price": 560000
+  },
+  "supra": {
+    "type": "coupe",
+    "price": 540000
+  },
+  "silvias15": {
+    "type": "coupe",
+    "price": 310000
+  },
+  "rx7": {
+    "type": "coupe",
+    "price": 260000
+  },
+  "schlagen": {
+    "type": "coupe",
+    "price": 240000
+  },
+  "zentorno": {
+    "type": "coupe",
+    "price": 300000
+  },
+  "bestiagts": {
+    "type": "coupe",
+    "price": 320000
+  },
+  "neon": {
+    "type": "universal",
+    "price": 380000
+  },
+  "ninef": {
+    "type": "coupe",
+    "price": 280000
+  },
+  "jester": {
+    "type": "coupe",
+    "price": 220000
+  },
+  "infernus2": {
+    "type": "coupe",
+    "price": 350000
+  },
+  "t20": {
+    "type": "coupe",
+    "price": 380000
+  },
+  "tempesta": {
+    "type": "coupe",
+    "price": 260000
+  },
+  "reaper": {
+    "type": "coupe",
+    "price": 210000
+  },
+  "coquette4": {
+    "type": "coupe",
+    "price": 315000
+  },
+  "osiris": {
+    "type": "coupe",
+    "price": 360000
+  },
+  "furia": {
+    "type": "coupe",
+    "price": 410000
+  },
+  "cheetah2": {
+    "type": "coupe",
+    "price": 345000
+  },
+  "entity2": {
+    "type": "coupe",
+    "price": 450000
+  },
+  "m5f90": {
+    "type": "sedan_sport",
+    "price": 1800000
+  },
+  "g63": {
+    "type": "SUV",
+    "price": 2900000
+  },
+  "lambo18": {
+    "type": "coupe",
+    "price": 4250000
+  },
+  "c63w204": {
+    "type": "sedan_sport",
+    "price": 763000
+  },
+  "m2": {
+    "type": "coupe",
+    "price": 700000
+  },
+  "camry18": {
+    "type": "sedan",
+    "price": 435000
+  },
+  "m5": {
+    "type": "sedan",
+    "price": 350000
+  },
+  "x5e53": {
+    "type": "SUV",
+    "price": 140000
+  },
+  "gtr": {
+    "type": "coupe",
+    "price": 1250000
+  },
+  "w140s600": {
+    "type": "sedan",
+    "price": 115000
+  },
+  "gtrc": {
+    "type": "coupe",
+    "price": 2950000
+  },
+  "impala67": {
+    "type": "muscle",
+    "price": 75000
+  },
+  "havok": {
+    "type": "plane",
+    "price": 9500000
+  },
+  "swift2": {
+    "type": "plane",
+    "price": 40000000
+  },
+  "duster": {
+    "type": "plane",
+    "price": 7000000
+  },
+  "dodo": {
+    "type": "plane",
+    "price": 12000000
+  },
+  "vestra": {
+    "type": "plane",
+    "price": 30000000
+  },
+  "luxor2": {
+    "type": "plane",
+    "price": 100000000
+  },
+  "shamal": {
+    "type": "plane",
+    "price": 55000000
+  },
+  "dinghy": {
+    "type": "boat",
+    "price": 650000
+  },
+  "jetmax": {
+    "type": "boat",
+    "price": 2200000
+  },
+  "seashark": {
+    "type": "boat",
+    "price": 320000
+  },
+  "speeder": {
+    "type": "boat",
+    "price": 3000000
+  },
+  "toro": {
+    "type": "boat",
+    "price": 3800000
+  },
+  "tropic2": {
+    "type": "boat",
+    "price": 1500000
+  },
+  "C7": {
+    "type": "sport",
+    "price": 2700000
+  },
+  "bmx": {
+    "type": "bicycle",
+    "price": 1200
+  },
+  "cruiser": {
+    "type": "bicycle",
+    "price": 1500
+  },
+  "fixter": {
+    "type": "bicycle",
+    "price": 1800
+  },
+  "scorcher": {
+    "type": "bicycle",
+    "price": 2000
+  },
+  "tribike3": {
+    "type": "bicycle",
+    "price": 3000
+  },
+  "faggio": {
+    "type": "motorcycle",
+    "price": 5500
+  },
+  "enduro": {
+    "type": "motorcycle",
+    "price": 15000
+  },
+  "diablous": {
+    "type": "motorcycle",
+    "price": 20000
+  },
+  "chimera": {
+    "type": "motorcycle",
+    "price": 32000
+  },
+  "avarus": {
+    "type": "motorcycle",
+    "price": 40000
+  },
+  "carbonrs": {
+    "type": "motorcycle",
+    "price": 60000
+  },
+  "double": {
+    "type": "motorcycle",
+    "price": 42000
+  },
+  "bati": {
+    "type": "motorcycle",
+    "price": 45000
+  },
+  "bati2": {
+    "type": "motorcycle",
+    "price": 50000
+  },
+  "akuma": {
+    "type": "motorcycle",
+    "price": 26000
+  },
+  "esskey": {
+    "type": "motorcycle",
+    "price": 24000
+  },
+  "diablous2": {
+    "type": "motorcycle",
+    "price": 34000
+  },
+  "defiler": {
+    "type": "motorcycle",
+    "price": 26000
+  },
+  "cliffhanger": {
+    "type": "motorcycle",
+    "price": 29000
+  },
+  "daemon": {
+    "type": "motorcycle",
+    "price": 40000
+  },
+  "deathbike": {
+    "type": "motorcycle",
+    "price": 50000
+  },
+  "deathbike2": {
+    "type": "motorcycle",
+    "price": 58000
+  },
+  "polmav": {
+    "type": "helicopter",
+    "price": 0
+  },
+  "maverick": {
+    "type": "helicopter",
+    "price": 0
+  },
+  "barracks": {
+    "type": "cargo",
+    "price": 0
+  },
+  "insurgent2": {
+    "type": "SUV",
+    "price": 0
+  },
+  "baller5": {
+    "type": "SUV",
+    "price": 0
+  },
+  "titan": {
+    "type": "plane",
+    "price": 0
+  },
+  "besra": {
+    "type": "jet",
+    "price": 0
+  },
+  "ambulance": {
+    "type": "microbus",
+    "price": 0
+  },
+  "lguard": {
+    "type": "universal",
+    "price": 0
+  },
+  "policeb": {
+    "type": "motorcycle",
+    "price": 0
+  },
+  "policet": {
+    "type": "microbus",
+    "price": 0
+  },
+  "riot": {
+    "type": "cargo",
+    "price": 0
+  },
+  "xls": {
+    "type": "SUV",
+    "price": 0
+  },
+  "burrito3": {
+    "type": "microbus",
+    "price": 0
+  },
+  "boxville2": {
+    "type": "microbus",
+    "price": 0
+  },
+  "boxville4": {
+    "type": "microbus",
+    "price": 0
+  },
+  "mixer2": {
+    "type": "SUV",
+    "price": 0
+  },
+  "safeteam": {
+    "type": "SUV",
+    "price": 0
+  },
+  "dodgesamu": {
+    "type": "sedan",
+    "price": 0
+  },
+  "emsroamer": {
+    "type": "SUV",
+    "price": 0
+  },
+  "emsnspeedo": {
+    "type": "SUV",
+    "price": 0
+  },
+  "g55pol": {
+    "type": "SUV",
+    "price": 0
+  },
+  "srtpol": {
+    "type": "sport",
+    "price": 0
+  },
+  "escpol": {
+    "type": "SUV",
+    "price": 0
+  },
+  "lspdthppv": {
+    "type": "SUV",
+    "price": 0
+  },
+  "2015polstang": {
+    "type": "sport",
+    "price": 0
+  },
+  "pol718": {
+    "type": "sport",
+    "price": 0
+  },
+  "polamggtr": {
+    "type": "sport",
+    "price": 0
+  },
+  "polaventa": {
+    "type": "sport",
+    "price": 0
+  },
+  "MTA": {
+    "type": "SUV",
+    "price": 0
+  }
+}

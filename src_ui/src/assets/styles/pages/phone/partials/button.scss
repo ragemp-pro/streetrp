@@ -1,0 +1,53 @@
+.phone_button {
+	position: relative;
+	padding: 0 2%;
+	padding-left: 4%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1c1c1e;
+	border-top: 1px solid #26272a;
+	border-bottom: 1px solid #26272a;
+	font-size: 0.9vw;
+	line-height: 2.4;
+	font-weight: 200;
+	white-space: nowrap;
+
+	&:hover {
+		background-color: #26272a;
+	}
+
+	&--blue {
+		color: #0a84ff;
+	}
+
+	&--red {
+		color: #ff0a0a;
+	}
+
+	&--disabled:hover {
+		background-color: #1c1c1e;
+	}
+
+	&-icon svg {
+		display: block;
+		width: 1vw;
+		height: 1vw;
+		fill: #6d6e6e;
+	}
+
+	&-icon--check svg {
+		fill: $blue;
+	}
+
+	&-selected {
+		margin-right: 2%;
+		margin-left: auto;
+		max-width: 45%;
+		color: #9898a0;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}

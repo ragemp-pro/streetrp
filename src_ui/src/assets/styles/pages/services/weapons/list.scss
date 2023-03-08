@@ -1,0 +1,56 @@
+.weapons_list {
+	margin-top: -8.5%;
+	padding: 6% 2% 10%;
+	padding-top: 8%;
+	background: url(~assets/images/weapons_main-bg.jpg) top no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 3%, 100% 0, 98% 100%, 1% 97%);
+
+	&-container {
+		padding-top: 2%;
+		height: 30vh;
+		display: flex;
+		flex-wrap: wrap;
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 0.5vw;
+		}
+		&::-webkit-scrollbar-track {
+			border-radius: 0.5vw;
+			border: 0.1vh solid $white;
+			background: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0.5vw;
+			background: $white;
+		}
+	}
+
+	&-item {
+		transform: skewX(3deg);
+		padding: 2%;
+		margin-bottom: 2%;
+		margin-left: 2%;
+		width: 30%;
+		height: 6vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: linear-gradient(
+			360deg,
+			rgba(0, 0, 0, 0.7) 0%,
+			rgba(0, 0, 0, 0.4) 44%,
+			rgba(0, 0, 0, 0.1) 100%
+		);
+
+		&.active {
+			outline: 0.1vh solid #fff;
+		}
+
+		img {
+			max-width: 9vw;
+			max-height: 100%;
+		}
+	}
+}

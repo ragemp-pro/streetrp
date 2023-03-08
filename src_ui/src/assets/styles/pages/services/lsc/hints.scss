@@ -1,0 +1,23 @@
+.lsc_hints {
+	position: absolute;
+	top: 0;
+	left: 2%;
+
+	&-item {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	img {
+		width: 3vw;
+		height: 3vw;
+	}
+
+	&-text {
+		margin-left: 2%;
+		text-transform: uppercase;
+		font-size: 1vw;
+		font-weight: 300;
+	}
+}

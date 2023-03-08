@@ -1,0 +1,43 @@
+.hud_offer {
+	position: absolute;
+	top: 56%;
+	right: 0%;
+	padding: 2%;
+	padding-left: 4%;
+	padding-bottom: 0.5%;
+	width: 25%;
+	background: rgba($black, $alpha: 0.5);
+	clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
+	z-index: 3;
+
+	&-seller {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0 4%;
+		width: 55%;
+		background: $yellow;
+		font-size: 0.9vw;
+		color: #1f1f1f;
+		clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0% 100%);
+	}
+
+	&-text {
+		margin-top: 0;
+		font-weight: 300;
+		font-size: 1.1vw;
+		text-align: center;
+	}
+
+	&-desc {
+		margin: 0;
+		font-size: 0.9vw;
+		color: #cecece;
+		font-weight: 300;
+
+		b {
+			color: $yellow;
+			font-weight: 500;
+		}
+	}
+}

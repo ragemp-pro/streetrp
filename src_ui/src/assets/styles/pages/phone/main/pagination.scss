@@ -1,0 +1,42 @@
+.phone_pagination {
+	margin-top: auto;
+	margin-bottom: 6%;
+	width: 50%;
+
+	&-list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&-item {
+		font-size: 0;
+		width: 8px;
+		height: 8px;
+		background: $white;
+		border-radius: 50%;
+		opacity: 0.5;
+		transition: opacity 0.2s ease;
+
+		&:not(:last-of-type) {
+			margin-right: 5%;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+
+		&.active {
+			opacity: 1;
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.phone_pagination {
+		&-item {
+			width: 5px;
+			height: 5px;
+		}
+	}
+}

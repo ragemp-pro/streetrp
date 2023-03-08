@@ -1,0 +1,51 @@
+.vehicle-shop_spec {
+	position: absolute;
+	top: 35%;
+	left: 1%;
+	width: 20%;
+
+	&-item {
+		margin-bottom: 4%;
+		display: flex;
+		align-items: center;
+
+		img {
+			width: 2.5vw;
+			height: 2.5vw;
+			filter: invert(1);
+		}
+	}
+
+	.bar {
+		position: relative;
+		padding-left: 4%;
+		width: 80%;
+		transform: skewX(-15deg);
+
+		&_container {
+			display: flex;
+		}
+
+		&_part {
+			margin-right: 3%;
+			width: 20%;
+			height: 1.5vh;
+			color: $yellow;
+			background-color: rgba($white, $alpha: 0.65);
+
+			&::-webkit-progress-bar {
+				background-color: rgba($white, $alpha: 0.65);
+			}
+			&::-webkit-progress-value {
+				background-color: $yellow;
+			}
+		}
+
+		&_title {
+			margin: 0;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-shadow: 0.4vw 0.45vw 1.2vw rgba(0, 0, 0, 0.6);
+		}
+	}
+}

@@ -1,0 +1,86 @@
+/* RАGEMP.PRО - Все для RAGE:MP. Портал о мультиплеере. */
+
+*,
+*::after,
+*::before {
+	user-select: none;
+	box-sizing: inherit;
+}
+
+html,
+body {
+	box-sizing: border-box;
+	font-family: 'Oswald';
+	font-size: 1.2vw;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	background: transparent !important;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+button {
+	padding: 0;
+	width: auto;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-family: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='search'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='date'],
+input[type='month'],
+input[type='datetime-local'],
+input[type='time'],
+input[type='number'],
+select,
+textarea {
+	background: $white;
+	color: $black;
+
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+}
+
+#root {
+	position: relative;
+	overflow: hidden;
+	background: transparent;
+
+	> *:first-child {
+		min-height: 100%;
+	}
+}
+
+.disabled {
+	opacity: initial !important;
+}

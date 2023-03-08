@@ -1,0 +1,42 @@
+@import './categories';
+@import './list';
+@import './preview';
+@import './spec';
+@import './ammo';
+
+.weapons {
+	padding: 4% 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@extend %smoke;
+
+	&_main {
+		width: 60%;
+	}
+
+	&_title {
+		position: relative;
+		margin: 0;
+		margin-left: -10%;
+		z-index: 1;
+	}
+
+	&_container {
+		width: 30%;
+	}
+
+	&_price {
+		width: 30%;
+	}
+
+	&_footer {
+		position: relative;
+		margin-top: -3%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		z-index: 1;
+	}
+}

@@ -1,0 +1,32 @@
+.inventory_quick {
+	margin: 2% auto 0;
+	width: 8%;
+
+	&-title {
+		width: 60%;
+		transform: rotate(-10deg);
+		text-align: right;
+		text-transform: uppercase;
+		font-style: italic;
+		font-size: 1.3vw;
+		font-weight: 200;
+		line-height: 1.2;
+	}
+
+	&-key {
+		position: absolute !important;
+		bottom: -5%;
+		right: -5%;
+		width: 1.5vw;
+		clip-path: polygon(13% 10%, 98% 0, 100% 100%, 0% 100%);
+		background: $white;
+		line-height: 1.2;
+		font-size: 1vw;
+		text-align: center;
+		color: #38426a;
+	}
+
+	&-cell {
+		margin-bottom: 20%;
+	}
+}

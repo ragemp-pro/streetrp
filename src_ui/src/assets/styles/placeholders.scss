@@ -1,0 +1,19 @@
+%pseudo {
+	position: absolute;
+	content: '';
+}
+
+%smoke {
+	&::after {
+		@extend %pseudo;
+
+		background: url(~assets/images/daily_bg.jpg) center no-repeat;
+		background-size: cover;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+		opacity: 0.8;
+	}
+}

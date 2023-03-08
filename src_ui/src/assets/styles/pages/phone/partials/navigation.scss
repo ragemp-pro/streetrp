@@ -1,0 +1,51 @@
+.phone_navigation {
+	position: absolute;
+	top: 5%;
+	padding-right: 4%;
+	width: 100%;
+	height: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 2;
+
+	button {
+		display: flex;
+		align-items: center;
+		color: #0a84ff;
+		transition: opacity 0.2s ease;
+
+		&:hover {
+			opacity: 0.5;
+		}
+
+		span {
+			font-size: 0.9vw;
+			font-weight: 300;
+			line-height: 1;
+		}
+
+		svg {
+			width: 1.6vw;
+			height: 1.6vw;
+		}
+	}
+
+	&-title {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 0;
+		max-width: 70%;
+		font-size: 1vw;
+		font-weight: 400;
+		text-align: center;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	&-action {
+		margin-left: auto;
+	}
+}

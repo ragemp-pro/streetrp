@@ -1,0 +1,72 @@
+.auth_login {
+	padding: 2% 4% 20%;
+	padding-left: 8%;
+	background: url(~assets/images/auth_login-bg.png) no-repeat;
+	background-size: cover;
+
+	&-container {
+		display: flex;
+		align-items: center;
+	}
+
+	form {
+		padding: 0% 4%;
+		width: 55%;
+
+		button[type='submit'] {
+			margin-left: auto;
+			width: 45%;
+		}
+	}
+
+	&-forgot {
+		font-weight: 200;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&-promo {
+		margin-left: auto;
+		margin-right: -8%;
+		padding-top: 8%;
+		padding-bottom: 2%;
+		width: 38%;
+		background: url(~assets/images/auth_login-here.png) center no-repeat;
+		background-size: cover;
+		text-align: center;
+		text-transform: uppercase;
+
+		.title {
+			margin-bottom: 0;
+			font-size: 2.2vw;
+			text-transform: uppercase;
+		}
+
+		.descr {
+			font-size: 1vw;
+			font-weight: 500;
+		}
+
+		.create-button {
+			margin: 0 auto;
+			padding: 5% 20%;
+			background-image: url(~assets/images/gradient-btn_bg.png),
+				linear-gradient(45deg, rgb(9, 38, 140) 0%, rgb(0, 102, 255) 100%);
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-size: 1.5vw;
+			text-transform: uppercase;
+			letter-spacing: 0.1vw;
+			color: $white;
+			clip-path: polygon(4% 11%, 97% 0, 90% 100%, 6.5% 100%);
+			transition: filter 0.3s ease-in-out;
+
+			&:hover {
+				filter: saturate(1.3);
+			}
+		}
+	}
+}

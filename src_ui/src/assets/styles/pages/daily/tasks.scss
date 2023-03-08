@@ -1,0 +1,51 @@
+.daily_tasks {
+	position: relative;
+	padding: 0 2%;
+	z-index: 1;
+
+	&-title {
+		position: absolute;
+		top: 0;
+		left: -10%;
+		margin: 0;
+		z-index: 2;
+		line-height: 1;
+		text-align: right;
+	}
+
+	&-container {
+		padding: 5% 5% 5%;
+		padding-top: 40%;
+		z-index: 2;
+		clip-path: polygon(0 6%, 100% 0, 96% 100%, 4% 96%);
+		background: url(~assets/images/daily_stats-bg.jpg) right no-repeat;
+		background-size: cover;
+		filter: hue-rotate(35deg);
+	}
+
+	&-items {
+		padding-right: 4%;
+		height: 18vh;
+
+		&::-webkit-scrollbar {
+			width: 0.5vw;
+			overflow: hidden;
+		}
+		&::-webkit-scrollbar-track {
+			border-radius: 0.5vw;
+			background: #c437d6;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0.5vw;
+			background: $white;
+		}
+	}
+
+	&-item {
+		padding: 1%;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 0.1vh solid #c437d6;
+		font-weight: 200;
+	}
+}

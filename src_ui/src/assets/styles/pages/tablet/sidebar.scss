@@ -1,0 +1,34 @@
+.tablet_sidebar {
+	padding-top: 10%;
+	width: 50%;
+	border-right: 0.1vh solid var(--f7-list-item-border-color);
+}
+
+.tablet_profile {
+	img {
+		display: block;
+		width: 3.3vw;
+		height: 3.3vw;
+		overflow: hidden;
+		border-radius: 50%;
+	}
+}
+
+.tablet_tabs {
+	&-icon {
+		position: relative;
+		margin-right: 4%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 1.6vw;
+		height: 1.5vw;
+		border-radius: 0.3vw;
+
+		svg {
+			width: 1.3vw;
+			height: 1.3vw;
+			fill: $white;
+		}
+	}
+}

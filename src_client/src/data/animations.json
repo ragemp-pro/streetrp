@@ -1,0 +1,146 @@
+{
+	"handshake": {
+		"dict": "mp_ped_interaction",
+		"name": "handshake_guy_a",
+		"speed": 1,
+		"flag": 33
+	},
+	"pickup": {
+		"dict": "pickup_object",
+		"name": "pickup_low",
+		"speed": 1,
+		"flag": 47
+	},
+	"arrest": {
+		"dict": "mp_arresting",
+		"name": "idle",
+		"speed": 1,
+		"flag": 49
+	},
+	"hold_box": {
+		"dict": "anim@heists@box_carry@",
+		"name": "idle",
+		"speed": 8,
+		"flag": 49
+	},
+	"welding": {
+		"dict": "amb@world_human_welding@male@base",
+		"name": "base",
+		"speed": 1,
+		"flag": 17
+	},
+	"dead": {
+		"dict": "dead",
+		"name": "dead_a",
+		"speed": 8,
+		"flag": 1
+	},
+	"resuscitation": {
+		"dict": "amb@medic@standing@tendtodead@idle_a",
+		"name": "idle_a",
+		"speed": 1,
+		"flag": 33
+	},
+	"phone_press": {
+		"dict": "cellphone@str",
+		"name": "cellphone_text_press_a",
+		"speed": 8,
+		"flag": 49
+	},
+	"phone_listen": {
+		"dict": "cellphone@str",
+		"name": "cellphone_call_listen_a",
+		"speed": 8,
+		"flag": 49
+	},
+	"hold_tablet": {
+		"dict": "amb@code_human_in_bus_passenger_idles@female@tablet@idle_a",
+		"name": "idle_a",
+		"speed": 8,
+		"flag": 49
+	},
+	"picking_lock": {
+		"dict": "mini@cpr@char_a@cpr_str",
+		"name": "cpr_success",
+		"speed": 1,
+		"flag": 17
+	},
+	"eating": {
+		"dict": "mp_player_inteat@burger",
+		"name": "mp_player_int_eat_burger",
+		"speed": 1,
+		"flag": 49
+	},
+	"eating_both_hands": {
+		"dict": "amb@world_human_seat_wall_eating@male@both_hands@base",
+		"name": "idle_b",
+		"speed": 1,
+		"flag": 49
+	},
+	"smoking": {
+		"dict": "amb@world_human_aa_smoke@male@idle_a",
+		"name": "idle_a",
+		"speed": 1,
+		"flag": 49
+	},
+	"drinking": {
+		"dict": "mp_player_intdrink",
+		"name": "loop_bottle",
+		"speed": 1,
+		"flag": 49
+	},
+	"drinking_alco": {
+		"dict": "amb@world_human_drinking@beer@male@idle_a",
+		"name": "idle_b",
+		"speed": 1,
+		"flag": 49
+	},
+	"bandaging": {
+		"dict": "oddjobs@bailbond_hobotwitchy",
+		"name": "base",
+		"speed": 1,
+		"flag": 49
+	},
+	"healing": {
+		"dict": "anim@amb@office@boardroom@crew@female@var_b@base@",
+		"name": "idle_a",
+		"speed": 1,
+		"flag": 49
+	},
+	"refueling": {
+		"dict": "weapons@misc@jerrycan@",
+		"name": "fire",
+		"speed": 1,
+		"flag": 17
+	},
+	"carkey_press": {
+		"dict": "anim@mp_player_intmenu@key_fob@",
+		"name": "fob_click",
+		"speed": 8,
+		"flag": 49
+	},
+	"taking_from_pocket": {
+		"dict": "amb@world_human_stand_mobile_fat@male@text@enter",
+		"name": "enter",
+		"speed": 1,
+		"flag": 33
+	},
+	"drop": {
+		"dict": "anim@heists@narcotics@trash",
+		"name": "drop_side",
+		"speed": 1,
+		"flag": 33
+	},
+  "fishing_wait": {
+    "dict": "amb@world_human_stand_fishing@base",
+    "name": "base",
+    "speed": 1,
+    "flag": 31
+  },
+  "fishing_take": {
+    "dict": "amb@world_human_stand_fishing@idle_a",
+    "name": "idle_c",
+    "speed": 1,
+    "flag": 31
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"name": "streetrp-server",
+	"version": "0.1.0",
+	"author": "nicro + Harland [KFC]",
+	"homepage": "https://ragemp.pro",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"build": "npm run build:ui && npm run build:client && npm run build:server",
+		"build:ui": "cd src_ui && npm run build",
+		"build:client": "cd src_client && npm run build",
+		"build:server": "cd src_server && npm run build",
+		"postbuild": "echo ✔ All Build success!"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.14.5",
+		"axios": "^0.21.1",
+		"bcryptjs": "^2.4.3",
+		"chalk": "^4.1.1",
+		"cross-env": "^7.0.3",
+		"crypto-random-string": "^4.0.0",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"ioredis": "^4.27.5",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.1",
+		"mongodb-client-encryption": "^1.2.5",
+		"mongoose": "^5.12.13",
+		"nodemailer": "^6.6.1",
+		"rage-rpc": "github:Yoegibby/rage-rpc#rage1.1_fixes",
+		"source-map-support": "^0.5.19",
+		"winston": "^3.3.3"
+	}
+}

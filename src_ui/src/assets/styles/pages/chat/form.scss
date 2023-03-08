@@ -1,0 +1,41 @@
+.chat_form {
+	padding-left: 4%;
+
+	&-container {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		display: flex;
+	}
+
+	input {
+		padding: 1% 6%;
+		padding-left: 10%;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.3);
+		border: none;
+		outline: none;
+		font-family: inherit;
+		font-weight: 300;
+		font-size: 0.9vw;
+		line-height: 1.4;
+		color: $white;
+	}
+
+	&-submit {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 1.7vw;
+		background: $pink;
+
+		&:hover {
+			filter: brightness(0.9);
+		}
+
+		svg {
+			width: 1vw;
+			height: 1vw;
+			fill: $white;
+		}
+	}
+}

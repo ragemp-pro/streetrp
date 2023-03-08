@@ -1,0 +1,20 @@
+{
+	"handshake": { "amount": 1, "award": 20 },
+	"refuel": { "amount": 1, "award": 40 },
+	"tuning": { "amount": 1, "award": 70 },
+	"repair_veh": { "amount": 1, "award": 60 },
+	"buy_car": { "amount": 1, "award": 100 },
+	"buy_prop": { "amount": 1, "award": 150 },
+	"house_tax": { "amount": 1, "award": 40 },
+	"tattoo": { "amount": 1, "award": 90 },
+	"give_cash": { "amount": 1, "award": 20 },
+	"barbershop": { "amount": 1, "award": 50 },
+	"bank_replenish": { "amount": 1, "award": 40 },
+	"buy_weapon": { "amount": 1, "award": 90 },
+	"buy_clothes": { "amount": 1, "award": 60 },
+	"phone_call": { "amount": 1, "award": 20 },
+	"building_money": { "amount": 1, "award": 40 },
+	"theft_veh": { "amount": 1, "award": 130 },
+	"postal_delivery": { "amount": 1, "award": 50 },
+	"waterfront_money": { "amount": 1, "award": 50 }
+}

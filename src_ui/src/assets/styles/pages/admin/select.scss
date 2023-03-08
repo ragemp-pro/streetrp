@@ -1,0 +1,107 @@
+div.admin_select {
+	margin-bottom: 1%;
+	font-size: 1.2vw;
+	color: #fff;
+
+	&__control {
+		padding: 0.5% 4%;
+		border: 1px solid $black;
+		border-radius: 0px;
+		background: transparent;
+		outline: none;
+		font-weight: 200;
+		text-align: center;
+
+		&--is-focused {
+			border: 1px solid $black;
+			box-shadow: none;
+		}
+
+		&:hover {
+			border: 1px solid $black;
+		}
+	}
+
+	&__value-container {
+		padding: 0;
+	}
+
+	&__single-value,
+	&__placeholder,
+	&__indicator {
+		color: currentColor;
+	}
+
+	&__placeholder {
+		text-transform: uppercase;
+	}
+
+	&__indicators {
+		display: none;
+	}
+
+	&__placeholder,
+	&__single-value {
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	&__menu {
+		margin: 0;
+		background: linear-gradient(180deg, $purple 0%, $gray 100%);
+		border-radius: 0;
+
+		::-webkit-scrollbar {
+			width: 0;
+			background: transparent;
+		}
+
+		&-list {
+			padding: 0;
+			max-height: 50vh;
+		}
+
+		&-notice {
+			color: $white;
+			text-transform: uppercase;
+			font-weight: 200;
+		}
+	}
+
+	&__option {
+		margin-top: -1px;
+		border: 0.1vh solid $black;
+		color: #fff;
+		font-size: 1.2vw;
+		font-weight: 200;
+
+		&--is-focused {
+			background: transparent;
+		}
+
+		&--is-selected {
+			background: transparent;
+		}
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+
+	&__input {
+		color: #fff;
+		text-align: center;
+
+		input {
+			font-weight: 200;
+		}
+	}
+
+	&__indicator-separator {
+		display: none;
+	}
+
+	&__indicator {
+		color: #eee;
+	}
+}

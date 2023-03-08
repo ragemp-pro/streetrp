@@ -1,0 +1,92 @@
+.inventory_character {
+	width: 30%;
+
+	&-container {
+		position: relative;
+		margin-bottom: 3%;
+
+		&::before {
+			@extend %pseudo;
+
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			clip-path: polygon(8% 4%, 100% 0, 96% 95%, 0% 100%);
+			background: url(~assets/images/inventory_char-bg.jpg) bottom no-repeat;
+			background-size: cover;
+			z-index: 0;
+		}
+
+		&::after {
+			@extend %pseudo;
+
+			top: 20%;
+			bottom: 10%;
+			left: 0;
+			width: 100%;
+			background: url(~assets/images/character-man.svg) bottom no-repeat;
+			background-size: contain;
+			filter: invert(1);
+			opacity: 0.5;
+		}
+
+		& > * {
+			position: relative;
+			z-index: 3;
+		}
+	}
+
+	&-title {
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 0.9vw;
+		font-weight: 300;
+	}
+
+	&-clothes {
+		margin-bottom: 20%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&-equipment {
+		padding-bottom: 1%;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		& > div:nth-child(2) {
+			margin-bottom: 3%;
+		}
+
+		& > div:nth-child(3) {
+			margin-bottom: 6%;
+		}
+
+		& > div:last-child {
+			position: absolute;
+			margin-bottom: 0;
+			left: 0%;
+			top: -65%;
+		}
+	}
+
+	&-item {
+		position: relative;
+		margin-top: 5%;
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		z-index: 3;
+	}
+
+	img {
+		width: 2vw;
+		height: 2vw;
+		filter: invert(1);
+		opacity: 0.5;
+	}
+}

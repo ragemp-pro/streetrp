@@ -1,0 +1,20 @@
+.hud_ammo {
+	position: absolute;
+	top: 35%;
+	right: 1.5%;
+	width: 18%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	&-icon {
+		width: 1.5vw;
+		height: 1.5vw;
+		fill: #fff;
+	}
+
+	&-count {
+		font-size: 1.2vw;
+		text-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.5);
+	}
+}

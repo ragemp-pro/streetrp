@@ -1,0 +1,24 @@
+.phone_items-group {
+	border-top: 1px solid #26272a;
+
+	& > * {
+		position: relative;
+		border-top: none;
+		border-bottom: none;
+
+		&::after {
+			@extend %pseudo;
+
+			right: 0;
+			bottom: 0;
+			width: 96%;
+			height: 1px;
+			background: #26272a;
+			z-index: 2;
+		}
+
+		&:last-of-type::after {
+			width: 100%;
+		}
+	}
+}

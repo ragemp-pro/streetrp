@@ -1,0 +1,79 @@
+.daily_stats {
+	position: relative;
+	padding: 0 2%;
+	z-index: 1;
+
+	&-title {
+		position: absolute;
+		top: 5%;
+		left: 7%;
+		margin: 0;
+		z-index: 2;
+	}
+
+	&-container {
+		padding: 5% 10%;
+		padding-top: 25%;
+		z-index: 2;
+		clip-path: polygon(10% 0, 100% 2%, 95% 96%, 2% 100%);
+		background: url(~assets/images/daily_stats-bg.jpg) left no-repeat;
+		background-size: cover;
+	}
+
+	&-money {
+		padding-top: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+		text-align: center;
+		border-bottom: 1px solid #cd47e8;
+		font-weight: 700;
+	}
+
+	&-experience {
+		margin-bottom: 2%;
+		font-size: 1vw;
+
+		.title {
+			margin: 0;
+			padding-left: 4%;
+			text-transform: uppercase;
+			font-weight: 300;
+		}
+	}
+
+	.progress {
+		&_bar {
+			overflow: hidden;
+			border: 1px solid $white;
+			border-radius: 1vw;
+
+			&-fill {
+				height: 2vh;
+				background: linear-gradient(30deg, rgb(255, 248, 59) 0%, rgb(255, 108, 0) 100%);
+				border-radius: 1vw;
+			}
+		}
+
+		&_points {
+			text-align: right;
+			font-weight: 300;
+		}
+	}
+
+	&-level {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.title {
+			margin: 0;
+			font-size: 1.6vw;
+			font-weight: 300;
+		}
+
+		.current {
+			font-size: 3vw;
+			font-weight: 700;
+		}
+	}
+}

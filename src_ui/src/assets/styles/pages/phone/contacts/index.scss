@@ -1,0 +1,65 @@
+@import './contact';
+@import './editor';
+
+#contacts {
+	.contacts {
+		background: $black;
+
+		.header {
+			position: relative;
+			padding: 0 4%;
+			margin-bottom: 4%;
+		}
+
+		.avatar {
+			margin: 0 auto;
+			margin-bottom: 2%;
+			width: 4vw;
+			height: 4vw;
+			background: #879099;
+			border-radius: 50%;
+			font-size: 2vw;
+			line-height: 2.1;
+			text-align: center;
+
+			svg {
+				width: 4vw;
+				height: 100%;
+			}
+		}
+
+		&_list {
+			li {
+				font-size: 1vw;
+
+				.letter {
+					margin: 0;
+					padding: 0.3% 0;
+					padding-left: 5%;
+					font-weight: 700;
+					background-color: #313234;
+				}
+
+				&:not(:first-of-type) {
+					.letter {
+						margin-top: -1px;
+					}
+				}
+
+				.name {
+					margin: 0;
+					padding: 2% 0;
+					padding-left: 5%;
+					font-weight: 400;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+			}
+		}
+	}
+}

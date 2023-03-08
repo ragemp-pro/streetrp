@@ -1,0 +1,131 @@
+div.notifications {
+	position: absolute;
+	top: 20%;
+	margin-left: 0;
+	padding: 0;
+	width: 35%;
+	left: 50%;
+
+	&_item {
+		padding: 2%;
+		padding-top: 12%;
+		max-height: 15vh;
+		min-height: 8vh;
+		overflow: visible;
+		background: transparent;
+		text-align: center;
+		font-family: inherit;
+		font-size: 1vw;
+		box-shadow: none;
+		color: #ff0000;
+
+		&::before {
+			position: absolute;
+			content: 'Уведомление';
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			text-transform: uppercase;
+			font-size: 2.5vw;
+			font-weight: 600;
+			font-style: italic;
+			color: currentColor;
+		}
+
+		&::after {
+			@extend %pseudo;
+
+			top: 30%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 50%;
+			height: 60%;
+			background: rgba(0, 0, 0, 0.3);
+			filter: blur(1vw);
+			z-index: -1;
+		}
+	}
+
+	&_body {
+		color: #fff;
+		font-weight: 300;
+		text-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.4);
+	}
+
+	.Toastify__toast {
+		&--success {
+			color: #27d158;
+		}
+
+		&--info {
+			color: #26abff;
+		}
+
+		&--warning {
+			color: $yellow;
+		}
+
+		&--error {
+			color: #ff0000;
+		}
+	}
+}
+
+div.menu-notifications {
+	position: absolute;
+	bottom: 2%;
+	margin-left: 0;
+	padding: 0;
+	width: 30%;
+	left: 50%;
+
+	&-item {
+		padding: 4%;
+		height: 15vh;
+		overflow: visible;
+		text-align: center;
+		font-family: inherit;
+		font-size: 1vw;
+		box-shadow: none;
+		clip-path: polygon(0 0, 99% 3%, 100% 98%, 2% 100%);
+	}
+
+	.Toastify__toast {
+		&--success {
+			background: linear-gradient(
+				30deg,
+				rgba(19, 206, 6, 0.9) 0%,
+				rgba(9, 219, 65, 0.9) 100%
+			);
+		}
+
+		&--info {
+			background: linear-gradient(
+				30deg,
+				rgba(0, 75, 215, 0.9) 0%,
+				rgba(22, 123, 238, 0.9) 100%
+			);
+		}
+
+		&--warning {
+			background: linear-gradient(
+				30deg,
+				rgba(215, 201, 0, 0.9) 0%,
+				rgba(230, 198, 21, 0.9) 100%
+			);
+		}
+
+		&--error {
+			background: linear-gradient(
+				30deg,
+				rgba(255, 0, 42, 0.9) 0%,
+				rgba(255, 43, 88, 0.9) 100%
+			);
+		}
+	}
+
+	&-body {
+		color: #fff;
+		font-weight: 300;
+	}
+}

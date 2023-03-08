@@ -1,0 +1,29 @@
+.vehicle-shop_info {
+	position: absolute;
+	top: 2%;
+	left: 1%;
+	width: 10%;
+
+	&-item {
+		margin-bottom: 6%;
+		padding: 4% 8%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 0.25vw solid $white;
+		border-radius: 2vw;
+		filter: drop-shadow(0px 0.2vw 0.4vw rgba(0, 0, 0, 0.25));
+
+		img {
+			width: 2vw;
+			height: 2vw;
+			filter: invert(1);
+		}
+	}
+
+	&-value {
+		margin-left: 2%;
+		font-weight: 200;
+		text-align: right;
+	}
+}

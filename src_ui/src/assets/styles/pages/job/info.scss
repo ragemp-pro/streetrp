@@ -1,0 +1,63 @@
+.job_info {
+	position: relative;
+	padding: 0 4% 8%;
+	width: 65%;
+	background: inherit;
+
+	& > * {
+		position: relative;
+		z-index: 1;
+	}
+
+	&::before {
+		@extend %pseudo;
+
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: inherit;
+		background-size: cover;
+		background-repeat: no-repeat;
+		clip-path: polygon(2% 0, 96% 3%, 100% 97%, 0 100%);
+		z-index: 0;
+	}
+
+	&-title {
+		margin: 0;
+		margin-top: -8%;
+		margin-left: -10%;
+		z-index: 10;
+	}
+
+	&-requirements {
+		font-weight: 200;
+
+		strong {
+			font-weight: 500;
+			color: $yellow;
+		}
+	}
+
+	&-descr {
+		padding: 0 2%;
+		white-space: pre-line;
+		font-size: 1.3vw;
+		font-weight: 300;
+		height: 30vh;
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 0.5vw;
+		}
+		&::-webkit-scrollbar-track {
+			border-radius: 0.5vw;
+			border: 0.1vh solid $white;
+			background: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0.5vw;
+			background: $white;
+		}
+	}
+}

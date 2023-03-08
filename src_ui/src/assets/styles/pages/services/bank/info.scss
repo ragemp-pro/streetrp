@@ -1,0 +1,64 @@
+.bank_info {
+	margin-bottom: 6%;
+	padding: 0 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&-name {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.initials {
+			margin-right: 1%;
+			width: 4vw;
+			height: 4vw;
+			border: 0.1vh solid $pink;
+			font-size: 2.4vw;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.fullname {
+			display: flex;
+			font-size: 2.8vw;
+			font-weight: 200;
+
+			span {
+				margin-left: 5%;
+				letter-spacing: 0.08vw;
+
+				&::first-letter {
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
+	&-items {
+		padding-top: 2%;
+		width: 40%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-item {
+		text-align: center;
+		text-transform: uppercase;
+
+		.title {
+			margin: 0;
+			font-size: 1.6vw;
+			font-weight: 200;
+			line-height: 1.1;
+			opacity: 0.4;
+		}
+
+		.value {
+			font-size: 1.6vw;
+		}
+	}
+}

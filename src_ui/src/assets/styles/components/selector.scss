@@ -1,0 +1,38 @@
+.selector {
+	.title {
+		margin: 0;
+		margin-bottom: 3%;
+		text-align: center;
+		font-size: 1.3vw;
+		font-weight: 200;
+	}
+
+	.value {
+		font-size: 1.5vw;
+		font-weight: 200;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $yellow;
+		transition: opacity 0.3s ease;
+
+		&:hover {
+			opacity: 0.7;
+		}
+
+		svg {
+			width: 1.6vw;
+			height: 100%;
+			fill: currentColor;
+		}
+	}
+}

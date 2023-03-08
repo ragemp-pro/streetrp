@@ -1,0 +1,19 @@
+.hud_binds {
+	position: absolute;
+	top: 45%;
+	padding-left: 1%;
+	width: 5%;
+
+	&-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 20%;
+
+		img {
+			width: 2vw;
+			height: 2vw;
+			filter: invert(1);
+		}
+	}
+}

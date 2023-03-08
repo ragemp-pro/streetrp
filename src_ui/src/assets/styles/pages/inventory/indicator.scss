@@ -1,0 +1,47 @@
+.inventory_indicator {
+	width: 35%;
+	padding-left: 2%;
+	display: flex;
+	align-items: center;
+
+	&-info {
+		margin-left: 6%;
+		text-align: center;
+
+		span {
+			font-weight: 200;
+		}
+	}
+
+	&-current {
+		font-weight: 200;
+		color: $yellow;
+	}
+
+	&-title {
+		margin: 0;
+		font-weight: 200;
+		letter-spacing: 0.15vw;
+	}
+
+	&-container {
+		position: relative;
+		width: 3.5vw;
+		height: 3.5vw;
+	}
+
+	&-circle {
+		width: inherit;
+		height: inherit;
+		transform: rotate(180deg);
+	}
+
+	&-icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 1.2vw;
+		height: 1.2vw;
+	}
+}

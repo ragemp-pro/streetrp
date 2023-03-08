@@ -1,0 +1,23 @@
+.hud_hunger {
+	margin-bottom: 2%;
+	width: 2vw;
+	height: 2vw;
+	clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+	text-align: center;
+
+	svg {
+		height: 100%;
+	}
+
+	&.high {
+		display: none;
+	}
+
+	&.low {
+		background: rgba($color: #c71212, $alpha: 0.7);
+	}
+
+	&.medium {
+		background: rgba($color: #eed64b, $alpha: 0.7);
+	}
+}

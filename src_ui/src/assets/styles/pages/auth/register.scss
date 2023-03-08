@@ -1,0 +1,25 @@
+.auth_register {
+	position: relative;
+	padding: 2% 4% 8%;
+	padding-left: 25%;
+	background: url(~assets/images/auth_register-bg.png) no-repeat;
+	background-size: cover;
+
+	form {
+		position: relative;
+		margin-bottom: 2%;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		button[type='submit'] {
+			margin-left: auto;
+			margin-bottom: 3%;
+			width: 30%;
+		}
+	}
+
+	&-title {
+		text-align: right;
+	}
+}

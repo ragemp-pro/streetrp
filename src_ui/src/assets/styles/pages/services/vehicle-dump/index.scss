@@ -1,0 +1,47 @@
+.vehicle-dump {
+	padding: 4% 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	@extend %smoke;
+
+	&_title {
+		margin: 0;
+		z-index: 2;
+	}
+
+	&_container {
+		width: 100%;
+		position: relative;
+		margin-top: -5%;
+		padding: 10% 6% 15%;
+		clip-path: polygon(0 1%, 100% 3%, 96% 99%, 5% 98%);
+		background: url(~assets/images/vehicle-dump_bg.jpg) center no-repeat;
+		background-size: cover;
+	}
+
+	&_info {
+		margin-bottom: 4%;
+
+		&-item {
+			font-weight: 200;
+		}
+
+		b {
+			margin-left: 2%;
+			color: $yellow;
+		}
+	}
+
+	&_footer {
+		margin-top: -5%;
+		padding: 0 5%;
+		padding-left: 6%;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 1;
+	}
+}

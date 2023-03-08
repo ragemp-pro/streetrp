@@ -1,0 +1,38 @@
+{
+	"name": "streetrp-client",
+	"version": "0.1.0",
+	"author": "nicro",
+	"homepage": "https://ragemp.pro",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "webpack --profile --progress --mode development --config webpack.config.js",
+		"build": "cross-env NODE_ENV=production webpack --profile --progress --mode production --config webpack.config.js"
+	},
+	"dependencies": {
+		"keycode": "^2.2.0",
+		"lodash": "^4.17.21",
+		"rage-rpc": "github:Yoegibby/rage-rpc#rage1.1_fixes"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.14.5",
+		"@babel/plugin-proposal-class-properties": "^7.14.5",
+		"@babel/plugin-transform-runtime": "^7.14.5",
+		"@babel/preset-env": "^7.14.5",
+		"@babel/preset-typescript": "^7.14.5",
+		"@babel/runtime": "^7.14.5",
+		"@types/core-js": "^2.5.4",
+		"@types/lodash": "^4.14.170",
+		"@types/node": "^15.12.2",
+		"@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#v1.0",
+		"babel-loader": "^8.2.2",
+		"clean-webpack-plugin": "^4.0.0-alpha.0",
+		"cross-env": "^7.0.3",
+		"javascript-obfuscator": "^2.15.1",
+		"terser-webpack-plugin": "^5.1.3",
+		"tsconfig-paths-webpack-plugin": "^3.5.1",
+		"webpack": "^5.38.1",
+		"webpack-cli": "^4.7.2",
+		"webpack-obfuscator": "3.3.1"
+	}
+}

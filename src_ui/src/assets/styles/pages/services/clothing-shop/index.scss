@@ -1,0 +1,134 @@
+@import './categories';
+@import './color';
+
+.clothing-shop {
+	padding: 2% 28%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	&_container {
+		width: 100%;
+		display: flex;
+	}
+
+	&_main {
+		margin-right: 1%;
+		padding: 0.8vw 1vw;
+		width: 85%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: linear-gradient(
+			30deg,
+			rgba(9, 38, 140, 0.85) 0%,
+			rgba(0, 102, 255, 0.85) 100%
+		);
+		border-radius: 0.5vw;
+	}
+
+	&_buttons {
+		display: flex;
+		flex-direction: column;
+
+		button {
+			padding: 0.3vw 1vw;
+			font-size: 1vw;
+
+			&:first-child {
+				margin-bottom: 2%;
+			}
+		}
+	}
+
+	&_selector {
+		width: 28%;
+
+		.value {
+			font-size: 1.3vw;
+		}
+
+		button {
+			padding: 0.35vw;
+			color: $white;
+			border: 0.1vh solid $white;
+			border-radius: 0.5vw;
+
+			svg {
+				width: 2vw;
+			}
+		}
+	}
+
+	&_price {
+		font-size: 1.5vw;
+		font-weight: 700;
+	}
+
+	div.rc-slider {
+		padding: 6% 0%;
+		height: 0.4vw;
+		border-radius: 0.5vw;
+
+		&-rail {
+			height: inherit;
+			background: $white;
+			border-radius: 0.5vw;
+		}
+
+		&-track {
+			height: inherit;
+			background: $white;
+			border-radius: 0.5vw;
+		}
+
+		&-step {
+			height: inherit;
+		}
+
+		&-handle {
+			margin-top: -0.3vw;
+			width: 1vw;
+			height: 1vw;
+			border-radius: 50%;
+			background: $pink;
+			border: 0.1vh solid $pink;
+
+			&:focus {
+				background-color: $pink;
+				box-shadow: none;
+				border: 0.1vh solid $pink;
+			}
+
+			&:hover {
+				border: 0.1vh solid $pink;
+			}
+
+			&:active {
+				border-color: $pink;
+				box-shadow: 0 0 5px $pink;
+			}
+		}
+	}
+
+	&_hint {
+		position: absolute;
+		top: 0%;
+		left: 1%;
+		width: 20%;
+		display: flex;
+		align-items: center;
+
+		img {
+			width: 3vw;
+			height: 3vw;
+		}
+
+		&-text {
+			margin-left: 2%;
+			text-transform: uppercase;
+			font-size: 0.9vw;
+			font-weight: 300;
+		}
+	}
+}

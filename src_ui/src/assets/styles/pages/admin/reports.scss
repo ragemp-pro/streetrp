@@ -1,0 +1,49 @@
+.admin_reports {
+	&-list {
+		height: 100vh;
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 0.4vw;
+		}
+		&::-webkit-scrollbar-track {
+			border: none;
+			background: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			background: $white;
+		}
+	}
+
+	&-item {
+		position: relative;
+		padding: 1% 2%;
+		padding-right: 6%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-bottom: 0.1vh solid $gray;
+		font-weight: 200;
+	}
+
+	&-message {
+		margin: 0;
+		width: 50%;
+		text-align: center;
+	}
+
+	&-accept {
+		position: absolute;
+		right: 1%;
+
+		&:hover {
+			opacity: 0.5;
+		}
+
+		svg {
+			fill: $yellow;
+			width: 2vw;
+			height: 2vw;
+		}
+	}
+}

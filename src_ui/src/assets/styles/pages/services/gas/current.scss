@@ -1,0 +1,54 @@
+.gas_current {
+	position: relative;
+	width: 22%;
+
+	&-title {
+		position: absolute;
+		top: -10%;
+		left: -25%;
+		margin: 0;
+		z-index: 3;
+	}
+
+	&-container {
+		position: relative;
+		padding: 0 6% 3%;
+		padding-left: 12%;
+		height: 55vh;
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		background: url(~assets/images/gas_info-bg.jpg) center no-repeat;
+		background-size: cover;
+		clip-path: polygon(0 0, 93% 0, 99% 99%, 10% 100%);
+	}
+
+	&-fill {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background: linear-gradient(
+			45deg,
+			rgba(255, 115, 3, 1) 0%,
+			rgba(255, 115, 3, 1) 27%,
+			rgba(255, 149, 17, 1) 72%
+		);
+		opacity: 0.85;
+		z-index: -1;
+	}
+
+	&-percent {
+		font-size: 2.2vw;
+	}
+
+	&-type {
+		text-align: center;
+
+		h4 {
+			margin: 0;
+			font-size: 1vw;
+			font-weight: 200;
+		}
+	}
+}

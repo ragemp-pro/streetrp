@@ -1,0 +1,122 @@
+{
+	"use_phone": {
+		"anim": "phone_press",
+		"attachment": "phone",
+		"duration": -1
+	},
+	"use_tablet": {
+		"anim": "hold_tablet",
+		"attachment": "tablet",
+		"duration": -1
+	},
+	"phone_call": {
+		"anim": "phone_listen",
+		"attachment": "phone",
+		"duration": -1
+	},
+	"veh_lockpick": {
+		"anim": "picking_lock",
+		"attachment": "lockpick",
+		"duration": -1
+	},
+	"give_docs": {
+		"anim": "taking_from_pocket",
+		"attachment": "docs",
+		"duration": 1800
+	},
+	"lock_vehicle": {
+		"anim": "carkey_press",
+		"attachment": "car_key",
+		"duration": 1000
+	},
+	"eat_burger": {
+		"anim": "eating",
+		"attachment": "burger",
+		"duration": 6000
+	},
+	"eat_donut": {
+		"anim": "eating",
+		"attachment": "donut",
+		"duration": 6000
+	},
+	"eat_chocolate": {
+		"anim": "eating",
+		"attachment": "chocolate",
+		"duration": 6000
+	},
+	"eat_soda": {
+		"anim": "drinking",
+		"attachment": "soda",
+		"duration": 6000
+	},
+	"smoke_cigarette": {
+		"anim": "smoking",
+		"attachment": "cigarette",
+		"duration": 35000
+	},
+	"drink_beer": {
+		"anim": "drinking_alco",
+		"attachment": "beer",
+		"duration": 5500
+	},
+	"drink_wine": {
+		"anim": "drinking_alco",
+		"attachment": "wine",
+		"duration": 5500
+	},
+	"drink_whiskey": {
+		"anim": "drinking_alco",
+		"attachment": "whiskey",
+		"duration": 5500
+	},
+	"drink_vodka": {
+		"anim": "drinking_alco",
+		"attachment": "vodka",
+		"duration": 5500
+	},
+	"use_bandage": {
+		"anim": "bandaging",
+		"attachment": "bandage",
+		"duration": 4000
+	},
+	"use_medkit": {
+		"anim": "healing",
+		"attachment": "medkit",
+		"duration": 7000
+	},
+	"refuel": {
+		"anim": "refueling",
+		"attachment": "jerrycan",
+		"duration": 5000
+	},
+	"repair_veh": {
+		"anim": "picking_lock",
+		"attachment": "repair_kit",
+		"duration": 5000
+	},
+	"drop_package": {
+		"anim": "pickup",
+		"attachment": "package",
+		"duration": 1500
+	},
+	"arrested": {
+		"anim": "arrest",
+		"attachment": "cuffs",
+		"duration": -1
+	},
+	"tied": {
+		"anim": "arrest",
+		"attachment": "cable_tie",
+		"duration": -1
+	},
+  "fishing": {
+    "anim": "fishing_wait",
+    "attachment": "rod",
+    "duration": -1
+  },
+  "fishing_active": {
+    "anim": "fishing_take",
+    "attachment": "rod",
+    "duration": -1
+  }
+}

@@ -1,0 +1,52 @@
+@import './balance';
+@import './product';
+
+.donation {
+	position: fixed !important;
+	left: 0;
+	top: 0;
+	padding: 0 10%;
+	padding-top: 0 !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Oswald';
+	z-index: 20;
+
+	background: url(~assets/images/donation_bg.jpg) center no-repeat;
+	background-size: cover;
+
+	&_container {
+		margin-bottom: 2%;
+		padding: 1% 3% 2%;
+		background: url(~assets/images/donation_inner-bg.jpg) center no-repeat;
+		background-size: cover;
+	}
+
+	&_products {
+		padding-right: 2%;
+		height: 33vw;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 0.5vw;
+		}
+		&::-webkit-scrollbar-track {
+			border-radius: 0.5vw;
+			border: 0.1vh solid $white;
+			background: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0.5vw;
+			background: $white;
+		}
+	}
+
+	&_close {
+		font-size: 1.5vw;
+	}
+}

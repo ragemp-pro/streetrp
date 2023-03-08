@@ -1,0 +1,25 @@
+.hud_location {
+	padding-left: 0.5%;
+	text-transform: uppercase;
+
+	&--green &-street {
+		color: #3ce845;
+	}
+
+	&-street {
+		margin: 0;
+		font-size: 1.3vw;
+		font-weight: 700;
+		line-height: 1.4;
+		color: $pink;
+		text-shadow: $black 0.05vw 0.05vw 0.1vw;
+	}
+
+	&-zone {
+		margin: 0;
+		font-size: 1vw;
+		font-weight: 400;
+		line-height: 1;
+		text-shadow: $black 0.05vw 0.05vw 0.1vw;
+	}
+}

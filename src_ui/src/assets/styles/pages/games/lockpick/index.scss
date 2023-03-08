@@ -1,0 +1,82 @@
+@import './circle';
+
+.lockpick {
+	padding: 0 4%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+
+	&_container {
+		position: relative;
+		margin-top: -5%;
+		padding: 4% 6%;
+		padding-top: 10%;
+		clip-path: polygon(0 1%, 100% 3%, 96% 99%, 5% 98%);
+		background: url(~assets/images/car-theft_bg.jpg) center no-repeat;
+		background-size: cover;
+	}
+
+	&_title {
+		margin: 0;
+		margin-left: 2%;
+		z-index: 1;
+	}
+
+	&_info {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-weight: 200;
+
+		b {
+			color: $yellow;
+			font-weight: 200;
+		}
+	}
+
+	&_locks {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		z-index: 1;
+
+		&-list {
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			width: 20%;
+		}
+
+		&-item {
+			&.active {
+				color: $yellow;
+			}
+
+			svg {
+				width: 2vw;
+				height: 2vw;
+				fill: currentColor;
+			}
+		}
+	}
+
+	&_close {
+		margin: 0 auto;
+		margin-top: -2%;
+		z-index: 1;
+	}
+}
+
+@keyframes rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

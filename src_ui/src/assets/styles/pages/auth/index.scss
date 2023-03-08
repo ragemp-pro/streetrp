@@ -1,0 +1,124 @@
+@import './login';
+@import './register';
+@import './confirm';
+
+.auth {
+	height: 100%;
+	padding: 4vw 15vw;
+	background: url(~assets/images/city.jpg) center no-repeat;
+	background-size: cover;
+
+	&_title {
+		text-align: right;
+		padding-left: 20%;
+		line-height: 1.2;
+	}
+
+	&_form-group {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&_field {
+		position: relative;
+		margin-bottom: 5%;
+
+		&-title {
+			margin: 0;
+			font-weight: 200;
+			line-height: 2;
+			text-transform: uppercase;
+		}
+
+		&-input {
+			position: relative;
+		}
+
+		input {
+			padding: 1.2vw 2vw;
+			width: 100%;
+			display: block;
+			outline: none;
+			border: 0.1vh solid #dadbdb;
+			border-radius: 0.5vw;
+			font-family: inherit;
+			font-size: 1.2vw;
+			box-shadow: 0.15vw 0.15vw 0.5vw 0.1vw rgba(0, 0, 0, 0.2);
+			transition: filter ease 0.3s;
+
+			&:hover {
+				filter: brightness(0.9);
+			}
+
+			&:focus {
+				filter: none;
+			}
+
+			&::placeholder {
+				color: #d0d0d0;
+				font-weight: 300;
+				text-transform: uppercase;
+			}
+		}
+
+		&-reset {
+			position: absolute;
+			top: 50%;
+			right: 2%;
+			transform: translateY(-50%);
+			width: 2vw;
+			height: 2vw;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #e3b9b9;
+			border-radius: 0.5vw;
+
+			&:hover {
+				opacity: 0.8;
+			}
+
+			svg {
+				width: 2.5vw;
+				height: 2.5vw;
+				fill: $pink;
+			}
+		}
+
+		&-error {
+			position: absolute;
+			bottom: -50%;
+			right: 0;
+			text-align: right;
+			white-space: nowrap;
+			font-weight: 200;
+			text-transform: uppercase;
+			text-shadow: #922020 0.1vw 0.1vw 0.6vw;
+			color: #ff0000;
+		}
+	}
+
+	&_form-part {
+		position: absolute;
+		top: 40%;
+		right: 0;
+		transform: translateY(-50%);
+		width: 30%;
+	}
+
+	&_form-container {
+		width: 60%;
+	}
+
+	&_forgot {
+		padding-bottom: 12%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.auth {
+		padding: 12vw 14vw;
+	}
+}

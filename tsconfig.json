@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"lib": ["esnext", "es2019"],
+		"moduleResolution": "node",
+		"module": "esnext",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true
+	},
+	"exclude": ["src_ui"]
+}

@@ -1,0 +1,87 @@
+.phone_keypad {
+	position: relative;
+	padding: 10% 8% 0;
+	background: $black;
+
+	&-value {
+		position: absolute;
+		left: 0;
+		padding: 0 6%;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 1.7vw;
+		text-align: center;
+	}
+
+	&-list {
+		padding-top: 30%;
+		margin-bottom: 4%;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&-item {
+		margin-bottom: 4%;
+		width: 4vw;
+		height: 4vw;
+		border-radius: 50%;
+		background: #323334;
+		font-size: 1.7vw;
+		line-height: 2.2;
+		text-align: center;
+
+		&:first-child {
+			margin: 0 auto;
+			order: 1;
+		}
+
+		&:hover {
+			filter: brightness(2);
+		}
+	}
+
+	&-controls {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-submit {
+		margin: 0 auto;
+		width: 4vw;
+		height: 4vw;
+		border-radius: 50%;
+		background: #27d158;
+
+		svg {
+			width: 2.5vw;
+			height: 100%;
+			fill: #fff;
+		}
+
+		&:hover {
+			filter: brightness(0.8);
+		}
+	}
+
+	&-delete {
+		position: absolute;
+		right: 0;
+		width: 2.5vw;
+		height: 2.5vw;
+
+		svg {
+			width: inherit;
+			height: 100%;
+			fill: #505050;
+		}
+
+		&:hover {
+			filter: invert(1);
+		}
+	}
+}

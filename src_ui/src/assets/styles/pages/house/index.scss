@@ -1,0 +1,290 @@
+.house {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@extend %smoke;
+
+	&_container {
+		position: relative;
+		padding: 2% 12%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	&_quality {
+		margin-bottom: auto;
+		padding-top: 1%;
+		display: flex;
+
+		&-item {
+			position: relative;
+			margin-right: 2%;
+			padding-left: 2%;
+			padding-bottom: 8%;
+			width: 3vw;
+			height: 9.4vw;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			clip-path: polygon(0 0, 90% 2%, 100% 100%, 14% 91%);
+			transform: rotate(-4deg);
+			background: linear-gradient(-120deg, rgb(255, 248, 59) 0%, rgb(255, 108, 0) 100%);
+
+			&.disabled {
+				filter: grayscale(1);
+			}
+
+			&:first-child {
+				height: 7.5vw;
+			}
+
+			&:nth-child(2) {
+				height: 8.1vw;
+			}
+
+			&:nth-child(3) {
+				height: 8.8vw;
+			}
+		}
+	}
+
+	&_main {
+		position: relative;
+		padding: 0 4%;
+		padding-bottom: 10%;
+		width: 30%;
+		max-height: 50%;
+
+		& > * {
+			position: relative;
+			z-index: 1;
+		}
+
+		&::before {
+			@extend %pseudo;
+
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			clip-path: polygon(0 0, 83% 2%, 99% 97%, 18% 100%);
+			background: url(~assets/images/house_main-bg.jpg) center no-repeat;
+			background-size: cover;
+			z-index: 0;
+		}
+
+		&-title {
+			position: relative;
+			margin-top: -12%;
+			margin-left: -10%;
+			word-spacing: 0.7vw;
+			white-space: nowrap;
+
+			&::before {
+				@extend %pseudo;
+
+				top: 40%;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 1.2vw;
+				height: 1.2vw;
+				border-radius: 50%;
+				background: $yellow;
+			}
+		}
+	}
+
+	&_padlock {
+		margin-bottom: 20%;
+		padding-top: 30%;
+
+		&-icon {
+			margin: 0 auto;
+			display: flex;
+			width: 8vw;
+			height: 8vw;
+			background: rgba($color: #000000, $alpha: 0.2);
+
+			svg {
+				margin: auto;
+				width: inherit;
+				height: inherit;
+				fill: $yellow;
+				transition: fill 0.3s ease;
+
+				&:hover {
+					fill: $white;
+				}
+			}
+		}
+
+		&-remark {
+			text-align: center;
+			font-size: 1vw;
+			font-weight: 200;
+		}
+	}
+
+	&_options {
+		padding-left: 20%;
+
+		img {
+			width: 2.2vw;
+			height: 2.2vw;
+			filter: invert(1);
+		}
+
+		&-item {
+			margin-bottom: 6%;
+			display: flex;
+			align-items: center;
+
+			span {
+				margin-left: 5%;
+				font-size: 1vw;
+				font-weight: 200;
+				text-transform: uppercase;
+			}
+
+			b {
+				color: $yellow;
+			}
+		}
+	}
+
+	&_info {
+		position: relative;
+		margin-left: -2%;
+		padding: 0 5%;
+		padding-bottom: 8%;
+		width: 60%;
+
+		& > * {
+			position: relative;
+			z-index: 1;
+		}
+
+		&::before {
+			@extend %pseudo;
+
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			clip-path: polygon(0 3%, 94% 0, 100% 100%, 6% 99%);
+			background: url(~assets/images/house_info-bg.jpg) center no-repeat;
+			background-size: cover;
+			z-index: 0;
+		}
+
+		&-container {
+			margin-bottom: 10%;
+		}
+
+		&-item {
+			position: relative;
+			margin-bottom: 2%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			border-bottom: 0.1vh solid $purple;
+
+			&--main {
+				margin: 0 auto;
+				width: 90%;
+
+				h4 {
+					font-size: 1.7vw;
+					font-weight: 700;
+				}
+			}
+		}
+
+		&-name {
+			margin: 0;
+			font-size: 1.3vw;
+			font-weight: 200;
+		}
+
+		&-value {
+			font-size: 1.7vw;
+			font-weight: 700;
+		}
+
+		&-remark {
+			position: absolute;
+			bottom: -80%;
+			right: 0;
+			margin: 0;
+			font-size: 1vw;
+			font-weight: 200;
+		}
+	}
+
+	&_buttons {
+		position: absolute;
+		bottom: 0;
+		left: 40%;
+		width: 45%;
+		display: flex;
+		justify-content: space-between;
+
+		button {
+			width: 30%;
+			font-size: 1.5vw;
+		}
+	}
+
+	&_confirm {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		display: flex;
+		background: rgba($black, $alpha: 0.4);
+
+		&-container {
+			margin: auto;
+			padding: 1% 4%;
+			width: 40%;
+			background: linear-gradient(
+				45deg,
+				rgba(17, 15, 46, 0.95) 0%,
+				rgba(24, 69, 137, 0.95) 100%
+			);
+			clip-path: polygon(0 0, 100% 2%, 93% 99%, 8% 100%);
+			z-index: 3;
+			text-align: center;
+		}
+
+		&-title {
+			margin: 0 auto;
+			line-height: 1.2;
+		}
+
+		&-remark {
+			margin: 8% 0;
+			font-weight: 200;
+
+			b {
+				font-weight: inherit;
+				color: $yellow;
+			}
+		}
+
+		&-buttons {
+			padding: 0 4%;
+			display: flex;
+			justify-content: space-between;
+
+			button {
+				padding: 0.7vw 2vw;
+				width: 40%;
+				font-size: 1.2vw;
+			}
+		}
+	}
+}

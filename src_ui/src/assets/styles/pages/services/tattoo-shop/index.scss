@@ -1,0 +1,81 @@
+@import './categories';
+
+.tattoo-shop {
+	padding: 2% 28%;
+	display: flex;
+	align-items: flex-end;
+
+	&_container {
+		width: 100%;
+	}
+
+	&_main {
+		margin-right: 1%;
+		padding: 2% 2.5%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: linear-gradient(
+			30deg,
+			rgba(9, 38, 140, 0.85) 0%,
+			rgba(0, 102, 255, 0.85) 100%
+		);
+		border-radius: 0.5vw;
+	}
+
+	&_buttons {
+		display: flex;
+		flex-direction: column;
+
+		button {
+			&:not(:last-child) {
+				padding: 0.5vw 2vw;
+				font-size: 1vw;
+				margin-bottom: 3%;
+			}
+		}
+	}
+
+	&_selector {
+		width: 28%;
+
+		.value {
+			font-size: 1.3vw;
+		}
+
+		button {
+			padding: 0.35vw;
+			color: $white;
+			border: 0.1vh solid $white;
+			border-radius: 0.5vw;
+
+			svg {
+				width: 2vw;
+			}
+		}
+	}
+
+	&_price {
+		font-size: 1.5vw;
+		font-weight: 700;
+	}
+
+	&_hint {
+		position: absolute;
+		top: 0;
+		left: 1%;
+		width: 20%;
+
+		img {
+			width: 3vw;
+			height: 3vw;
+		}
+
+		span {
+			margin-left: 2%;
+			text-transform: uppercase;
+			font-size: 0.9vw;
+			font-weight: 300;
+		}
+	}
+}

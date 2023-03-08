@@ -1,0 +1,205 @@
+[
+	{
+		"name": "wood_bar",
+		"model": "brevno_work",
+		"bone": 28422,
+		"offset": { "x": 0, "y": -0.15, "z": -0.05 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "weld_torch",
+		"model": "prop_weld_torch",
+		"bone": 28422,
+		"offset": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "card_box",
+		"model": "ng_proc_box_01a",
+		"bone": 28422,
+		"offset": { "x": 0, "y": -0.18, "z": -0.18 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "notepad",
+		"model": "prop_notepad_01",
+		"bone": 60309,
+		"offset": { "x": -0.02, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "lockpick",
+		"model": "p_car_keys_01",
+		"bone": 28422,
+		"offset": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "bucket",
+		"model": "prop_bucket_01a",
+		"bone": 4089,
+		"offset": { "x": 0.2, "y": -0.37, "z": 0.2 },
+		"rotation": { "x": -85.0, "y": 0, "z": 20.0 }
+	},
+	{
+		"name": "docs",
+		"model": "prop_passport_01",
+		"bone": 28422,
+		"offset": { "x": -0.02, "y": -0.01, "z": -0.01 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "phone",
+		"model": "p_cs_cam_phone",
+		"bone": 28422,
+		"offset": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 30 }
+	},
+	{
+		"name": "tablet",
+		"model": "prop_cs_tablet",
+		"bone": 28422,
+		"offset": { "x": -0.05, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "car_key",
+		"model": "lr_prop_carkey_fob",
+		"bone": 28422,
+		"offset": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "fork_container",
+		"model": "prop_container_03a",
+		"bone": "frame_2",
+		"offset": { "x": 0, "y": 1.69, "z": -2.8 },
+		"rotation": { "x": 0, "y": 0, "z": 90 }
+	},
+	{
+		"name": "fork_box",
+		"model": "prop_box_wood07a",
+		"bone": "forks_attach",
+		"offset": { "x": 0, "y": 0.075, "z": 0.075 },
+		"rotation": { "x": 0, "y": 0, "z": 90 }
+	},
+	{
+		"name": "burger",
+		"model": "prop_cs_burger_01",
+		"bone": 18905,
+		"offset": { "x": 0.13, "y": 0.05, "z": 0.02 },
+		"rotation": { "x": -50.0, "y": 16.0, "z": 60.0 }
+	},
+	{
+		"name": "chocolate",
+		"model": "prop_choc_meto",
+		"bone": 60309,
+		"offset": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "donut",
+		"model": "prop_donut_02",
+		"bone": 18905,
+		"offset": { "x": 0.13, "y": 0.05, "z": 0.02 },
+		"rotation": { "x": -50.0, "y": 16.0, "z": 60.0 }
+	},
+	{
+		"name": "soda",
+		"model": "prop_ecola_can",
+		"bone": 18905,
+		"offset": { "x": 0.15, "y": 0.022, "z": 0.01 },
+		"rotation": { "x": 255.0, "y": 0.0, "z": 0.0 }
+	},
+	{
+		"name": "cigarette",
+		"model": "ng_proc_cigarette01a",
+		"bone": 28422,
+		"offset": { "x": 0, "y": 0, "z": 0.01 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "beer",
+		"model": "prop_sh_beer_pissh_01",
+		"bone": 28422,
+		"offset": { "x": 0.012, "y": 0.028, "z": -0.1 },
+		"rotation": { "x": 5, "y": 0, "z": 0 }
+	},
+	{
+		"name": "wine",
+		"model": "prop_wine_bot_01",
+		"bone": 28422,
+		"offset": { "x": 0.013, "y": 0.028, "z": -0.2 },
+		"rotation": { "x": 5, "y": 0, "z": 0 }
+	},
+	{
+		"name": "whiskey",
+		"model": "prop_whiskey_bottle",
+		"bone": 28422,
+		"offset": { "x": 0.013, "y": 0.01, "z": -0.1 },
+		"rotation": { "x": 5, "y": 0, "z": 0 }
+	},
+	{
+		"name": "vodka",
+		"model": "prop_vodka_bottle",
+		"bone": 28422,
+		"offset": { "x": 0.013, "y": 0.028, "z": -0.2 },
+		"rotation": { "x": 5, "y": 0, "z": 0 }
+	},
+	{
+		"name": "bandage",
+		"model": "prop_gaffer_arm_bind",
+		"bone": 36029,
+		"offset": { "x": -0.04, "y": 0, "z": -0.01 },
+		"rotation": { "x": 160, "y": 0, "z": 90 }
+	},
+	{
+		"name": "medkit",
+		"model": "prop_ld_health_pack",
+		"bone": 36029,
+		"offset": { "x": 0.03, "y": 0.01, "z": 0.12 },
+		"rotation": { "x": 180, "y": -10, "z": 90 }
+	},
+	{
+		"name": "jerrycan",
+		"model": "prop_jerrycan_01a",
+		"bone": 60309,
+		"offset": { "x": 0, "y": 0.1, "z": 0.5 },
+		"rotation": { "x": 364, "y": 180, "z": 90 }
+	},
+	{
+		"name": "repair_kit",
+		"model": "prop_cs_wrench",
+		"bone": 28422,
+		"offset": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	{
+		"name": "package",
+		"model": "prop_drug_package_02",
+		"bone": 60309,
+		"offset": { "x": 0.03, "y": 0, "z": 0.02 },
+		"rotation": { "x": 0, "y": 0, "z": 50 }
+	},
+	{
+		"name": "cuffs",
+		"model": "p_cs_cuffs_02_s",
+		"bone": 6286,
+		"offset": { "x": -0.02, "y": 0.063, "z": 0 },
+		"rotation": { "x": 75.0, "y": 0, "z": 76.0 }
+	},
+	{
+		"name": "cable_tie",
+		"model": "hei_prop_zip_tie_positioned",
+		"bone": 6286,
+		"offset": { "x": -0.02, "y": 0.063, "z": 0 },
+		"rotation": { "x": 75.0, "y": 0, "z": 76.0 }
+	},
+  {
+    "name": "rod",
+    "model": "prop_fishing_rod_01",
+    "bone": 60309,
+    "offset": { "x": 0.03, "y": 0, "z": 0.02 },
+    "rotation": { "x": 0, "y": 0, "z": 50 }
+  }
+]

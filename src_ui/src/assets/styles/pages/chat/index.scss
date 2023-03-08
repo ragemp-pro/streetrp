@@ -1,0 +1,32 @@
+@import './messages';
+@import './form';
+
+.chat {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1%;
+	padding-left: 0.5%;
+	width: 25%;
+	transition: opacity 0.3s ease;
+
+	&.active {
+		opacity: 1 !important;
+
+		ul {
+			margin-left: -1%;
+
+			&::-webkit-scrollbar {
+				width: 0.25vw;
+				overflow: hidden;
+			}
+			&::-webkit-scrollbar-track {
+				background: rgba($white, $alpha: 0.3);
+			}
+			&::-webkit-scrollbar-thumb {
+				border-radius: 0.5vw;
+				background: #fce638;
+			}
+		}
+	}
+}

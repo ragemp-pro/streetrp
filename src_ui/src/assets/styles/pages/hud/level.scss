@@ -1,0 +1,56 @@
+.hud_level {
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+
+	&-current {
+		width: 2.5vw;
+		height: 2vw;
+		background: $purple;
+		text-align: center;
+		font-weight: 700;
+		transform: skew(10deg);
+	}
+
+	&-progress {
+		position: relative;
+		width: 90%;
+	}
+
+	.bar {
+		position: relative;
+		transform: skewX(10deg);
+		width: 100%;
+		display: flex;
+
+		&_part {
+			margin-right: 3px;
+			width: 20%;
+			height: 1.5vh;
+			color: $yellow;
+			background-color: rgba($white, $alpha: 0.65);
+
+			&::-webkit-progress-bar {
+				background-color: rgba($white, $alpha: 0.65);
+			}
+			&::-webkit-progress-value {
+				background-color: $yellow;
+			}
+		}
+	}
+
+	&-fill {
+		background-size: cover;
+		height: 2.5vh;
+	}
+
+	&-exp {
+		text-align: right;
+		font-size: 1vw;
+		text-shadow: 0px 0px 0.25vw rgba(0, 0, 0, 0.28);
+	}
+}

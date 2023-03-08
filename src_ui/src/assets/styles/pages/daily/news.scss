@@ -1,0 +1,89 @@
+.daily_news {
+	position: relative;
+	width: 72%;
+	z-index: 2;
+
+	> div {
+		height: 100%;
+		background-size: cover;
+		clip-path: polygon(0 3%, 100% 1%, 95% 100%, 11% 95%);
+
+		.title {
+			margin-bottom: 15%;
+			line-height: 1;
+			color: #ff0082;
+		}
+	}
+
+	&-title {
+		position: absolute;
+		left: -2%;
+		z-index: 1;
+	}
+
+	&-update {
+		padding: 5% 5% 5%;
+		padding-left: 15%;
+		background: url(~assets/images/daily_update-bg.jpg) center no-repeat;
+		text-transform: uppercase;
+
+		.title {
+			margin-top: 18%;
+			font-size: 5vw;
+
+			b {
+				font-size: 10vw;
+				color: $white;
+			}
+		}
+
+		.description {
+			margin: 0;
+			font-weight: 200;
+			text-align: right;
+		}
+	}
+
+	&-donation {
+		padding: 15% 10% 2%;
+		padding-right: 8%;
+		background: url(~assets/images/daily_donation-bg.jpg) center no-repeat;
+		text-transform: uppercase;
+
+		.title {
+			font-size: 9vw;
+
+			b {
+				color: #fce638;
+			}
+		}
+
+		.description {
+			font-weight: 200;
+			text-align: right;
+		}
+	}
+
+	&-cars {
+		padding: 15% 10% 4%;
+		padding-right: 8%;
+		background: url(~assets/images/daily_cars-bg.jpg) center no-repeat;
+		text-transform: uppercase;
+		text-align: center;
+
+		.title {
+			padding-right: 25%;
+			font-size: 4.5vw;
+
+			b {
+				font-size: 9vw;
+				color: $white;
+			}
+		}
+
+		.description {
+			font-weight: 200;
+			text-align: right;
+		}
+	}
+}

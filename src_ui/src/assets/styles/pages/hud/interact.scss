@@ -1,0 +1,33 @@
+.hud_interact {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+
+	&::before {
+		@extend %pseudo;
+
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.25);
+		filter: blur(1vw);
+	}
+
+	&-key {
+		position: relative;
+		margin-right: 4%;
+		width: 2.5vw;
+		height: 2vw;
+		border: 0.15vw solid rgba($white, $alpha: 0.6);
+		text-align: center;
+		font-weight: 700;
+		transform: skew(-10deg);
+	}
+
+	&-action {
+		opacity: 0.6;
+	}
+}

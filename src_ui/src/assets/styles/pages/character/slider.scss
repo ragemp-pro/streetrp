@@ -1,0 +1,53 @@
+.character_slider {
+	padding: 2% 8%;
+	margin-bottom: 6%;
+	border-radius: 0.5vw;
+	background: rgba($color: #000000, $alpha: 0.3);
+
+	div.rc-slider {
+		margin-bottom: 2%;
+		padding: 6% 0%;
+		height: 0.3vw;
+		border-radius: 0.5vw;
+
+		&-rail {
+			height: inherit;
+			background: rgba($color: #ababab, $alpha: 0.3);
+			border-radius: 0.5vw;
+		}
+
+		&-track {
+			height: inherit;
+			background-color: rgba($color: #ababab, $alpha: 0.3);
+			border-radius: 0.5vw;
+		}
+
+		&-step {
+			height: inherit;
+		}
+
+		&-handle {
+			margin-top: -0.7vw;
+			width: 1.2em;
+			height: 1.2em;
+			border-radius: 50%;
+			background: $yellow;
+			border: 0.1vh solid $yellow;
+
+			&:focus {
+				background-color: $yellow;
+				box-shadow: none;
+				border: 0.1vh solid $yellow;
+			}
+
+			&:hover {
+				border: 0.1vh solid $yellow;
+			}
+
+			&:active {
+				border-color: $yellow;
+				box-shadow: 0 0 0.3vw $yellow;
+			}
+		}
+	}
+}

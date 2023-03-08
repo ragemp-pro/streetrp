@@ -1,0 +1,45 @@
+@import './wallpaper';
+
+#settings {
+	.settings {
+		padding-top: 25%;
+		background: $black;
+
+		&_main-title {
+			padding-left: 4%;
+		}
+
+		&_tabs {
+			margin-top: 2%;
+
+			&-item {
+				&::after {
+					width: 83%;
+				}
+
+				&:last-of-type::after {
+					width: 100%;
+				}
+			}
+
+			&-title {
+				margin: 0;
+				font-weight: 300;
+				font-size: 0.9vw;
+			}
+
+			&-icon {
+				padding: 0.5%;
+				margin-right: 4%;
+				width: 1.5vw;
+				height: 1.5vw;
+				border-radius: 0.2vw;
+
+				svg {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}

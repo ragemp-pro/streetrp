@@ -1,0 +1,56 @@
+.admin_tabs {
+	display: flex;
+	justify-content: space-between;
+
+	&-nav {
+		width: 22%;
+	}
+
+	&-nav-list {
+		position: relative;
+		padding-top: 2%;
+		margin-right: 5%;
+		height: 100vh;
+		background: linear-gradient(
+			180deg,
+			rgba($purple, $alpha: 0.5) 0%,
+			rgba($gray, $alpha: 0.5) 100%
+		);
+	}
+
+	&-tab {
+		padding: 2% 8%;
+		font-size: 1.3vw;
+		font-weight: 300;
+		outline: none;
+		border-bottom: 0.1vh solid #000;
+		font-weight: 200;
+		text-transform: uppercase;
+		transition: opacity 0.2s ease;
+
+		&:hover {
+			opacity: 0.5;
+		}
+
+		&-active {
+			opacity: 0.5;
+		}
+
+		&-btn {
+			outline: none;
+		}
+	}
+
+	&-content-holder {
+		width: 72%;
+		background: linear-gradient(
+			180deg,
+			rgba($purple, $alpha: 0.4) 0%,
+			rgba($gray, $alpha: 0.5) 100%
+		);
+	}
+
+	&-tabpane {
+		outline: none;
+	}
+}

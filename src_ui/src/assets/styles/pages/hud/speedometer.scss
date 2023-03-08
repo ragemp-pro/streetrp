@@ -1,0 +1,116 @@
+.speedometer {
+	position: relative;
+	padding-right: 15%;
+	width: 55%;
+	opacity: 0.5;
+	transition: opacity 0.3s ease;
+
+	&.active {
+		opacity: 1;
+	}
+
+	&_velocity {
+		padding: 1%;
+		padding-bottom: 10%;
+		text-align: right;
+		opacity: 0.95;
+		font-size: 3.8vw;
+		font-weight: 300;
+		line-height: 1.1;
+
+		h5 {
+			padding-right: 2%;
+			margin: 0;
+			font-size: 1vw;
+			font-weight: 200;
+			opacity: 0.8;
+		}
+	}
+
+	&_controls {
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-bottom: 18%;
+		display: flex;
+		justify-content: space-between;
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			&.active .icon {
+				fill: #fce638;
+			}
+		}
+	}
+
+	.icon {
+		margin-bottom: 12%;
+		width: 1.4vw;
+		height: 1.4vw;
+		fill: $white;
+	}
+
+	&_rpm {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 14vw;
+		height: 14vw;
+		opacity: 1;
+
+		&-fill {
+			position: absolute;
+			width: inherit;
+			height: inherit;
+			transform: rotate(40deg);
+
+			&:first-of-type {
+				top: -0.42vw;
+				left: 0.48vw;
+				width: calc(100% - 0.95vw);
+				height: calc(100% + 0.85vw);
+			}
+		}
+	}
+
+	&_fuel {
+		position: absolute;
+		top: -42%;
+		left: -10%;
+		width: 16vw;
+		height: 16vw;
+
+		&-fill {
+			transform: rotate(-45deg);
+		}
+
+		&-icon {
+			position: absolute;
+			top: 55%;
+			fill: $pink;
+		}
+	}
+
+	&_engine {
+		position: absolute;
+		top: -35%;
+		right: -7%;
+		width: 16vw;
+		height: 16vw;
+
+		&-fill {
+			transform: rotate(40deg);
+		}
+
+		&-icon {
+			position: absolute;
+			top: 50%;
+			right: -4%;
+			width: 1.5vw;
+			height: 1.5vw;
+			fill: $purple;
+		}
+	}
+}

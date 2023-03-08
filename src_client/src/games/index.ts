@@ -1,0 +1,2 @@
+import './lockpick';
+import './fishing';

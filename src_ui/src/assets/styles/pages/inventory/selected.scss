@@ -1,0 +1,64 @@
+.inventory_selected {
+	position: absolute;
+	margin-top: 5%;
+	margin-left: -5%;
+	width: 16%;
+	background: #eaefee;
+	box-shadow: 0 0.15vw 0.6vw 0.15vw rgba($white, $alpha: 0.3);
+	z-index: 3;
+
+	&-weight {
+		padding: 0 4%;
+		text-align: right;
+		font-size: 0.9vw;
+		color: #a8a8a8;
+	}
+
+	&-name {
+		padding: 2% 4%;
+		background: $pink;
+		text-transform: uppercase;
+	}
+
+	&-buttons {
+		position: relative;
+		display: flex;
+
+		button {
+			padding: 1%;
+			padding-top: 2%;
+			width: 50%;
+			color: #3a3c3b;
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 0.8vw;
+			transition: color 0.2s ease;
+
+			&:disabled {
+				opacity: 0.6;
+			}
+
+			&:hover:enabled {
+				color: $pink;
+			}
+		}
+
+		&::after {
+			@extend %pseudo;
+
+			top: 0;
+			left: 50%;
+			width: 1px;
+			height: 100%;
+			background: $pink;
+		}
+	}
+
+	svg {
+		margin: 0 auto;
+		display: block;
+		width: 3vw;
+		height: 3vw;
+		fill: currentColor;
+	}
+}

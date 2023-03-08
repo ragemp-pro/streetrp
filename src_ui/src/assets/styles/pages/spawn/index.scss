@@ -1,0 +1,95 @@
+.spawn {
+	padding: 4vw 2vw;
+	display: flex;
+	justify-content: space-between;
+	background: url(~assets/images/city.jpg) center no-repeat;
+	background-size: cover;
+	height: 100%;
+
+	&_title {
+		margin-top: 0;
+	}
+
+	&_submit {
+		width: 60%;
+		font-size: 1.5vw;
+	}
+
+	&_item {
+		min-height: 100%;
+		padding: 2%;
+		padding-bottom: 5%;
+		width: 35%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		background: url(~assets/images/spawn_exit.jpg) center no-repeat;
+		background-size: cover;
+
+		&.disabled {
+			filter: grayscale(1);
+			pointer-events: none;
+
+			.spawn_selector {
+				display: none;
+			}
+		}
+
+		&--exit {
+			padding-left: 3%;
+			clip-path: polygon(5% 0, 96% 6%, 99% 98%, 18% 100%);
+
+			.spawn_title {
+				text-align: left;
+			}
+
+			.spawn_submit {
+				margin-left: 14%;
+			}
+		}
+
+		&--house {
+			background: url(~assets/images/spawn_house.jpg) center no-repeat;
+			background-size: cover;
+			clip-path: polygon(3% 0, 98% 1%, 95% 98%, 4% 95%);
+			text-align: center;
+		}
+
+		&--org {
+			padding-right: 0;
+			background: url(~assets/images/spawn_org.jpg) center no-repeat;
+			background-size: cover;
+			clip-path: polygon(7% 4%, 100% 0, 95% 95%, 0 100%);
+			text-align: right;
+		}
+
+		&--start {
+			background: url(~assets/images/spawn_start.jpg) center no-repeat;
+			background-size: cover;
+			clip-path: polygon(6% 3%, 98% 5%, 96% 100%, 0 95%);
+			text-align: right;
+		}
+	}
+
+	&_selector {
+		margin-bottom: 4%;
+		width: 70%;
+
+		.title {
+			margin-bottom: 5%;
+		}
+
+		.container {
+			padding: 0.5vw 1vw;
+			border-radius: 0.5vw;
+			border: 0.1vh solid #fff;
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.spawn {
+		padding: 8vw 2vw;
+	}
+}

@@ -1,0 +1,49 @@
+.hud_online {
+	position: absolute;
+	top: 0;
+	right: 1%;
+
+	&-logo {
+		margin-top: -25%;
+
+		img {
+			display: block;
+			width: 10vw;
+			filter: drop-shadow(0px 0.2vw 0.4vw rgba(0, 0, 0, 0.3));
+		}
+	}
+
+	&-container {
+		position: absolute;
+		top: 40%;
+		width: 100%;
+		padding: 0 15%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	.player-id {
+		width: 40%;
+		font-size: 1vw;
+		opacity: 0.5;
+		text-align: right;
+	}
+
+	&-count {
+		width: 45%;
+		display: flex;
+		align-items: center;
+
+		span {
+			font-size: 1vw;
+			text-align: right;
+			text-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.2);
+		}
+
+		svg {
+			fill: $pink;
+		}
+	}
+}

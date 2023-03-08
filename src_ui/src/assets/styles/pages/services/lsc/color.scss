@@ -1,0 +1,68 @@
+.lsc_color {
+	position: absolute;
+	top: 22%;
+	left: 0;
+	min-width: 15%;
+	max-width: 17%;
+
+	&-title {
+		margin: 0;
+		padding-left: 4%;
+		background: $pink;
+		text-transform: uppercase;
+		font-size: 1vw;
+		font-weight: 500;
+		line-height: 1.7;
+	}
+
+	&-type {
+		position: relative;
+		margin-top: 1%;
+		z-index: 0;
+
+		.container {
+			align-items: initial;
+		}
+
+		.value {
+			width: 68%;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1vw;
+			font-weight: 400;
+			line-height: 2.2;
+			background: rgba(0, 0, 0, 0.4);
+			color: #dbdbdb;
+		}
+
+		button {
+			padding: 0.3vw;
+			background: rgba(0, 0, 0, 0.4);
+			color: #e7ece8;
+		}
+	}
+
+	div > .flexbox-fix:last-of-type {
+		display: none !important;
+	}
+
+	.chrome-picker {
+		border-radius: 0 !important;
+
+		& > div {
+			border-radius: 0 !important;
+		}
+	}
+
+	.github-picker {
+		padding: 1.5% !important;
+		justify-content: center;
+		background: rgba(0, 0, 0, 0.45) !important;
+		border-radius: 0 !important;
+
+		div {
+			width: 1.5vw !important;
+			height: 1.5vw !important;
+		}
+	}
+}
