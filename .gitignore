@@ -12,6 +12,7 @@ package-lock.json
 yarn.lock
 
 # rage mp
+.listcache
 client_packages/game_resources/dlcpacks
 logs/
 
